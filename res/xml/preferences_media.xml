@@ -61,4 +61,60 @@
 
     </PreferenceCategory>
 
+    <!-- Social -->
+    <PreferenceCategory
+        android:key="category_social"
+        android:title="@string/pref_media_social">
+
+        <!-- Google Plus -->
+        <Preference
+            android:key="social_connector_gplus"
+            android:title="@string/social_gplus"
+            android:icon="@drawable/ic_social_gplus"
+            android:persistent="false" />
+
+        <!-- Facebook -->
+        <Preference
+            android:key="social_connector_facebook"
+            android:title="@string/social_facebook"
+            android:icon="@drawable/ic_social_facebook"
+            android:persistent="false" />
+
+        <!-- Panoramio -->
+        <Preference
+            android:key="social_connector_panoramio"
+            android:title="@string/social_panoramio"
+            android:icon="@drawable/ic_social_panoramio"
+            android:persistent="false" />
+
+        <!-- Flickr -->
+        <Preference
+            android:key="social_connector_flickr"
+            android:title="@string/social_flickr"
+            android:icon="@drawable/ic_social_flickr"
+            android:persistent="false" />
+
+        <!-- Instragram -->
+        <Preference
+            android:key="social_connector_instragram"
+            android:title="@string/social_instagram"
+            android:icon="@drawable/ic_social_instagram"
+            android:persistent="false" />
+
+        <!-- Pinterest -->
+        <Preference
+            android:key="social_connector_pinterest"
+            android:title="@string/social_pinterest"
+            android:icon="@drawable/ic_social_pinterest"
+            android:persistent="false" />
+
+        <!-- Pixabay -->
+        <Preference
+            android:key="social_connector_pixabay"
+            android:title="@string/social_pixabay"
+            android:icon="@drawable/ic_social_pixabay"
+            android:persistent="false" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
