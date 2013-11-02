@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 
+<!--
      Copyright (C) 2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-	<item android:id="@+id/mnu_invert_all"
-        android:title="@string/mnu_invert_all"
+	<item android:id="@+id/mnu_invert"
+        android:title="@string/mnu_invert"
         android:icon="@drawable/ic_invert"
         android:showAsAction="ifRoom|withText" />
     <item android:id="@+id/mnu_restore"

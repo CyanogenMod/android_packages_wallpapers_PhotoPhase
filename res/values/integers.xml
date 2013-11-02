@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 
+<!--
      Copyright (C) 2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,7 +15,10 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-    <integer name="cards_slide_anim">1000</integer>
+    <integer name="cards_slide_up_anim">600</integer>
+    <integer name="cards_rotate_anim">800</integer>
+    <integer name="pictures_anim_in">600</integer>
+    <integer name="pictures_anim_out">400</integer>
     <integer name="disposition_show_anim">600</integer>
     <integer name="disposition_hide_anim">400</integer>
 </resources>
