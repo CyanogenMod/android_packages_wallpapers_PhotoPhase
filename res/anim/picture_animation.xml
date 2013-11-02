@@ -18,7 +18,7 @@
     android:interpolator="@android:anim/accelerate_decelerate_interpolator" >
 
     <alpha
-        android:duration="400"
+        android:duration="@integer/pictures_anim_out"
         android:fromAlpha="0.0"
         android:toAlpha="1.0" />
 </set>
