@@ -75,7 +75,8 @@
     <string name="pref_disposition_portrait_summary">Selecciona como se mostraran las imágenes en una pantalla horizontal</string>
     <string name="pref_disposition_landscape">Disposición horizontal</string>
     <string name="pref_disposition_landscape_summary">Selecciona como se mostraran las imágenes en una pantalla vertical</string>
-    <string name="pref_disposition_description">Presiona una celda durante un segundo para seleccionarla. Entonces arrastra y suelta los bordes de la celda para redimensionarla</string>
+    <string name="pref_disposition_description">Presiona una celda y arrastre sus bordes. Deslize a izquierda y derecha para ver plantillas predefinidas</string>
+    <string name="pref_disposition_template">Plantilla <xliff:g id="number_of_template">%1$s</xliff:g> de <xliff:g id="total_of_templates">%2$s</xliff:g></string>
     <string name="pref_disposition_unable_delete_advise">No es posible borrar la celda seleccionada</string>
     <string name="pref_about">Acerca de</string>
     <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nCopyright \u00A9 2013 The CyanogenMod Project</string>
