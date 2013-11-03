@@ -167,7 +167,7 @@ public class PhotoPhaseRenderer implements GLSurfaceView.Renderer {
                             // Select a new transition
                             mWorld.selectRandomTransition();
                             mLastRunningTransition = System.currentTimeMillis();
-    
+
                             // Now force continuously render while transition is applied
                             mDispatcher.setRenderMode(GLSurfaceView.RENDERMODE_CONTINUOUSLY);
                         }
@@ -514,7 +514,6 @@ public class PhotoPhaseRenderer implements GLSurfaceView.Renderer {
      * Recreate the world
      */
     void recreateWorld() {
-System.out.println("recreateWorld(): " + mIsPaused);
         if (mIsPaused) {
             mRecreateWorld = true;
             return;
