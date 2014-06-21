@@ -76,9 +76,17 @@ public class PhotoPhaseWallpaper
     public void onDestroy() {
         if (DEBUG) Log.d(TAG, "onDestroy");
         super.onDestroy();
-        for (PhotoPhaseRenderer renderer : mRenderers) {
+        for (final PhotoPhaseRenderer renderer : mRenderers) {
+            // Destroy the instance in the GLThread
+            renderer.mDispatcher.dispatch(new Runnable() {
+                @Override
+                public void run() {
+                    renderer.onGLContextDestroy();
+                }
+            });
             renderer.onDestroy();
         }
+        mRenderers.clear();
     }
 
     /**

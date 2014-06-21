@@ -254,12 +254,10 @@ public class PhotoPhaseRenderer implements GLSurfaceView.Renderer {
     }
 
     /**
-     * Method called when renderer is destroyed
+     * Method called when renderer when GL context is destroyed
      */
-    public void onDestroy() {
-        if (DEBUG) Log.d(TAG, "onDestroy [" + mInstance + "]");
-        // Register a receiver to listen for media reload request
-        mContext.unregisterReceiver(mSettingsChangedReceiver);
+    public void onGLContextDestroy() {
+        if (DEBUG) Log.d(TAG, "onGLContextDestroy [" + mInstance + "]");
         recycle();
         if (mEffectContext != null) {
             mEffectContext.release();
@@ -268,6 +266,15 @@ public class PhotoPhaseRenderer implements GLSurfaceView.Renderer {
         mWidth = -1;
         mHeight = -1;
         mMeasuredHeight = -1;
+    }
+
+    /**
+     * Method called when renderer is destroyed
+     */
+    public void onDestroy() {
+        if (DEBUG) Log.d(TAG, "onDestroy [" + mInstance + "]");
+        // Register a receiver to listen for media reload request
+        mContext.unregisterReceiver(mSettingsChangedReceiver);
     }
 
     /**
@@ -559,7 +566,7 @@ public class PhotoPhaseRenderer implements GLSurfaceView.Renderer {
             }
 
             // Delete the world
-            if (mWorld != null) mWorld.recycle();
+            if (mWorld != null) mWorld.recycle(true);
             if (mTextureManager != null) mTextureManager.recycle();
             if (mOverlay != null) mOverlay.recycle();
             if (mOopsShape != null) mOopsShape.recycle();
@@ -655,9 +662,9 @@ public class PhotoPhaseRenderer implements GLSurfaceView.Renderer {
         mTextureManager.setScreenDimesions(screenDimensions);
         mTextureManager.setPause(false);
 
-        // Create the wallpaper (destroy the previous)
+        // Create the wallpaper (destroy the previous world)
         if (mWorld != null) {
-            mWorld.recycle();
+            mWorld.recycle(false);
         }
         mWorld = new PhotoPhaseWallpaperWorld(mContext, mTextureManager);
 

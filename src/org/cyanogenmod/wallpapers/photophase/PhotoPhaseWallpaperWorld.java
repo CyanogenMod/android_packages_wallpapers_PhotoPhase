@@ -226,8 +226,10 @@ public class PhotoPhaseWallpaperWorld {
 
     /**
      * Method that removes all internal references.
+     *
+     * @param full Indicates a full recycle (textures also)
      */
-    public void recycle() {
+    public void recycle(boolean full) {
         // Destroy the previous world
         if (mTransitions != null) {
             int cc = mTransitions.size() - 1;
@@ -251,6 +253,14 @@ public class PhotoPhaseWallpaperWorld {
         }
         if (mUsedTransitionsQueue != null) {
             mUsedTransitionsQueue.clear();
+        }
+        if (mPhotoFrames != null && full) {
+            int cc = mPhotoFrames.size() - 1;
+            for (int i = cc; i >= 0; i--) {
+                PhotoFrame frame = mPhotoFrames.get(i);
+                frame.recycle();
+                mPhotoFrames.remove(i);
+            }
         }
         mRecycled = true;
     }
@@ -282,7 +292,7 @@ public class PhotoPhaseWallpaperWorld {
 
         // Destroy the previous world
         if (mRecycled) {
-            recycle();
+            recycle(false);
             mRecycled = false;
         }
 
