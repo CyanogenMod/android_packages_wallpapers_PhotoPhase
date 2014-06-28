@@ -27,6 +27,8 @@
   <string name="mnu_deselect_album">Albumauswahl aufheben</string>
   <string name="format_seconds">%s Sek.</string>
   <string name="format_minutes">%s Min.</string>
+  <string name="format_hours">%s h.</string>
+  <string name="format_days">%s d.</string>
   <string name="format_dim">%s %%</string>
   <string name="pref_general">Allgemein</string>
   <string name="pref_general_summary">Allgemeine Einstellungen, Effekte und Übergänge</string>
@@ -34,18 +36,26 @@
   <string name="pref_general_settings_wallpaper_dim">Hintergrundbild dimmen</string>
   <string name="pref_general_settings_wallpaper_dim_summary">Wählen Sie die Helligkeit so, dass ein Kompromiss zwischen Sichtbarkeit und Akkulaufzeit erreicht wird</string>
   <string name="pref_general_settings_background_color">Hintergrundfarbe</string>
+  <string name="pref_general_touch_action">Berührungsaktion</string>
   <string name="pref_general_aspect_ratio_correction">Seitenverhältnis</string>
   <string name="pref_general_transitions">Übergänge</string>
+  <string name="pref_general_transitions_types">Typen</string>
+  <string name="pref_general_transitions_types_summary">Wählen Sie die Übergangs-Effekte aus</string>
   <string name="pref_general_transitions_interval">Intervall</string>
   <string name="pref_general_effects">Effekte</string>
+  <string name="pref_general_effects_types">Typen</string>
   <string name="pref_media">Medien</string>
   <string name="pref_media_settings">Einstellungen</string>
   <string name="pref_media_settings_refresh_interval">Aktualisierungsintervall</string>
   <string name="pref_media_settings_refresh_interval_disable">Die Suche nach neuen Bildern ist deaktiviert</string>
   <string name="pref_media_settings_refresh_interval_summary">Alle <xliff:g id="interval">%1$s</xliff:g> nach neuen Bildern suchen</string>
   <string name="pref_media_settings_refresh_now">Jetzt aktualisieren</string>
+  <string name="pref_media_settings_refresh_now_summary">Manuelles aktualisieren der Bilderdatenbank</string>
   <string name="pref_media_pictures">Bilder</string>
   <string name="pref_media_albums">Alben</string>
+  <string name="pref_media_auto_select_new">Alben automatisch wählen</string>
+  <string name="pref_media_auto_select_new_summary">Neue Alben automatisch auswählen, wenn neue Medien erkannt werden</string>
+  <string name="pref_layout_disposition">Anordnung</string>
   <string name="pref_random_dispositions">Zufällig</string>
   <string name="pref_random_dispositions_summary">Erstelle zufällige Anordnungen im ausgewählten Intervall</string>
   <string name="pref_random_dispositions_interval">Intervall</string>
@@ -85,6 +95,7 @@
   <string name="effects_scanlines">Scanlinien</string>
   <string name="effects_sepia">Sepia</string>
   <string name="effects_tint">Farbton</string>
+  <string name="effects_vignette">Vignette</string>
   <string name="color_picker_alpha_slider_text">Deckkraft</string>
   <string name="color_picker_current_text">Aktuell:</string>
   <string name="color_picker_new_text">Neu:</string>

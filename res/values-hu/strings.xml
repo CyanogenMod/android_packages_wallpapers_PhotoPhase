@@ -16,6 +16,7 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_description">PhotoPhase élő háttérkép</string>
   <string name="no_pictures_oops_msg">Nem találhatóak képek</string>
   <string name="mnu_restore">Visszaállítás</string>
   <string name="mnu_delete">Törlés</string>
@@ -32,6 +33,28 @@
   <string name="format_dim">%s%%</string>
   <string name="pref_general">Általános</string>
   <string name="pref_general_summary">Általános beállítások, hatások és átmenetek</string>
+  <string name="pref_general_settings">Beállítások</string>
+  <string name="pref_general_settings_wallpaper_dim">Halvány háttérkép</string>
+  <string name="pref_general_settings_background_color">Háttérszín</string>
+  <string name="pref_general_settings_background_color_summary">Háttérszín beállítása</string>
+  <string name="pref_general_touch_action">Érintés eseménye</string>
+  <string name="pref_general_touch_action_summary">Válasszon eseményt a keret érintéséhez</string>
+  <string name="pref_general_aspect_ratio_correction">Képarány</string>
+  <string name="pref_general_transitions">Átmenetek</string>
+  <string name="pref_general_transitions_types">Típusok</string>
+  <string name="pref_general_transitions_types_summary">Válassza ki az alkalmazni kívánt effekteket</string>
+  <string name="pref_general_transitions_interval">Intervallum</string>
+  <string name="pref_general_transitions_interval_summary">Állítsa be az átmenetek gyakoriságát</string>
+  <string name="pref_general_effects">Effektek</string>
+  <string name="pref_general_effects_types">Típusok</string>
+  <string name="pref_general_effects_types_summary">Válassza ki az alkalmazni kívánt effekteket</string>
+  <string name="pref_media">Média</string>
+  <string name="pref_media_summary">Válassza ki az albumokat, a frissítés gyakoriságát, és egyéb média beállításokat</string>
+  <string name="pref_media_settings">Beállítások</string>
+  <string name="pref_media_settings_refresh_interval">Frissítési gyakoriság</string>
   <string name="pref_disposition_portrait">Portré elrendezés</string>
   <string name="pref_disposition_template">Sablon <xliff:g id="number_of_template">%1$s</xliff:g> / <xliff:g id="total_of_templates">%2$s</xliff:g></string>
+  <string name="pref_disposition_unable_delete_advise">Nem lehet törölni a kijelölt keretet</string>
+  <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nCopyright \u00A9 2014 The CyanogenMod Project</string>
+  <string name="effects_lomoish">Lomo-ish</string>
 </resources>
