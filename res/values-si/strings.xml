@@ -26,6 +26,8 @@
   <string name="mnu_invert">කණපිට හරවන්න</string>
   <string name="mnu_select_album">ඇල්බමයක් තෝරන්න</string>
   <string name="mnu_deselect_album">ඇල්බමය නොතෝරන්න</string>
+  <string name="format_disabled">අබලයි</string>
+  <string name="format_rotate_only">භ්‍රමණය වීමේදී</string>
   <string name="format_seconds">තත්පර %s.</string>
   <string name="format_minutes">මිනිත්තු %s.</string>
   <string name="format_hours">පැය %s.</string>
@@ -35,23 +37,21 @@
   <string name="pref_general_summary">පොදු සැකසීම්, බලපෑම් සහ සංක්‍රාන්ති</string>
   <string name="pref_general_settings">සැකසීම්</string>
   <string name="pref_general_settings_wallpaper_dim">වෝල්පේපරය අඳුරුකිරීම</string>
-  <string name="pref_general_settings_wallpaper_dim_summary">දෘෂ්ටි කල්පනය සහ බැටරි කාර්යක්ෂමතාව සමබර කිරීම සඳහා දීප්තිය සකසන්න</string>
   <string name="pref_general_settings_background_color">පසුබිම් වර්ණය</string>
   <string name="pref_general_settings_background_color_summary">පසුබිම් වර්ණය තෝරන්න</string>
   <string name="pref_general_touch_action">ස්පර්ශ ක්‍රියාව</string>
-  <string name="pref_general_touch_action_summary">රාමුවක් ස්පර්ශ කිරීමේදී යෙදීම සඳහා ක්‍රියාවක් තෝරන්න</string>
+  <string name="pref_general_touch_action_summary_format">රාමුවක් ස්පර්ශ කිරීමේදී <xliff:g id="action_summary">%1$s</xliff:g></string>
   <string name="pref_general_aspect_ratio_correction">දර්ශන අනුපාතය</string>
   <string name="pref_general_aspect_ratio_correction_summary">ඉලක්කවූ රාමුවට යෝග්‍ය වීම සඳහා, පින්තූරය කප්පාදු කර එහි දර්ශන අනුපාතය පවත්වා ගැනීමට උත්සාහ කරන්න</string>
   <string name="pref_general_transitions">සංක්‍රාන්ති</string>
   <string name="pref_general_transitions_types">ආකාරයන්</string>
-  <string name="pref_general_transitions_types_summary">යොදාගැනීම සඳහා සංක්‍රාන්ති බලපෑම් තෝරන්න</string>
+  <string name="pref_general_transitions_types_summary_format">ආකාර <xliff:g id="total">%2$d</xliff:g> න් <xliff:g id="selected">%1$d</xliff:g> ක් තෝරාගැනුනි</string>
   <string name="pref_general_transitions_interval">විරාමය</string>
-  <string name="pref_general_transitions_interval_summary">පින්තූර සංක්‍රාන්ති ක්‍රියාරම්භ වන වාර ගණන සකසන්න</string>
   <string name="pref_general_effects">ප්‍රතිවිපාක</string>
   <string name="pref_general_effects_types">ආකාරයන්</string>
-  <string name="pref_general_effects_types_summary">යොදාගැනීම සඳහා පින්තූර බලපෑම් තෝරන්න</string>
+  <string name="pref_general_effects_types_summary_format">පින්තූර බලපෑම් <xliff:g id="total">%2$d</xliff:g> න් <xliff:g id="selected">%1$d</xliff:g> ක් තෝරාගැනුනි</string>
   <string name="pref_media">මාධ්‍යය</string>
-  <string name="pref_media_summary">සංදර්ශනය කළයුතු ඇල්බම, නැවුම්කරන ප්‍රාන්තරය, සහ සෙසු මාධ්‍යය සැකසීම් තෝරන්න</string>
+  <string name="pref_media_summary">සංදර්ශනය කළයුතු ඇල්බම, නැවුම්කරන ප්‍රාන්තරය, සහ සෙසු මාධ්‍යය සැකසීම්</string>
   <string name="pref_media_settings">සැකසීම්</string>
   <string name="pref_media_settings_refresh_interval">නැවුම්කිරීමේ ප්‍රාන්තරය</string>
   <string name="pref_media_settings_refresh_interval_disable">නව පින්තූර සඳහා සෙවීම අබල කර ඇත</string>
@@ -64,16 +64,19 @@
   <string name="pref_media_auto_select_new">ඇල්බම ස්වයංක්‍රීයව තෝරන්න</string>
   <string name="pref_media_auto_select_new_summary">මාධ්‍යය අනාවරණය සිදු වීමේදී නව ඇල්බම ස්වයංක්‍රීයව තොරන්න</string>
   <string name="pref_layout">සැලැස්ම</string>
-  <string name="pref_layout_summary">තිරය මත පින්තූර ස්ථානගතවන්නේ කෙසේදැයි තෝරන්න</string>
+  <string name="pref_layout_summary">තිරයෙහි පින්තූර පිහිටුවීම</string>
   <string name="pref_layout_disposition">පෙළගැස්ම</string>
   <string name="pref_random_dispositions">සසම්භාවී</string>
   <string name="pref_random_dispositions_summary">තෝරාගත් කාල ප්‍රාන්තරයකදී සසම්භාවී පෙළගැසීම් උපදවන්න</string>
   <string name="pref_random_dispositions_interval">විරාමය</string>
-  <string name="pref_random_dispositions_interval_summary">පිරිසැලසුම කොපමණ විටක් වෙනස්වන්නේදැයි තෝරන්න. යෙදුම පූරණය හෝ භ්‍රමණය වූවිට පමණක් යළි-පිරිසැලසුම් කිරීම සඳහා 0 තෝරන්න</string>
   <string name="pref_disposition_portrait">සිරස් පෙළගැස්ම</string>
-  <string name="pref_disposition_portrait_summary">සිරස් තිරයේ පින්තූර පෙළගැසෙන්නේ කෙසේදැයි තෝරන්න</string>
   <string name="pref_disposition_landscape">තිරස් පෙළගැස්ම</string>
-  <string name="pref_disposition_landscape_summary">තිරස් තිරයේ පින්තූර පෙළගැසෙන්නේ කෙසේදැයි තෝරන්න</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="one"><xliff:g id="orientation">%2$s</xliff:g> තුල 1 පින්තූරයක් පෙන්වනු ඇත</item>
+    <item quantity="other"><xliff:g id="orientation">%2$s</xliff:g> තුල පින්තූර <xliff:g id="count">%1$d</xliff:g> ක් පෙන්වනු ඇත</item>
+  </plurals>
+  <string name="disposition_orientation_portrait">සිරස් දිශානතිය</string>
+  <string name="disposition_orientation_landscape">තිරස් දිශානතිය</string>
   <string name="pref_disposition_description">රාමුවක දාර හෙළීම සඳහා එය මත ඔබා සිට \u0026 අදින්න. නිර්වාචිත අච්චු පෙන්වීම සඳහා වමට සහ දකුණට අතුල්ලන්න</string>
   <string name="pref_disposition_template">අච්චු <xliff:g id="total_of_templates">%2$s</xliff:g> න් <xliff:g id="number_of_template">%1$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">තේරූ රාමුව මැකීමට නොහැක</string>
@@ -89,6 +92,10 @@
   <string name="touch_actions_transition">සංක්‍රාන්තිය ඉටු කරන්න</string>
   <string name="touch_actions_open">විවෘත</string>
   <string name="touch_actions_share">බෙදාගන්න</string>
+  <string name="touch_actions_none_summary">කිසිවක් නොකරන්න</string>
+  <string name="touch_actions_transition_summary">පින්තූරයේ සංක්‍රාන්තිය සිදු කරන්න</string>
+  <string name="touch_actions_open_summary">පින්තූරය විවෘත කරන්න</string>
+  <string name="touch_actions_share_summary">පින්තූරය බෙදාගන්න</string>
   <string name="transitions_cube">ඝනකය</string>
   <string name="transitions_fade">මැලවෙනවා</string>
   <string name="transitions_flip">පෙරළීම</string>

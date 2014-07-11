@@ -26,6 +26,8 @@
   <string name="mnu_invert">Inverteix</string>
   <string name="mnu_select_album">Selecciona àlbum</string>
   <string name="mnu_deselect_album">Desselecciona àlbum</string>
+  <string name="format_disabled">Deshabilitat</string>
+  <string name="format_rotate_only">En la rotació</string>
   <string name="format_seconds">%s seg.</string>
   <string name="format_minutes">%s min.</string>
   <string name="format_hours">%s h.</string>
@@ -35,23 +37,21 @@
   <string name="pref_general_summary">Configuració general, efectes i transicions</string>
   <string name="pref_general_settings">Configuració</string>
   <string name="pref_general_settings_wallpaper_dim">Enfosqueix el fons de pantalla</string>
-  <string name="pref_general_settings_wallpaper_dim_summary">Estableix la brillantor per equilibrar la visualització i el rendiment de la bateria</string>
   <string name="pref_general_settings_background_color">Color del fons</string>
   <string name="pref_general_settings_background_color_summary">Estableix el color del fons</string>
   <string name="pref_general_touch_action">Acció tàctil</string>
-  <string name="pref_general_touch_action_summary">Selecciona l\'acció a aplicar quan es toqui un marc</string>
+  <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> quan es toqui un marc</string>
   <string name="pref_general_aspect_ratio_correction">Relació d\'aspecte</string>
   <string name="pref_general_aspect_ratio_correction_summary">Intenta arreglar la relació d\'aspecte de la imatge retallant-la per encaixar-la amb el marc de destí</string>
   <string name="pref_general_transitions">Transicions</string>
   <string name="pref_general_transitions_types">Tipus</string>
-  <string name="pref_general_transitions_types_summary">Selecciona els efectes de transició que s\'aplicaran</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> de <xliff:g id="total">%2$d</xliff:g> tipus seleccionats</string>
   <string name="pref_general_transitions_interval">Interval</string>
-  <string name="pref_general_transitions_interval_summary">Estableix amb quina freqüència s\'activen les transicions d\'imatge</string>
   <string name="pref_general_effects">Efectes</string>
   <string name="pref_general_effects_types">Tipus</string>
-  <string name="pref_general_effects_types_summary">Selecciona els efectes d\'imatge que s\'aplicaran</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> de <xliff:g id="total">%2$d</xliff:g> efectes d\'imatge seleccionats</string>
   <string name="pref_media">Multimèdia</string>
-  <string name="pref_media_summary">Selecciona els àlbums que es mostraran, l\'interval d\'actualització i altres ajustaments multimèdia</string>
+  <string name="pref_media_summary">Àlbums a ser mostrats, interval d\'actualització, i altres ajustaments multimèdia</string>
   <string name="pref_media_settings">Configuració</string>
   <string name="pref_media_settings_refresh_interval">Interval d\'actualització</string>
   <string name="pref_media_settings_refresh_interval_disable">La cerca de noves fotografies està desactivada</string>
@@ -64,16 +64,19 @@
   <string name="pref_media_auto_select_new">Autoselecciona àlbums</string>
   <string name="pref_media_auto_select_new_summary">Selecciona automàticament nous àlbums quan es trobi nou contingut multimèdia</string>
   <string name="pref_layout">Disposició</string>
-  <string name="pref_layout_summary">Selecciona com es posicionen imatges a la pantalla</string>
+  <string name="pref_layout_summary">Posicionament d\'imatges a la pantalla</string>
   <string name="pref_layout_disposition">Disposició</string>
   <string name="pref_random_dispositions">A l\'atzar</string>
   <string name="pref_random_dispositions_summary">Genera disposicions a l\'atzar per un interval de temps donat</string>
   <string name="pref_random_dispositions_interval">Interval</string>
-  <string name="pref_random_dispositions_interval_summary">Selecciona amb quina freqüència es canviarà la disposició. Estableix-ho a 0 per redisposar només quan l\'app sigui carregada o girada</string>
   <string name="pref_disposition_portrait">Disposició vertical</string>
-  <string name="pref_disposition_portrait_summary">Selecciona com seran disposades les imatges en una pantalla vertical</string>
   <string name="pref_disposition_landscape">Disposició horitzontal</string>
-  <string name="pref_disposition_landscape_summary">Selecciona com seran disposades les imatges en una pantalla horitzontal</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="one">Es mostra 1 imatge a <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="other">Es mostren <xliff:g id="count">%1$d</xliff:g> imatges a <xliff:g id="orientation">%2$s</xliff:g></item>
+  </plurals>
+  <string name="disposition_orientation_portrait">orientació vertical</string>
+  <string name="disposition_orientation_landscape">orientació horitzontal</string>
   <string name="pref_disposition_description">Apretada llarga a un marc i arrossega i deixa les seves vores. Llisca a esquerra i dreta per mostrar plantilles definides</string>
   <string name="pref_disposition_template">Plantilla <xliff:g id="number_of_template">%1$s</xliff:g> de <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">No es pot eliminar el marc seleccionat</string>
@@ -89,6 +92,10 @@
   <string name="touch_actions_transition">Realitza una transició</string>
   <string name="touch_actions_open">Obre</string>
   <string name="touch_actions_share">Comparteix</string>
+  <string name="touch_actions_none_summary">No facis res</string>
+  <string name="touch_actions_transition_summary">Fes una transició d\'imatge</string>
+  <string name="touch_actions_open_summary">Obre la imatge</string>
+  <string name="touch_actions_share_summary">Comparteix la imatge</string>
   <string name="transitions_cube">Cub</string>
   <string name="transitions_fade">Esvaeix</string>
   <string name="transitions_flip">Regira</string>

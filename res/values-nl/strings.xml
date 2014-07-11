@@ -26,6 +26,8 @@
   <string name="mnu_invert">Omkeren</string>
   <string name="mnu_select_album">Album selecteren</string>
   <string name="mnu_deselect_album">Album deselecteren</string>
+  <string name="format_disabled">Uitgeschakeld</string>
+  <string name="format_rotate_only">Bij schermrotatie</string>
   <string name="format_seconds">%s sec.</string>
   <string name="format_minutes">%s min.</string>
   <string name="format_hours">%s u.</string>
@@ -35,21 +37,19 @@
   <string name="pref_general_summary">Algemene instellingen, effecten en overgangen</string>
   <string name="pref_general_settings">Instellingen</string>
   <string name="pref_general_settings_wallpaper_dim">Achtergrond dimmen</string>
-  <string name="pref_general_settings_wallpaper_dim_summary">Helderheid instellen om balans te vinden tussen visualisatie en accuprestaties</string>
   <string name="pref_general_settings_background_color">Achtergrondkleur</string>
   <string name="pref_general_settings_background_color_summary">Achtergrondkleur instellen</string>
   <string name="pref_general_touch_action">Aanraakactie</string>
-  <string name="pref_general_touch_action_summary">Actie bij het aanraken van een frame</string>
+  <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> bij aanraken frame</string>
   <string name="pref_general_aspect_ratio_correction">Verhouding</string>
   <string name="pref_general_aspect_ratio_correction_summary">Hoogte-breedteverhouding aanpassen aan het doelframe door afbeelding bij te snijden</string>
   <string name="pref_general_transitions">Overgangen</string>
   <string name="pref_general_transitions_types">Soorten</string>
-  <string name="pref_general_transitions_types_summary">Overgangseffecten selecteren</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> van <xliff:g id="total">%2$d</xliff:g> soorten geselecteerd</string>
   <string name="pref_general_transitions_interval">Interval</string>
-  <string name="pref_general_transitions_interval_summary">Instellen hoe vaak beeldovergangen plaatsvinden</string>
   <string name="pref_general_effects">Effecten</string>
   <string name="pref_general_effects_types">Soorten</string>
-  <string name="pref_general_effects_types_summary">Afbeeldingseffecten selecteren</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> van <xliff:g id="total">%2$d</xliff:g> afbeeldingseffecten geselecteerd</string>
   <string name="pref_media">Media</string>
   <string name="pref_media_summary">Weer te geven albums, vernieuwingsinterval en andere media-instellingen</string>
   <string name="pref_media_settings">Instellingen</string>
@@ -64,16 +64,19 @@
   <string name="pref_media_auto_select_new">Albums automatisch selecteren</string>
   <string name="pref_media_auto_select_new_summary">Nieuwe albums automatisch selecteren wanneer media ontdekt wordt</string>
   <string name="pref_layout">Lay-out</string>
-  <string name="pref_layout_summary">Selecteren hoe afbeeldingen worden ingedeeld op het scherm</string>
+  <string name="pref_layout_summary">Indeling van afbeeldingen op scherm</string>
   <string name="pref_layout_disposition">Indeling</string>
   <string name="pref_random_dispositions">Willekeurig</string>
   <string name="pref_random_dispositions_summary">Willekeurige indeling genereren met een gekozen interval</string>
   <string name="pref_random_dispositions_interval">Interval</string>
-  <string name="pref_random_dispositions_interval_summary">Selecteren hoe vaak de lay-out zal worden gewijzigd. Kies 0 om alleen te wijzigen wanneer de app wordt geladen of gedraaid</string>
   <string name="pref_disposition_portrait">Staande indeling</string>
-  <string name="pref_disposition_portrait_summary">Selecteren hoe afbeeldingen worden gerangschikt op een staand scherm</string>
   <string name="pref_disposition_landscape">Liggende indeling</string>
-  <string name="pref_disposition_landscape_summary">Selecteren hoe afbeeldingen worden gerangschikt op een liggend scherm</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="one">1 afbeelding weergeven in <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> afbeeldingen weergeven in <xliff:g id="orientation">%2$s</xliff:g></item>
+  </plurals>
+  <string name="disposition_orientation_portrait">staande stand</string>
+  <string name="disposition_orientation_landscape">liggende stand</string>
   <string name="pref_disposition_description">Frame lang aanraken om randen te slepen. Naar links en rechts vegen om sjablonen te zien</string>
   <string name="pref_disposition_template">Sjabloon <xliff:g id="number_of_template">%1$s</xliff:g> van <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Kan geselecteerde frame niet verwijderen</string>
@@ -89,6 +92,10 @@
   <string name="touch_actions_transition">Overgang uitvoeren</string>
   <string name="touch_actions_open">Openen</string>
   <string name="touch_actions_share">Delen</string>
+  <string name="touch_actions_none_summary">Niets doen</string>
+  <string name="touch_actions_transition_summary">Afbeeldingsovergang uitvoeren</string>
+  <string name="touch_actions_open_summary">Afbeelding openen</string>
+  <string name="touch_actions_share_summary">Afbeelding delen</string>
   <string name="transitions_cube">Kubus</string>
   <string name="transitions_fade">Vervagen</string>
   <string name="transitions_flip">Spiegelen</string>
