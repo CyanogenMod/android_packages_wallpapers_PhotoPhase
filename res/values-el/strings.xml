@@ -26,6 +26,8 @@
   <string name="mnu_invert">Αντιστροφή</string>
   <string name="mnu_select_album">Επιλογή άλμπουμ</string>
   <string name="mnu_deselect_album">Αποεπιλογή άλμπουμ</string>
+  <string name="format_disabled">Ανενεργό</string>
+  <string name="format_rotate_only">Κατά την περιστροφή</string>
   <string name="format_seconds">%s δευτ.</string>
   <string name="format_minutes">%s λεπ.</string>
   <string name="format_hours">%s ω.</string>
@@ -35,23 +37,21 @@
   <string name="pref_general_summary">Γενικές ρυθμίσεις, εφέ και μεταβάσεις</string>
   <string name="pref_general_settings">Ρυθμίσεις</string>
   <string name="pref_general_settings_wallpaper_dim">Σταδιακό σβήσιμο ταπετσαρίας</string>
-  <string name="pref_general_settings_wallpaper_dim_summary">Ρυθμίστε τη φωτεινότητα για εξισορρόπηση της εμφάνισης και της απόδοσης της μπαταρίας</string>
   <string name="pref_general_settings_background_color">Χρώμα φόντου</string>
   <string name="pref_general_settings_background_color_summary">Ορίστε το χρώμα φόντου</string>
   <string name="pref_general_touch_action">Ενέργεια</string>
-  <string name="pref_general_touch_action_summary">Επιλέξτε την ενέργεια που θα εφαρμόζεται όταν αγγίζετε ένα πλαίσιο</string>
+  <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> κατά το άγγιγμα ενός πλαισίου</string>
   <string name="pref_general_aspect_ratio_correction">Αναλογία</string>
   <string name="pref_general_aspect_ratio_correction_summary">Προσπαθήστε να διορθώσετε την αναλογία της εικόνας, κάνοντας περικοπή ώστε να χωρά στο προοριζόμενο πλαίσιο</string>
   <string name="pref_general_transitions">Μεταβάσεις</string>
   <string name="pref_general_transitions_types">Τύποι</string>
-  <string name="pref_general_transitions_types_summary">Επιλέξτε τα εφέ μετάβασης που θα εφαρμοστούν</string>
+  <string name="pref_general_transitions_types_summary_format">Επιλέχθηκαν <xliff:g id="selected">%1$d</xliff:g> από <xliff:g id="total">%2$d</xliff:g> τύποι</string>
   <string name="pref_general_transitions_interval">Διάστημα</string>
-  <string name="pref_general_transitions_interval_summary">Ορίστε πόσο συχνά θα ενεργοποιούνται οι μεταβάσεις εικόνων</string>
   <string name="pref_general_effects">Εφέ</string>
   <string name="pref_general_effects_types">Τύποι</string>
-  <string name="pref_general_effects_types_summary">Επιλέξτε τα εφέ εικόνων που θα εφαρμοστούν</string>
+  <string name="pref_general_effects_types_summary_format">Επιλέχθηκαν <xliff:g id="selected">%1$d</xliff:g> από <xliff:g id="total">%2$d</xliff:g> εφέ εικόνας</string>
   <string name="pref_media">Μέσα</string>
-  <string name="pref_media_summary">Επιλέξτε τα άλμπουμ που θα εμφανίζονται, το διάστημα ανανέωσης και άλλες ρυθμίσεις πολυμέσων</string>
+  <string name="pref_media_summary">Άλμπουμ που θα εμφανίζονται, διάστημα ανανέωσης, και άλλες ρυθμίσεις πολυμέσων</string>
   <string name="pref_media_settings">Ρυθμίσεις</string>
   <string name="pref_media_settings_refresh_interval">Διάστημα ανανέωσης</string>
   <string name="pref_media_settings_refresh_interval_disable">Η αναζήτηση για νέες εικόνες είναι απενεργοποιημένη</string>
@@ -64,16 +64,19 @@
   <string name="pref_media_auto_select_new">Αυτόματη επιλογή άλμπουμ</string>
   <string name="pref_media_auto_select_new_summary">Αυτόματη επιλογή νέων άλμπουμ όταν προκύπτει ανακάλυψη πολυμέσων</string>
   <string name="pref_layout">Διάταξη</string>
-  <string name="pref_layout_summary">Επιλέξτε το πώς θα τοποθετούνται οι εικόνες στην οθόνη</string>
+  <string name="pref_layout_summary">Τοποθέτηση των εικόνων στην οθόνη</string>
   <string name="pref_layout_disposition">Στοίχιση</string>
   <string name="pref_random_dispositions">Τυχαία</string>
   <string name="pref_random_dispositions_summary">Παραγωγή τυχαίων στοιχίσεων σε ένα επιλεγμένο χρονικό διάστημα</string>
   <string name="pref_random_dispositions_interval">Διάστημα</string>
-  <string name="pref_random_dispositions_interval_summary">Επιλέξτε πόσο συχνά θα αλλάζει η διάταξη. Ορίστε στο 0 για να γίνεται αναδιάταξη μόνο όταν η εφαρμογή φορτώνεται ή περιστρέφεται</string>
   <string name="pref_disposition_portrait">Στοίχιση κατακόρυφου προσανατολισμού</string>
-  <string name="pref_disposition_portrait_summary">Επιλέξτε πως θα στοιχίζονται οι εικόνες σε κατακόρυφο προσανατολισμό</string>
   <string name="pref_disposition_landscape">Στοίχιση οριζόντιου προσανατολισμού</string>
-  <string name="pref_disposition_landscape_summary">Επιλέξτε πως θα στοιχίζονται οι εικόνες σε οριζόντιο προσανατολισμό</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="one">1 εικόνα εμφανίζεται σε <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> εικόνες εμφανίζονται σε <xliff:g id="orientation">%2$s</xliff:g></item>
+  </plurals>
+  <string name="disposition_orientation_portrait">κατακόρυφο προσανατολισμό</string>
+  <string name="disposition_orientation_landscape">οριζόντιο προσανατολισμό</string>
   <string name="pref_disposition_description">Πατήστε παρατεταμένα ένα πλαίσιο και σύρετε \u0026 αφήστε τα όριά του. Σύρετε αριστερά και δεξιά για να εμφανιστούν τα καθορισμένα πρότυπα</string>
   <string name="pref_disposition_template">Πρότυπο <xliff:g id="number_of_template">%1$s</xliff:g> από <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Αδυναμία διαγραφής του επιλεγμένου πλαισίου</string>
@@ -89,6 +92,10 @@
   <string name="touch_actions_transition">Εκτέλεση μετάβασης</string>
   <string name="touch_actions_open">Άνοιγμα</string>
   <string name="touch_actions_share">Κοινή χρήση</string>
+  <string name="touch_actions_none_summary">Καμία ενέργεια</string>
+  <string name="touch_actions_transition_summary">Εκτέλεση μετάβασης εικόνας</string>
+  <string name="touch_actions_open_summary">Άνοιγμα της εικόνας</string>
+  <string name="touch_actions_share_summary">Κοινή χρήση της εικόνας</string>
   <string name="transitions_cube">Κύβος</string>
   <string name="transitions_fade">Ξεθώριασμα</string>
   <string name="transitions_flip">Αναποδογύρισμα</string>

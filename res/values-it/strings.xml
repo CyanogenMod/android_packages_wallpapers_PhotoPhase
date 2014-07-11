@@ -26,6 +26,8 @@
   <string name="mnu_invert">Inverti</string>
   <string name="mnu_select_album">Seleziona album</string>
   <string name="mnu_deselect_album">Deseleziona album</string>
+  <string name="format_disabled">Disattivato</string>
+  <string name="format_rotate_only">Su rotazione</string>
   <string name="format_seconds">%s sec.</string>
   <string name="format_minutes">%s min.</string>
   <string name="format_hours">%s h.</string>
@@ -35,23 +37,21 @@
   <string name="pref_general_summary">Impostazioni generali, effetti e transizioni</string>
   <string name="pref_general_settings">Impostazioni</string>
   <string name="pref_general_settings_wallpaper_dim">Luminosità sfondo</string>
-  <string name="pref_general_settings_wallpaper_dim_summary">Imposta la luminosità per bilanciare la visualizzazione e le prestazioni della batteria</string>
   <string name="pref_general_settings_background_color">Colore sfondo</string>
   <string name="pref_general_settings_background_color_summary">Imposta il colore di sfondo</string>
   <string name="pref_general_touch_action">Azione tocco</string>
-  <string name="pref_general_touch_action_summary">Seleziona l\'azione da applicare quando si tocca un frame</string>
+  <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> quando si tocca un frame</string>
   <string name="pref_general_aspect_ratio_correction">Proporzioni immagine</string>
   <string name="pref_general_aspect_ratio_correction_summary">Tenta di correggere le proporzioni dell\'immagine ritagliandola per adattarla al frame di destinazione</string>
   <string name="pref_general_transitions">Transizioni</string>
   <string name="pref_general_transitions_types">Tipi</string>
-  <string name="pref_general_transitions_types_summary">Seleziona gli effetti di transizione da applicare</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> di <xliff:g id="total">%2$d</xliff:g> tipi selezionati</string>
   <string name="pref_general_transitions_interval">Intervallo</string>
-  <string name="pref_general_transitions_interval_summary">Imposta l\'intervallo di attivazione delle transizioni</string>
   <string name="pref_general_effects">Effetti</string>
   <string name="pref_general_effects_types">Tipi</string>
-  <string name="pref_general_effects_types_summary">Seleziona gli effetti da applicare</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> di <xliff:g id="total">%2$d</xliff:g> effetti selezionati</string>
   <string name="pref_media">Multimedia</string>
-  <string name="pref_media_summary">Seleziona l\'album da visualizzare, intervallo di aggiornamento e altre impostazioni multimediali</string>
+  <string name="pref_media_summary">Album da visualizzare, intervallo di aggiornarnamento  e altre impostazioni multimediali</string>
   <string name="pref_media_settings">Impostazioni</string>
   <string name="pref_media_settings_refresh_interval">Intervallo aggiornamento</string>
   <string name="pref_media_settings_refresh_interval_disable">La ricerca di nuove immagini è disattivata</string>
@@ -64,16 +64,19 @@
   <string name="pref_media_auto_select_new">Seleziona album automaticamente</string>
   <string name="pref_media_auto_select_new_summary">Seleziona automaticamente i nuovi album quando vengono trovati nuovi file multimediali</string>
   <string name="pref_layout">Layout</string>
-  <string name="pref_layout_summary">Seleziona come sono posizionate le immagini sullo schermo</string>
+  <string name="pref_layout_summary">Posizionamento delle immagini sullo schermo</string>
   <string name="pref_layout_disposition">Disposizione</string>
   <string name="pref_random_dispositions">Casuale</string>
   <string name="pref_random_dispositions_summary">Genera disposizioni casuali ad intervalli prestabiliti</string>
   <string name="pref_random_dispositions_interval">Intervallo</string>
-  <string name="pref_random_dispositions_interval_summary">Seleziona quanto spesso verrà modificato il layout. Imposta 0 per riposizionare solo quando l\'app è caricata o ruotata</string>
-  <string name="pref_disposition_portrait">Disposizione in verticale</string>
-  <string name="pref_disposition_portrait_summary">Seleziona come sono disposte le immagini sullo schermo in verticale</string>
+  <string name="pref_disposition_portrait">Disposizione verticale</string>
   <string name="pref_disposition_landscape">Disposizione orizzontale</string>
-  <string name="pref_disposition_landscape_summary">Seleziona come foto sono disposte sullo schermo in orizzontale</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="one">1 immagine è visualizzata in <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> immagini sono visualizzate in <xliff:g id="orientation">%2$s</xliff:g></item>
+  </plurals>
+  <string name="disposition_orientation_portrait">orientamento verticale</string>
+  <string name="disposition_orientation_landscape">orientamento orizzontale</string>
   <string name="pref_disposition_description">Tieni premuto un frame e trascinane i bordi. \nScorri a sinistra e a destra per visualizzare i modelli predefiniti</string>
   <string name="pref_disposition_template">Template <xliff:g id="number_of_template">%1$s</xliff:g> di <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Impossibile eliminare il frame selezionato</string>
@@ -89,6 +92,10 @@
   <string name="touch_actions_transition">Esegui transizione</string>
   <string name="touch_actions_open">Apri</string>
   <string name="touch_actions_share">Condividi</string>
+  <string name="touch_actions_none_summary">Non fare nulla</string>
+  <string name="touch_actions_transition_summary">Esegui transizione immagine</string>
+  <string name="touch_actions_open_summary">Apri l\'immagine</string>
+  <string name="touch_actions_share_summary">Condividi l\'immagine</string>
   <string name="transitions_cube">Cubo</string>
   <string name="transitions_fade">Dissolvenza</string>
   <string name="transitions_flip">Specchia</string>
