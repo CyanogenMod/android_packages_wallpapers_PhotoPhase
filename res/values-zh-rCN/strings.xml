@@ -40,14 +40,18 @@
   <string name="pref_general_settings_background_color">背景颜色</string>
   <string name="pref_general_settings_background_color_summary">设置背景颜色</string>
   <string name="pref_general_touch_action">触摸操作</string>
+  <string name="pref_general_touch_action_summary_format">当您触摸框架时 <xliff:g id="action_summary">%1$s</xliff:g></string>
   <string name="pref_general_aspect_ratio_correction">长宽比</string>
   <string name="pref_general_aspect_ratio_correction_summary">尝试通过裁剪图片固定纵横比以适应目标框架</string>
   <string name="pref_general_transitions">过渡</string>
   <string name="pref_general_transitions_types">类型</string>
+  <string name="pref_general_transitions_types_summary_format">已选择 <xliff:g id="total">%2$d</xliff:g> 个中的 <xliff:g id="selected">%1$d</xliff:g> 个类别</string>
   <string name="pref_general_transitions_interval">间隔</string>
   <string name="pref_general_effects">特效</string>
   <string name="pref_general_effects_types">类型</string>
+  <string name="pref_general_effects_types_summary_format">已选择 <xliff:g id="total">%2$d</xliff:g> 个中的 <xliff:g id="selected">%1$d</xliff:g> 个图片效果</string>
   <string name="pref_media">媒体</string>
+  <string name="pref_media_summary">专辑显示、刷新间隔和其他媒体设置</string>
   <string name="pref_media_settings">设置</string>
   <string name="pref_media_settings_refresh_interval">刷新间隔</string>
   <string name="pref_media_settings_refresh_interval_disable">搜索新图片功能已禁用</string>
@@ -67,6 +71,9 @@
   <string name="pref_random_dispositions_interval">间隔</string>
   <string name="pref_disposition_portrait">纵向布局</string>
   <string name="pref_disposition_landscape">横向布局</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 张图片正在 <xliff:g id="orientation">%2$s</xliff:g> 展示</item>
+  </plurals>
   <string name="disposition_orientation_portrait">纵向</string>
   <string name="disposition_orientation_landscape">横向</string>
   <string name="pref_disposition_description">长按一个框架并拖动 \u0026 至其边界。左右滑动以显示已定义的模板</string>
@@ -84,6 +91,8 @@
   <string name="touch_actions_transition">执行过渡</string>
   <string name="touch_actions_open">打开</string>
   <string name="touch_actions_share">分享</string>
+  <string name="touch_actions_none_summary">不进行任何操作</string>
+  <string name="touch_actions_transition_summary">执行图像过渡</string>
   <string name="touch_actions_open_summary">打开此图片</string>
   <string name="touch_actions_share_summary">共享此图片</string>
   <string name="transitions_cube">立方体</string>

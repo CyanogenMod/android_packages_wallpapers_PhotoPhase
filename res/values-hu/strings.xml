@@ -26,6 +26,8 @@
   <string name="mnu_invert">Megfordítás</string>
   <string name="mnu_select_album">Album kiválasztása</string>
   <string name="mnu_deselect_album">Kiválasztás elvetése</string>
+  <string name="format_disabled">Kikapcsolva</string>
+  <string name="format_rotate_only">Forgatásra</string>
   <string name="format_seconds">%s másodperc.</string>
   <string name="format_minutes">%s perc.</string>
   <string name="format_hours">%s óra.</string>
@@ -38,14 +40,18 @@
   <string name="pref_general_settings_background_color">Háttérszín</string>
   <string name="pref_general_settings_background_color_summary">Háttérszín beállítása</string>
   <string name="pref_general_touch_action">Érintés eseménye</string>
+  <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> keret megérintésekor</string>
   <string name="pref_general_aspect_ratio_correction">Képarány</string>
   <string name="pref_general_aspect_ratio_correction_summary">Megpróbálja kijavítani a képarányt azzal, hogy a képből levág a kerethez illesztés érdekében</string>
   <string name="pref_general_transitions">Átmenetek</string>
   <string name="pref_general_transitions_types">Típusok</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> típus kiválasztva</string>
   <string name="pref_general_transitions_interval">Intervallum</string>
   <string name="pref_general_effects">Effektek</string>
   <string name="pref_general_effects_types">Típusok</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> képi effekt kiválasztva</string>
   <string name="pref_media">Média</string>
+  <string name="pref_media_summary">Megjelenítendő albumok, frissítési időköz és egyéb médiabeállítások</string>
   <string name="pref_media_settings">Beállítások</string>
   <string name="pref_media_settings_refresh_interval">Frissítési gyakoriság</string>
   <string name="pref_media_settings_refresh_interval_disable">Új képek keresése letiltva</string>
@@ -58,12 +64,19 @@
   <string name="pref_media_auto_select_new">Albumok automatikus kiválasztása</string>
   <string name="pref_media_auto_select_new_summary">Új média kereséskor automatikusan válassza ki az új albumokat</string>
   <string name="pref_layout">Kinézet</string>
+  <string name="pref_layout_summary">A képernyőn megjelenő képek elhelyezkedése</string>
   <string name="pref_layout_disposition">Elrendezés</string>
   <string name="pref_random_dispositions">Véletlenszerű</string>
   <string name="pref_random_dispositions_summary">Generáljon véletlenszerű elrendezést a kiválasztott intervallumon</string>
   <string name="pref_random_dispositions_interval">Intervallum</string>
   <string name="pref_disposition_portrait">Portré elrendezés</string>
   <string name="pref_disposition_landscape">Fekvő nézet</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="one">1 kép látható így: <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> kép látható így: <xliff:g id="orientation">%2$s</xliff:g></item>
+  </plurals>
+  <string name="disposition_orientation_portrait">álló tájolás</string>
+  <string name="disposition_orientation_landscape">fekvő tájolás</string>
   <string name="pref_disposition_description">Hosszú érintéssel állíthatja be a keretet. Jobbra balra húzással tekintheti meg a definiált sablonokat</string>
   <string name="pref_disposition_template">Sablon <xliff:g id="number_of_template">%1$s</xliff:g> / <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Nem lehet törölni a kijelölt keretet</string>
@@ -79,6 +92,10 @@
   <string name="touch_actions_transition">Átmenet végrehajtása</string>
   <string name="touch_actions_open">Megnyitás</string>
   <string name="touch_actions_share">Megosztás</string>
+  <string name="touch_actions_none_summary">Nincs művelet</string>
+  <string name="touch_actions_transition_summary">Hajtson végre kép átmenetet</string>
+  <string name="touch_actions_open_summary">Nyissa meg a képet</string>
+  <string name="touch_actions_share_summary">Ossza meg a képet</string>
   <string name="transitions_cube">Kocka</string>
   <string name="transitions_fade">Áttűnés</string>
   <string name="transitions_flip">Forgatás</string>

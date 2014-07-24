@@ -27,6 +27,7 @@
   <string name="mnu_select_album">Albüm seç</string>
   <string name="mnu_deselect_album">Albüm seçimini kaldır</string>
   <string name="format_disabled">Devre dışı</string>
+  <string name="format_rotate_only">Ekran döndüğünde</string>
   <string name="format_seconds">%s sn.</string>
   <string name="format_minutes">%s dk.</string>
   <string name="format_hours">%s sa.</string>
@@ -63,6 +64,7 @@
   <string name="pref_media_auto_select_new">Albümleri otomatik seç</string>
   <string name="pref_media_auto_select_new_summary">Ortam ögeleri bulunduğunda yeni albümleri otomatik seçer</string>
   <string name="pref_layout">Düzen</string>
+  <string name="pref_layout_summary">Resimlerin ekrandaki konumlandırılmaları</string>
   <string name="pref_layout_disposition">Düzenleme</string>
   <string name="pref_random_dispositions">Rastgele</string>
   <string name="pref_random_dispositions_summary">Seçilen süre aralığında rastgele düzenlemeler oluşturur</string>

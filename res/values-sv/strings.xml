@@ -26,6 +26,8 @@
   <string name="mnu_invert">Invertera</string>
   <string name="mnu_select_album">Markera album</string>
   <string name="mnu_deselect_album">Avmarkera album</string>
+  <string name="format_disabled">Inaktiverad</string>
+  <string name="format_rotate_only">Vid rotation</string>
   <string name="format_seconds">%s sek.</string>
   <string name="format_minutes">%s min.</string>
   <string name="format_hours">%s h.</string>

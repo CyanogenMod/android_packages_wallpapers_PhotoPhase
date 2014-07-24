@@ -45,11 +45,11 @@
   <string name="pref_general_aspect_ratio_correction_summary">表示するフレームに合わせてクロップして写真のアスペクト比の修正を試みる</string>
   <string name="pref_general_transitions">トランジション</string>
   <string name="pref_general_transitions_types">種類</string>
-  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g>種類のうちの<xliff:g id="total">%2$d</xliff:g>種類を選択しています</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="total">%2$d</xliff:g>種類のうちの<xliff:g id="selected">%1$d</xliff:g>種類を選択しています</string>
   <string name="pref_general_transitions_interval">間隔</string>
   <string name="pref_general_effects">効果</string>
   <string name="pref_general_effects_types">種類</string>
-  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g>個のうち<xliff:g id="total">%2$d</xliff:g>個の画像効果を選択しています</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="total">%2$d</xliff:g>個のうち<xliff:g id="selected">%1$d</xliff:g>個の画像効果を選択しています</string>
   <string name="pref_media">メディア</string>
   <string name="pref_media_summary">表示するアルバム、更新間隔、その他のメディアの設定</string>
   <string name="pref_media_settings">設定</string>

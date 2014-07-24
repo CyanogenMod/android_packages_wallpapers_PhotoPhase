@@ -26,6 +26,8 @@
   <string name="mnu_invert">Invertir</string>
   <string name="mnu_select_album">Esbillar álbum</string>
   <string name="mnu_deselect_album">Desmarcar álbum</string>
+  <string name="format_disabled">Inhabilitáu</string>
+  <string name="format_rotate_only">En rotación</string>
   <string name="format_seconds">%s seg.</string>
   <string name="format_minutes">%s min.</string>
   <string name="format_hours">%s h.</string>
@@ -38,14 +40,18 @@
   <string name="pref_general_settings_background_color">Color de fondu</string>
   <string name="pref_general_settings_background_color_summary">Afitar el color de fondu</string>
   <string name="pref_general_touch_action">Aición al tocar</string>
+  <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> al tocar un marcu</string>
   <string name="pref_general_aspect_ratio_correction">Rellación d\'aspeutu</string>
   <string name="pref_general_aspect_ratio_correction_summary">Intentar correxir la rellación de aspeutu orixinal de la imaxe cortando la imaxe p\'axustala a la caxella de destín</string>
   <string name="pref_general_transitions">Transiciones</string>
   <string name="pref_general_transitions_types">Tipos</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> de <xliff:g id="total">%2$d</xliff:g> tribes esbillaes</string>
   <string name="pref_general_transitions_interval">Intervalu</string>
   <string name="pref_general_effects">Efeutos</string>
   <string name="pref_general_effects_types">Tribes</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> of <xliff:g id="total">%2$d</xliff:g> efeutos d\'imaxe esbillaos</string>
   <string name="pref_media">Multimedia</string>
+  <string name="pref_media_summary">Álbumes p\'amosar, intervalu de refrescu, y otros axustes multimedia</string>
   <string name="pref_media_settings">Axustes</string>
   <string name="pref_media_settings_refresh_interval">Intervalu de refrescu</string>
   <string name="pref_media_settings_refresh_interval_disable">La busca d\'imaxes nueves ta deshabilitada</string>
@@ -58,12 +64,19 @@
   <string name="pref_media_auto_select_new">Autoseleicionar álbumes</string>
   <string name="pref_media_auto_select_new_summary">Seleicionar automáticamente los álbumes nuevos cuando se descubran nuevos elementos nos medios</string>
   <string name="pref_layout">Disposición</string>
+  <string name="pref_layout_summary">Posicionando les semeyes na pantalla</string>
   <string name="pref_layout_disposition">Disposición</string>
   <string name="pref_random_dispositions">Al debalu</string>
   <string name="pref_random_dispositions_summary">Xenerar disposiciones al debalu cada ciertu tiempu</string>
   <string name="pref_random_dispositions_interval">Intervalu</string>
   <string name="pref_disposition_portrait">Disposición vertical</string>
   <string name="pref_disposition_landscape">Disposición horizontal</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="one">amuésase 1 imaxe en <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="other">amuésense <xliff:g id="count">%1$d</xliff:g> imáxenes en <xliff:g id="orientation">%2$s</xliff:g></item>
+  </plurals>
+  <string name="disposition_orientation_portrait">Mou retratu</string>
+  <string name="disposition_orientation_landscape">Mou apaisáu</string>
   <string name="pref_disposition_description">Fai un toque llargu nuna caxella y arrastra los bordes.\nEsliza a esquierda y derecha pa ver plantíes predefiníes</string>
   <string name="pref_disposition_template">Plantía <xliff:g id="number_of_template">%1$s</xliff:g> de <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Nun pudo desaniciase la caxella esbillada</string>
@@ -79,6 +92,10 @@
   <string name="touch_actions_transition">Siguiente transición</string>
   <string name="touch_actions_open">Abrir</string>
   <string name="touch_actions_share">Compartir</string>
+  <string name="touch_actions_none_summary">Nun facer nada</string>
+  <string name="touch_actions_transition_summary">Facer transición d\'imaxe</string>
+  <string name="touch_actions_open_summary">Abrir la imaxe</string>
+  <string name="touch_actions_share_summary">Compartir la imaxe</string>
   <string name="transitions_cube">Cubu</string>
   <string name="transitions_fade">Esvanecer</string>
   <string name="transitions_flip">Voltiar</string>

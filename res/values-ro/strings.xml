@@ -26,6 +26,8 @@
   <string name="mnu_invert">Inversează</string>
   <string name="mnu_select_album">Selectează album</string>
   <string name="mnu_deselect_album">Deselectează album</string>
+  <string name="format_disabled">Dezactivat</string>
+  <string name="format_rotate_only">La rotație</string>
   <string name="format_seconds">%s sec.</string>
   <string name="format_minutes">%s min.</string>
   <string name="format_hours">%s o.</string>
@@ -38,14 +40,18 @@
   <string name="pref_general_settings_background_color">Culoare fundal</string>
   <string name="pref_general_settings_background_color_summary">Setează culoarea de fundal</string>
   <string name="pref_general_touch_action">Acțiune atingere</string>
+  <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary"> %1$s </xliff:g> la atingerea unui cadru</string>
   <string name="pref_general_aspect_ratio_correction">Raport aspect</string>
   <string name="pref_general_aspect_ratio_correction_summary">Încearcă să repari raportul de aspect al imaginii prin decupare pentru a se potrivi cu cadrul destinație</string>
   <string name="pref_general_transitions">Tranziții</string>
   <string name="pref_general_transitions_types">Tipuri</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected"> %1$d </xliff:g> din <xliff:g id="total"> %2$d </xliff:g> tipuri selectate</string>
   <string name="pref_general_transitions_interval">Interval</string>
   <string name="pref_general_effects">Efecte</string>
   <string name="pref_general_effects_types">Tipuri</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected"> %1$d </xliff:g> din <xliff:g id="total"> %2$d </xliff:g> efecte de imagine selectate</string>
   <string name="pref_media">Media</string>
+  <string name="pref_media_summary">Albume ce vor fi afișate, intervalul de reîmprospătare și alte setări media</string>
   <string name="pref_media_settings">Setări</string>
   <string name="pref_media_settings_refresh_interval">Interval de reîmprospătare</string>
   <string name="pref_media_settings_refresh_interval_disable">Căutarea de imagini noi este dezactivată</string>
@@ -58,12 +64,20 @@
   <string name="pref_media_auto_select_new">Selectare automată albume</string>
   <string name="pref_media_auto_select_new_summary">Selectează automat albumele noi când se descoperă fișiere media noi</string>
   <string name="pref_layout">Amplasare</string>
+  <string name="pref_layout_summary">Poziționare a imaginilor pe ecran</string>
   <string name="pref_layout_disposition">Aranjament</string>
   <string name="pref_random_dispositions">Aleatoriu</string>
   <string name="pref_random_dispositions_summary">Generează aranjamente aleatoare la un interval ales</string>
   <string name="pref_random_dispositions_interval">Interval</string>
   <string name="pref_disposition_portrait">Aranjament portret</string>
   <string name="pref_disposition_landscape">Aranjament peisaj</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="one">1 imagine este afișată în <xliff:g id="orientation"> %2$s </xliff:g></item>
+    <item quantity="few"><xliff:g id="count"> %1$d </xliff:g> imagini sunt afișate în <xliff:g id="orientation"> %2$s </xliff:g></item>
+    <item quantity="other"><xliff:g id="count"> %1$d </xliff:g> de imagini sunt afișate în <xliff:g id="orientation"> %2$s </xliff:g></item>
+  </plurals>
+  <string name="disposition_orientation_portrait">orientare portret</string>
+  <string name="disposition_orientation_landscape">orientare peisaj</string>
   <string name="pref_disposition_description">Apasă lung un cadru și fă drag \u0026 drop la margini.\nGlisează stânga și dreapta pentru a arăta șabloane predefinite</string>
   <string name="pref_disposition_template">Șablon <xliff:g id="number_of_template">%1$s</xliff:g> of <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Imposibil de șters cadrului selectat</string>
@@ -79,6 +93,10 @@
   <string name="touch_actions_transition">Efectuează tranziție</string>
   <string name="touch_actions_open">Deschidere</string>
   <string name="touch_actions_share">Distribuie</string>
+  <string name="touch_actions_none_summary">Nu fă nimic</string>
+  <string name="touch_actions_transition_summary">Efectuează tranzița imaginii</string>
+  <string name="touch_actions_open_summary">Deschide imaginea</string>
+  <string name="touch_actions_share_summary">Partajază imaginea</string>
   <string name="transitions_cube">Cub</string>
   <string name="transitions_fade">Diminuează</string>
   <string name="transitions_flip">Răsucire</string>

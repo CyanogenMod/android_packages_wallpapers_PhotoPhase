@@ -27,6 +27,7 @@
   <string name="mnu_select_album">Sélectionner un album</string>
   <string name="mnu_deselect_album">Désélectionner un album</string>
   <string name="format_disabled">Désactivé</string>
+  <string name="format_rotate_only">Sur rotation</string>
   <string name="format_seconds">%s s.</string>
   <string name="format_minutes">%s min.</string>
   <string name="format_hours">%s h.</string>
@@ -39,14 +40,18 @@
   <string name="pref_general_settings_background_color">Couleur d\'arrière-plan</string>
   <string name="pref_general_settings_background_color_summary">Régler la couleur d\'arrière-plan</string>
   <string name="pref_general_touch_action">Action à l\'appui</string>
+  <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> en touchant une image</string>
   <string name="pref_general_aspect_ratio_correction">Format de l\'image</string>
   <string name="pref_general_aspect_ratio_correction_summary">Essayer de corriger la proportion de l\'image en la recadrant pour l\'adapter au cadre de destination</string>
   <string name="pref_general_transitions">Transitions</string>
   <string name="pref_general_transitions_types">Types</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> types sur <xliff:g id="total">%2$d</xliff:g> sélectionnés</string>
   <string name="pref_general_transitions_interval">Intervalle</string>
   <string name="pref_general_effects">Effets</string>
   <string name="pref_general_effects_types">Types</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> effets d\'image sur <xliff:g id="total">%2$d</xliff:g> sélectionnés</string>
   <string name="pref_media">Média</string>
+  <string name="pref_media_summary">Albums à afficher, intervalle d\'actualisation et autres paramètres de média</string>
   <string name="pref_media_settings">Paramètres</string>
   <string name="pref_media_settings_refresh_interval">Intervalle d\'actualisation</string>
   <string name="pref_media_settings_refresh_interval_disable">La recherche de nouvelles images est désactivée</string>
@@ -59,6 +64,7 @@
   <string name="pref_media_auto_select_new">Sélectionner automatiquement les albums</string>
   <string name="pref_media_auto_select_new_summary">Sélectionner automatiquement les nouveaux albums lors de la découverte des médias</string>
   <string name="pref_layout">Mise en page</string>
+  <string name="pref_layout_summary">Positionnement des images sur l\'écran</string>
   <string name="pref_layout_disposition">Disposition</string>
   <string name="pref_random_dispositions">Aléatoire</string>
   <string name="pref_random_dispositions_summary">Générer des dispositions aléatoires à un intervalle choisis</string>
@@ -81,6 +87,9 @@
   <string name="touch_actions_open">Ouvrir</string>
   <string name="touch_actions_share">Partager</string>
   <string name="touch_actions_none_summary">Ne rien faire</string>
+  <string name="touch_actions_transition_summary">Effectuer la transition de l\'image</string>
+  <string name="touch_actions_open_summary">Ouvrir l\'image</string>
+  <string name="touch_actions_share_summary">Partager l\'image</string>
   <string name="transitions_cube">Cube</string>
   <string name="transitions_fade">Fondu</string>
   <string name="transitions_flip">Retourner</string>

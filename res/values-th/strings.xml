@@ -26,6 +26,8 @@
   <string name="mnu_invert">กลับกัน</string>
   <string name="mnu_select_album">เลือก​อัลบั้ม</string>
   <string name="mnu_deselect_album">ไม่เลือกอัลบั้ม</string>
+  <string name="format_disabled">ปิดการใช้งาน</string>
+  <string name="format_rotate_only">ขณะหมุน</string>
   <string name="format_seconds">%s วินาที</string>
   <string name="format_minutes">%s นาที</string>
   <string name="format_hours">%s ชั่วโมง</string>
@@ -38,14 +40,18 @@
   <string name="pref_general_settings_background_color">สีพื้นหลัง</string>
   <string name="pref_general_settings_background_color_summary">ตั้งสีพื้นหลัง</string>
   <string name="pref_general_touch_action">ทำเมื่อแตะ</string>
+  <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> เมื่อแตะภาพ</string>
   <string name="pref_general_aspect_ratio_correction">อัตราส่วนกว้างยาว</string>
   <string name="pref_general_aspect_ratio_correction_summary">ลองที่จะปรับอัตราส่วนรูปภาพโดยการตัดกรอบภาพให้พอดีกับเฟรม</string>
   <string name="pref_general_transitions">เปลี่ยนภาพ</string>
   <string name="pref_general_transitions_types">รูปแบบ</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> จาก <xliff:g id="total">%2$d</xliff:g> ประเภทถูกเลือก</string>
   <string name="pref_general_transitions_interval">ช่วงเวลา</string>
   <string name="pref_general_effects">เอฟเฟ็กต์</string>
   <string name="pref_general_effects_types">รูปแบบ</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> จาก <xliff:g id="total">%2$d</xliff:g> เอฟฟเฟกต์ภาพถูกเลือก</string>
   <string name="pref_media">สื่อ</string>
+  <string name="pref_media_summary">อัลบั้มที่จะแสดง ฟื้นเปลี่ยนภาพ และการตั้งค่าสื่ออื่น ๆ</string>
   <string name="pref_media_settings">การตั้งค่า</string>
   <string name="pref_media_settings_refresh_interval">ช่วงเวลาเปลี่ยนภาพ</string>
   <string name="pref_media_settings_refresh_interval_disable">ค้นหาภาพใหม่ที่จะแสดง</string>
@@ -58,12 +64,18 @@
   <string name="pref_media_auto_select_new">เลือกอัลบั้มอัตโนมัติ</string>
   <string name="pref_media_auto_select_new_summary">เลือกอัลบั้มใหม่โดยอัตโนมัติเมื่อเกิดการค้นพบสื่อ</string>
   <string name="pref_layout">จัดวาง</string>
+  <string name="pref_layout_summary">การวางตำแหน่งของภาพบนหน้าจอ</string>
   <string name="pref_layout_disposition">การจัดเรียง</string>
   <string name="pref_random_dispositions">สุ่ม</string>
   <string name="pref_random_dispositions_summary">สร้างการสุ่มในช่วงเวลาที่เลือก</string>
   <string name="pref_random_dispositions_interval">ช่วงเวลา</string>
   <string name="pref_disposition_portrait">การจัดวางในแนวตั้ง</string>
   <string name="pref_disposition_landscape">การจัดวางในแนวนอน</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ภาพแสดงใน <xliff:g id="orientation">%2$s</xliff:g></item>
+  </plurals>
+  <string name="disposition_orientation_portrait">วางแนวตั้ง</string>
+  <string name="disposition_orientation_landscape">วางแนวนอน</string>
   <string name="pref_disposition_description">แตะค้างที่ขอบและลาก  \u0026 มันไปวางที่ขอบ\n ปัดซ้ายและขวาเพื่อแสดงแม่แบบที่มีอยู่</string>
   <string name="pref_disposition_template">แม่แบบ  <xliff:g id="number_of_template">%1$s</xliff:g> จาก <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">ไม่สามารถลบเฟรมที่เลือก</string>
@@ -79,6 +91,10 @@
   <string name="touch_actions_transition">เปลี่ยนรูปภาพ</string>
   <string name="touch_actions_open">เปิด</string>
   <string name="touch_actions_share">แบ่งบัน</string>
+  <string name="touch_actions_none_summary">ไม่ทำอะไร</string>
+  <string name="touch_actions_transition_summary">ทำการเปลี่ยนภาพ</string>
+  <string name="touch_actions_open_summary">เปิดภาพ</string>
+  <string name="touch_actions_share_summary">แบ่งปันรูปภาพ</string>
   <string name="transitions_cube">ลูกบาศก์</string>
   <string name="transitions_fade">ค่อยๆ เข้า</string>
   <string name="transitions_flip">พลิก</string>

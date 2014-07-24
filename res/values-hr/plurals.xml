@@ -17,9 +17,13 @@
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <plurals name="album_number_of_pictures">
-    <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> resim</item>
+    <item quantity="one">1 slika</item>
+    <item quantity="few"><xliff:g id="pictures" example="7">%d</xliff:g> slike</item>
+    <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> slika</item>
   </plurals>
   <plurals name="msg_media_reload_complete">
-    <item quantity="other">Medya ortamı yeniden yüklendi. <xliff:g id="pictures" example="7">%d</xliff:g> resim bulundu.</item>
+    <item quantity="one">Ponovno učitavanje medija završeno. Pronađena 1 slika.</item>
+    <item quantity="few">Ponovno učitavanje medija završeno. Pronađene <xliff:g id="pictures" example="7">%d</xliff:g> slike.</item>
+    <item quantity="other">Ponovno učitavanje medija završeno. Pronađeno <xliff:g id="pictures" example="7">%d</xliff:g> slika.</item>
   </plurals>
 </resources>

@@ -26,6 +26,8 @@
   <string name="mnu_invert">Omgekeerde</string>
   <string name="mnu_select_album">Kies album</string>
   <string name="mnu_deselect_album">Onkies album</string>
+  <string name="format_disabled">Gedeaktiveer</string>
+  <string name="format_rotate_only">Op rotasie</string>
   <string name="format_seconds">%s sek.</string>
   <string name="format_minutes">%s min.</string>
   <string name="format_hours">%s h.</string>
@@ -38,14 +40,18 @@
   <string name="pref_general_settings_background_color">Agtergrond kleur</string>
   <string name="pref_general_settings_background_color_summary">Stel die agtergrond kleur</string>
   <string name="pref_general_touch_action">Raak aksie</string>
+  <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> met aanraking van \'n raam</string>
   <string name="pref_general_aspect_ratio_correction">Aspek verhouding</string>
   <string name="pref_general_aspect_ratio_correction_summary">Probeer om die foto\'s se aspek verhouding op te los deur die teelt  in die bestemmings raam te pas</string>
   <string name="pref_general_transitions">Oorgange</string>
   <string name="pref_general_transitions_types">Tipes</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> van <xliff:g id="total">%2$d</xliff:g> tipes geselekteer</string>
   <string name="pref_general_transitions_interval">Interval</string>
   <string name="pref_general_effects">Effekte</string>
   <string name="pref_general_effects_types">Tipes</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> of <xliff:g id="total">%2$d</xliff:g> foto effekte geselekteer</string>
   <string name="pref_media">Media</string>
+  <string name="pref_media_summary">Albums om te vertoon, verfris interval en ander media instellings</string>
   <string name="pref_media_settings">Instellings</string>
   <string name="pref_media_settings_refresh_interval">Verfris interval</string>
   <string name="pref_media_settings_refresh_interval_disable">Soek na nuwe foto\'s is afgeskakel</string>
@@ -58,12 +64,19 @@
   <string name="pref_media_auto_select_new">Outo kies albums</string>
   <string name="pref_media_auto_select_new_summary">Outomaties kies nuwe albums wanneer media ontdekking plaasvind</string>
   <string name="pref_layout">Uitleg</string>
+  <string name="pref_layout_summary">Posisie van foto\'s op die skerm</string>
   <string name="pref_layout_disposition">Reëling</string>
   <string name="pref_random_dispositions">Willekeurig</string>
   <string name="pref_random_dispositions_summary">Genereer willekeurige rangskikking met \'n gekose interval</string>
   <string name="pref_random_dispositions_interval">Interval</string>
   <string name="pref_disposition_portrait">Portret rangskikking</string>
   <string name="pref_disposition_landscape">Landskap rangskikking</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="one">1 foto is gewys op <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> foto\'s is gewys op <xliff:g id="orientation">%2$s</xliff:g></item>
+  </plurals>
+  <string name="disposition_orientation_portrait">portret oriëntasie</string>
+  <string name="disposition_orientation_landscape">landskap oriëntasie</string>
   <string name="pref_disposition_description">Lang tik \'n raam en sleep \u0026 val sy grense. Sweep links en regs om gedefinieer voorbeelde te wys</string>
   <string name="pref_disposition_template">Voorbeelde <xliff:g id="number_of_template">%1$s</xliff:g> of <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Kan nie die gekose raam verwyder nie</string>
@@ -79,6 +92,10 @@
   <string name="touch_actions_transition">Voer oorgang uit</string>
   <string name="touch_actions_open">Maak oop</string>
   <string name="touch_actions_share">Deel</string>
+  <string name="touch_actions_none_summary">Doen niks</string>
+  <string name="touch_actions_transition_summary">Doen foto verandering</string>
+  <string name="touch_actions_open_summary">Maak foto oop</string>
+  <string name="touch_actions_share_summary">Deel die foto</string>
   <string name="transitions_cube">Kubus</string>
   <string name="transitions_fade">Vervaag</string>
   <string name="transitions_flip">Spieël</string>
