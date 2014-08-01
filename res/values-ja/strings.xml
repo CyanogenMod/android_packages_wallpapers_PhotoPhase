@@ -54,7 +54,7 @@
   <string name="pref_media_summary">表示するアルバム、更新間隔、その他のメディアの設定</string>
   <string name="pref_media_settings">設定</string>
   <string name="pref_media_settings_refresh_interval">更新間隔</string>
-  <string name="pref_media_settings_refresh_interval_disable">新しい写真の検索は無効になっています</string>
+  <string name="pref_media_settings_refresh_interval_disable">新しい写真の検索は無効です</string>
   <string name="pref_media_settings_refresh_interval_summary"><xliff:g id="interval">%1$s</xliff:g>ごとに新しい写真を検索する</string>
   <string name="pref_media_settings_refresh_now">今すぐ更新</string>
   <string name="pref_media_settings_refresh_now_summary">写真のデータベースを手動で更新する</string>

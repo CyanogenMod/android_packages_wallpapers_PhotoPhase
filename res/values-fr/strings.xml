@@ -71,6 +71,8 @@
   <string name="pref_random_dispositions_interval">Intervalle</string>
   <string name="pref_disposition_portrait">Disposition en portrait</string>
   <string name="pref_disposition_landscape">Disposition en paysage</string>
+  <string name="disposition_orientation_portrait">orientation portrait</string>
+  <string name="disposition_orientation_landscape">orientation paysage</string>
   <string name="pref_disposition_description">Faites un appui long sur le cadre puis glissé \u0026 déposé les bords.\nGlissez vers la gauche et la droite pour afficher les modèles pré-définis</string>
   <string name="pref_disposition_template">Modèle <xliff:g id="number_of_template">%1$s</xliff:g> sur <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Impossible de supprimer l\'image sélectionnée</string>

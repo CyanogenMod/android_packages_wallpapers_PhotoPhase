@@ -45,11 +45,11 @@
   <string name="pref_general_aspect_ratio_correction_summary">Pabandykite nustatyti nuotraukos kraštinių santykį kopijuodami jį tam kad tilptu paskirties rėmelis</string>
   <string name="pref_general_transitions">Perėjimai</string>
   <string name="pref_general_transitions_types">Tipai</string>
-  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> of <xliff:g id="total">%2$d</xliff:g> pasirinkti tipai</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> iš <xliff:g id="total">%2$d</xliff:g> pasirinktų tipų</string>
   <string name="pref_general_transitions_interval">Intervalas</string>
   <string name="pref_general_effects">Efektai</string>
   <string name="pref_general_effects_types">Tipai</string>
-  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> iš <xliff:g id="total">%2$d</xliff:g> pasirinkti vaizdo efektai</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> iš <xliff:g id="total">%2$d</xliff:g> pasirinktų vaizdo efektų</string>
   <string name="pref_media">Medija</string>
   <string name="pref_media_summary">Rodomi albumai, atnaujinimo intervalas ir kiti medijos nustatymai</string>
   <string name="pref_media_settings">Nustatymai</string>
@@ -78,12 +78,12 @@
   </plurals>
   <string name="disposition_orientation_portrait">stačia orientacija</string>
   <string name="disposition_orientation_landscape">gulsčia orientacija</string>
-  <string name="pref_disposition_description">Ilgai bakstelėkite kadrą ir vilkite \u0026 paleiskite kraštus.\nBraukite kairėn ir dešinėn norėdami parodyti apibrėžtus šablonus</string>
+  <string name="pref_disposition_description">Ilgai bakstelėkite kadrą ir vilkite, paleiskite kraštus.\nBraukite kairėn ir dešinėn norėdami parodyti apibrėžtus šablonus</string>
   <string name="pref_disposition_template">Šablonas <xliff:g id="number_of_template">%1$s</xliff:g> of <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Nepavyko ištrinti pasirinkto rėmelio</string>
   <string name="pref_about">Apie</string>
   <string name="pref_about_summary">„PhotoPhase“ v<xliff:g id="version">%1$s</xliff:g>\nAutorinės teisės \u00A9 2014 „CyanogenMod“ projektas</string>
-  <string name="refresh_intervals_disabled">Išjungta</string>
+  <string name="refresh_intervals_disabled">Išjungtas</string>
   <string name="refresh_intervals_1h">1 val.</string>
   <string name="refresh_intervals_4h">4 val.</string>
   <string name="refresh_intervals_1d">1 d.</string>
@@ -129,8 +129,8 @@
   <string name="effects_tint">Atspalvis</string>
   <string name="effects_vignette">Vinjetė</string>
   <string name="color_picker_alpha_slider_text">Alfa</string>
-  <string name="color_picker_current_text">Dabartinis:</string>
-  <string name="color_picker_new_text">Naujas:</string>
+  <string name="color_picker_current_text">Dabartinė:</string>
+  <string name="color_picker_new_text">Nauja:</string>
   <string name="color_picker_color">Spalva:</string>
   <string name="changelog_title">Pakeitimų sąrašas</string>
 </resources>

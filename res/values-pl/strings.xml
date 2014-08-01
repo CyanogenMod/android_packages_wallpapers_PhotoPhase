@@ -39,6 +39,7 @@
   <string name="pref_general_settings_background_color">Kolor tła</string>
   <string name="pref_general_settings_background_color_summary">Ustaw kolor tła</string>
   <string name="pref_general_touch_action">Działanie po dotknięciu</string>
+  <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> podczas dotknięcia ramki</string>
   <string name="pref_general_aspect_ratio_correction">Współczynnik proporcji</string>
   <string name="pref_general_aspect_ratio_correction_summary">Spróbuj poprawić proporcje obrazu przez przycięcie go do ramki docelowej</string>
   <string name="pref_general_transitions">Przejścia</string>
@@ -89,6 +90,7 @@
   <string name="touch_actions_open">Otwórz</string>
   <string name="touch_actions_share">Udostępnij</string>
   <string name="touch_actions_none_summary">Nic nie rób</string>
+  <string name="touch_actions_transition_summary">Wykonaj przejście obrazu</string>
   <string name="touch_actions_open_summary">Otwórz obraz</string>
   <string name="touch_actions_share_summary">Udostępnij obraz</string>
   <string name="transitions_cube">Kostka</string>

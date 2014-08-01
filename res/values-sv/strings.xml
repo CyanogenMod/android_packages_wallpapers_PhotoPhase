@@ -40,14 +40,18 @@
   <string name="pref_general_settings_background_color">Bakgrundsfärg</string>
   <string name="pref_general_settings_background_color_summary">Ange bakgrundsfärg</string>
   <string name="pref_general_touch_action">Tryckåtgärd</string>
+  <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> när du trycker på en ram</string>
   <string name="pref_general_aspect_ratio_correction">Bildförhållande</string>
   <string name="pref_general_aspect_ratio_correction_summary">Försök att fixa bildens bildförhållande genom att beskära den så att den passar destinationsramen</string>
   <string name="pref_general_transitions">Övergångar</string>
   <string name="pref_general_transitions_types">Typer</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> av <xliff:g id="total">%2$d</xliff:g> typer valda</string>
   <string name="pref_general_transitions_interval">Intervall</string>
   <string name="pref_general_effects">Effekter</string>
   <string name="pref_general_effects_types">Typer</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> av <xliff:g id="total">%2$d</xliff:g> bildeffekter valda</string>
   <string name="pref_media">Media</string>
+  <string name="pref_media_summary">Album som ska visas, uppdateringsintervall och andra mediainställningar</string>
   <string name="pref_media_settings">Inställningar</string>
   <string name="pref_media_settings_refresh_interval">Uppdateringsintervall</string>
   <string name="pref_media_settings_refresh_interval_disable">Sökning efter nya bilder är inaktiverad</string>
@@ -60,12 +64,19 @@
   <string name="pref_media_auto_select_new">Välj album automatiskt</string>
   <string name="pref_media_auto_select_new_summary">Välj automatiskt nya album när ny media hittas</string>
   <string name="pref_layout">Layout</string>
+  <string name="pref_layout_summary">Placering av bilder på skärmen</string>
   <string name="pref_layout_disposition">Arrangemang</string>
   <string name="pref_random_dispositions">Slumpmässig</string>
   <string name="pref_random_dispositions_summary">Generera slumpmässiga arrangemang vid ett valt intervall</string>
   <string name="pref_random_dispositions_interval">Intervall</string>
   <string name="pref_disposition_portrait">Stående arrangemang</string>
   <string name="pref_disposition_landscape">Liggande arrangemang</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="one">1 bild visas i <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> bilder visas i <xliff:g id="orientation">%2$s</xliff:g></item>
+  </plurals>
+  <string name="disposition_orientation_portrait">porträttläge</string>
+  <string name="disposition_orientation_landscape">landskapsläge</string>
   <string name="pref_disposition_description">Knacka länge på en ram och dra \u0026 släpp dess gränser. Svep vänster och höger för att visa definierade mallar</string>
   <string name="pref_disposition_template">Mall <xliff:g id="number_of_template">%1$s</xliff:g> av <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Det går inte att ta bort den markerade bildrutan</string>
@@ -81,6 +92,10 @@
   <string name="touch_actions_transition">Utför övergången</string>
   <string name="touch_actions_open">Öppna</string>
   <string name="touch_actions_share">Dela</string>
+  <string name="touch_actions_none_summary">Gör ingenting</string>
+  <string name="touch_actions_transition_summary">Utför bildövergången</string>
+  <string name="touch_actions_open_summary">Öppna bilden</string>
+  <string name="touch_actions_share_summary">Dela bilden</string>
   <string name="transitions_cube">Kub</string>
   <string name="transitions_fade">Tona</string>
   <string name="transitions_flip">Vänd</string>
