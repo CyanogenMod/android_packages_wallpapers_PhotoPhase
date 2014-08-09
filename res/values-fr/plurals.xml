@@ -21,7 +21,7 @@
     <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> images</item>
   </plurals>
   <plurals name="msg_media_reload_complete">
-    <item quantity="one">Chargement du média terminé. 1 photo trouvée.</item>
-    <item quantity="other">Chargement du média terminé. <xliff:g id="pictures" example="7">%d</xliff:g> photos trouvées.</item>
+    <item quantity="one">Chargement du média terminé. 1 image trouvée.</item>
+    <item quantity="other">Chargement du média terminé. <xliff:g id="pictures" example="7">%d</xliff:g> images trouvées.</item>
   </plurals>
 </resources>
