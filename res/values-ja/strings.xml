@@ -61,7 +61,7 @@
   <string name="pref_media_pictures">写真</string>
   <string name="pref_media_albums">アルバム</string>
   <string name="pref_media_albums_summary">壁紙に表示するアルバムと写真を設定する</string>
-  <string name="pref_media_auto_select_new">アルバムの自動選択</string>
+  <string name="pref_media_auto_select_new">アルバムを自動選択</string>
   <string name="pref_media_auto_select_new_summary">メディア発見時に新しいアルバムを自動的に選択する</string>
   <string name="pref_layout">レイアウト</string>
   <string name="pref_layout_summary">画面上の写真の配置</string>
@@ -72,7 +72,7 @@
   <string name="pref_disposition_portrait">縦向きの配置</string>
   <string name="pref_disposition_landscape">横向きの配置</string>
   <plurals name="pref_disposition_summary_format">
-    <item quantity="other"><xliff:g id="count">%1$d</xliff:g>枚の写真が<xliff:g id="orientation">%2$s</xliff:g>に表示されます</item>
+    <item quantity="other"><xliff:g id="orientation">%2$s</xliff:g>で<xliff:g id="count">%1$d</xliff:g>枚の写真が表示されます</item>
   </plurals>
   <string name="disposition_orientation_portrait">縦向き</string>
   <string name="disposition_orientation_landscape">横向き</string>

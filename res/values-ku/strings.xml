@@ -64,7 +64,7 @@
   <string name="pref_media_auto_select_new">دیاریکردنی خۆکاری ئەلبوم</string>
   <string name="pref_media_auto_select_new_summary">دیاریکردنی ئەلبومی نوێ کاتێک میدیای نوێ دۆزرایەوە</string>
   <string name="pref_layout">نه‌خشه‌</string>
-  <string name="pref_layout_summary">شوێنی وێنه‌ له‌سه‌ر شاشه‌</string>
+  <string name="pref_layout_summary">شوێنی وێنه‌ له‌سه‌ر ڕوونما</string>
   <string name="pref_layout_disposition">ئاڕاستە</string>
   <string name="pref_random_dispositions">هەڕەمەکی</string>
   <string name="pref_random_dispositions_summary">به‌دیهێنانی ئاراسته‌ی هه‌ڕه‌مه‌کی له‌ ماوه‌ی هه‌ڵبژێردراو</string>
