@@ -16,8 +16,8 @@
  -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.cyanogenmod.wallpapers.photophase"
-    android:versionCode="1008"
-    android:versionName="1.0.6"
+    android:versionCode="1010"
+    android:versionName="1.0.8"
     android:installLocation="auto">
 
     <original-package android:name="org.cyanogenmod.wallpapers.photophase" />
