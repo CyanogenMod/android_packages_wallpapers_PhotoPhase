@@ -19,6 +19,7 @@ package org.cyanogenmod.wallpapers.photophase;
 import android.content.Context;
 import android.graphics.RectF;
 import android.opengl.GLES20;
+import android.util.Log;
 
 import org.cyanogenmod.wallpapers.photophase.utils.GLESUtil;
 import org.cyanogenmod.wallpapers.photophase.utils.GLESUtil.GLColor;
@@ -139,6 +140,10 @@ public class PhotoFrame implements TextureRequestor {
         if (mTextureInfo != null) {
             if (GLES20.glIsTexture(mTextureInfo.handle)) {
                 int[] textures = new int[]{mTextureInfo.handle};
+                if (GLESUtil.DEBUG_GL_MEMOBJS) {
+                    Log.d(GLESUtil.DEBUG_GL_MEMOBJS_DEL_TAG, "glDeleteTextures: ["
+                            + mTextureInfo.handle + "]");
+                }
                 GLES20.glDeleteTextures(1, textures, 0);
                 GLESUtil.glesCheckError("glDeleteTextures");
             }
@@ -279,6 +284,10 @@ public class PhotoFrame implements TextureRequestor {
     public void recycle() {
         if (mTextureInfo != null && mTextureInfo.handle != 0) {
             int[] textures = new int[]{mTextureInfo.handle};
+            if (GLESUtil.DEBUG_GL_MEMOBJS) {
+                Log.d(GLESUtil.DEBUG_GL_MEMOBJS_DEL_TAG, "glDeleteTextures: ["
+                        + mTextureInfo.handle + "]");
+            }
             GLES20.glDeleteTextures(1, textures, 0);
             GLESUtil.glesCheckError("glDeleteTextures");
         }

@@ -24,6 +24,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Typeface;
 import android.opengl.GLES20;
+import android.util.Log;
 
 import org.cyanogenmod.wallpapers.photophase.Colors;
 import org.cyanogenmod.wallpapers.photophase.utils.GLESUtil;
@@ -65,6 +66,8 @@ public class OopsShape implements DrawableShape {
                                                              0.5f,  0.75f
                                                           };
 
+    private static Typeface sRobotoFont;
+
     private FloatBuffer mPositionBuffer;
     private FloatBuffer mTextureBuffer;
 
@@ -87,6 +90,9 @@ public class OopsShape implements DrawableShape {
      */
     public OopsShape(Context ctx, int resourceMessageId) {
         super();
+        if (sRobotoFont == null) {
+            sRobotoFont = Typeface.createFromAsset(ctx.getAssets(), "fonts/Roboto-Bold.ttf");
+        }
 
         int orientation = ctx.getResources().getConfiguration().orientation;
         float[] vertex = VERTEX_COORDS_PORTRAIT;
@@ -233,12 +239,20 @@ public class OopsShape implements DrawableShape {
     public void recycle() {
         // Remove textures
         if (mOopsImageTexture != null && mOopsImageTexture.handle != 0) {
+            if (GLESUtil.DEBUG_GL_MEMOBJS) {
+                Log.d(GLESUtil.DEBUG_GL_MEMOBJS_DEL_TAG, "glDeleteTextures: ["
+                        + mOopsImageTexture.handle + "]");
+            }
             int[] textures = new int[]{mOopsImageTexture.handle};
             GLES20.glDeleteTextures(1, textures, 0);
             GLESUtil.glesCheckError("glDeleteTextures");
         }
         mOopsImageTexture = null;
         if (mOopsTextTexture != null && mOopsTextTexture.handle != 0) {
+            if (GLESUtil.DEBUG_GL_MEMOBJS) {
+                Log.d(GLESUtil.DEBUG_GL_MEMOBJS_DEL_TAG, "glDeleteTextures: ["
+                        + mOopsTextTexture.handle + "]");
+            }
             int[] textures = new int[]{mOopsTextTexture.handle};
             GLES20.glDeleteTextures(1, textures, 0);
             GLESUtil.glesCheckError("glDeleteTextures");
@@ -257,6 +271,10 @@ public class OopsShape implements DrawableShape {
 
         for (int i = 0; i < 2; i++) {
             if (GLES20.glIsProgram(mProgramHandlers[i])) {
+                if (GLESUtil.DEBUG_GL_MEMOBJS) {
+                    Log.d(GLESUtil.DEBUG_GL_MEMOBJS_DEL_TAG, "glDeleteProgram: "
+                            + mProgramHandlers[i]);
+                }
                 GLES20.glDeleteProgram(mProgramHandlers[i]);
                 GLESUtil.glesCheckError("glDeleteProgram(" + i + ")");
             }
@@ -277,8 +295,7 @@ public class OopsShape implements DrawableShape {
      */
     public Bitmap text2Bitmap(Context ctx, String text) {
         Paint paint = new Paint();
-        Typeface font = Typeface.createFromAsset(ctx.getAssets(), "fonts/Roboto-Bold.ttf");
-        paint.setTypeface(font);
+        paint.setTypeface(sRobotoFont);
         paint.setColor(Color.WHITE);
         paint.setTextSize(24.0f);
         paint.setAntiAlias(true);
