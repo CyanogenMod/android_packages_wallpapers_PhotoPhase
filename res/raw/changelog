@@ -1,3 +1,20 @@
+v1.0.11
+----------------------------
+- Restart wallpaper if a bad egl context is detected
+- Minor bug fixes
+- Updated translations
+
+v1.0.10
+----------------------------
+- Revert etc1 compression feature
+- Fix incorrect French string translation
+
+v1.0.9
+----------------------------
+- Use compressed etc1 textures if is supported to reduce memory footprint
+- Allow to choose more than one minute in transition intervals
+- Update translations
+
 v1.0.8
 ----------------------------
 - Fixed a memory leak bug
