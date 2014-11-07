@@ -181,6 +181,14 @@ public class PhotoPhaseRenderer implements GLSurfaceView.Renderer {
         }
     };
 
+    private final Runnable mEGLContextWatchDog = new Runnable() {
+        @Override
+        public void run() {
+            // Restart the wallpaper
+            AndroidHelper.restartWallpaper(mContext);
+        }
+    };
+
     /**
      * Constructor of <code>PhotoPhaseRenderer<code>
      *
@@ -313,6 +321,11 @@ public class PhotoPhaseRenderer implements GLSurfaceView.Renderer {
             recreateWorld();
         } else {
             mDispatcher.setRenderMode(GLSurfaceView.RENDERMODE_CONTINUOUSLY);
+        }
+
+        // Set a watchdog to detect EGL bad context and restart the wallpaper
+        if (!mIsPreview) {
+            mHandler.postDelayed(mEGLContextWatchDog, 1000L);
         }
     }
 
@@ -709,6 +722,11 @@ public class PhotoPhaseRenderer implements GLSurfaceView.Renderer {
      */
     @Override
     public void onDrawFrame(GL10 glUnused) {
+        // Remove the EGL context watchdog
+        if (!mIsPreview) {
+            mHandler.removeCallbacks(mEGLContextWatchDog);
+        }
+
         // Set the projection, view and model
         GLES20.glViewport(0, -mStatusBarHeight, mWidth, mHeight);
         Matrix.setLookAtM(mVMatrix, 0, 0.0f, 0.0f, -1.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f);
