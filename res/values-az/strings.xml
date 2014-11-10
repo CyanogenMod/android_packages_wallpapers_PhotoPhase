@@ -39,6 +39,7 @@
   <string name="pref_general_settings_wallpaper_dim">Divar kağızı tutqunluğu</string>
   <string name="pref_general_settings_background_color">Arxa plan rəngi</string>
   <string name="pref_general_settings_background_color_summary">Arxa plan rəngini tənzimlə</string>
+  <string name="pref_general_touch_action">Toxunuş hərəkəti</string>
   <string name="pref_general_touch_action_summary_format">Bir çərçivəyə toxunduğunuzda <xliff:g id="action_summary">%1$s</xliff:g></string>
   <string name="pref_general_aspect_ratio_correction">Tərəflərin nisbəti</string>
   <string name="pref_general_aspect_ratio_correction_summary">Şəkilin çərçivəyə yerləşməsi üçün kəsərək tərəflərin nisbətini nisbətini düzəltməyə çalışır</string>
@@ -52,6 +53,33 @@
   <string name="pref_media">Media</string>
   <string name="pref_media_summary">Göstəriləcək albom, yeniləmə intervalı və digər media tənzimlənmələri</string>
   <string name="pref_media_settings">Tənzimləmələr</string>
+  <string name="pref_media_settings_refresh_interval">Yeniləmə aralığı</string>
+  <string name="pref_media_settings_refresh_interval_disable">Yeni şəkil axtarışı bağlıdır</string>
+  <string name="pref_media_settings_refresh_interval_summary">Hər <xliff:g id="interval">%1$s</xliff:g> ərzində yeni şəkil axtarar</string>
+  <string name="pref_media_settings_refresh_now">İndi yenilə</string>
+  <string name="pref_media_settings_refresh_now_summary">Şəkil verilənlər bazasını əllə yeniləyər</string>
+  <string name="pref_media_pictures">Şəkillər</string>
+  <string name="pref_media_albums">Albomlar</string>
+  <string name="pref_media_albums_summary">Divar kağızında göstəriləcək albom və şəkilləri tənzimləyər</string>
+  <string name="pref_media_auto_select_new">Albomları avtomatik seçin</string>
+  <string name="pref_media_auto_select_new_summary">Media elementleri tapılarkən yeni albomları avtomatik seçər</string>
+  <string name="pref_layout">Nizam</string>
+  <string name="pref_layout_summary">Şəkillərin ekranda yerləşdirilməsi</string>
+  <string name="pref_layout_disposition">Nizamlama</string>
+  <string name="pref_random_dispositions">Təsadüfi</string>
+  <string name="pref_random_dispositions_summary">Seçilən aralıqda təsadüfi nizamlamalar yarat</string>
+  <string name="pref_random_dispositions_interval">Aralıq</string>
+  <string name="pref_disposition_portrait">Portret nizamlaması</string>
+  <string name="pref_disposition_landscape">Mənzərə nizamlaması</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="one"><xliff:g id="orientation">%2$s</xliff:g> \'də 1 şəkil göstərilir</item>
+    <item quantity="other"><xliff:g id="orientation">%2$s</xliff:g> \'də <xliff:g id="count">%1$d</xliff:g> şəkil göstərilir</item>
+  </plurals>
+  <string name="disposition_orientation_portrait">şaquli yerləşmə</string>
+  <string name="disposition_orientation_landscape">üfüqi yerləşmə</string>
+  <string name="pref_disposition_description">Çərçivəyə uzun toxunun və kənarlarını dartıb \u0026 buraxın. Müəyyən şablonları göstərmək üçün sola və ya sağa sürüşdürün</string>
+  <string name="pref_disposition_template">Şablon <xliff:g id="number_of_template">%1$s</xliff:g> / <xliff:g id="total_of_templates">%2$s</xliff:g></string>
+  <string name="pref_disposition_unable_delete_advise">Seçilən çərçivə silinə bilmədi</string>
   <string name="pref_about">Haqqında</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nMüəlliflik hüququ \u00A9 2014 The CyanogenMod Layihəsi</string>
   <string name="refresh_intervals_disabled">Bağlı</string>
@@ -65,15 +93,43 @@
   <string name="touch_actions_open">Aç</string>
   <string name="touch_actions_share">Paylaş</string>
   <string name="touch_actions_none_summary">Heç birşey etməz</string>
+  <string name="touch_actions_transition_summary">Şəkil keçidi tətəbiq olunur</string>
+  <string name="touch_actions_open_summary">Şəkili aç</string>
+  <string name="touch_actions_share_summary">Şəkili paylaş</string>
+  <string name="transitions_cube">Kub</string>
+  <string name="transitions_fade">Soluqdur</string>
+  <string name="transitions_flip">Çevir</string>
+  <string name="transitions_swap">Əvəzetmə</string>
   <string name="transitions_translation">Tərcümə</string>
   <string name="transitions_window">Pəncərə</string>
   <string name="effects_noeffect">Normal</string>
   <string name="effects_autofix">Avtomatik nizamla</string>
   <string name="effects_blur">Bulanıq</string>
+  <string name="effects_crossprocess">Çarpaz proses</string>
   <string name="effects_documentary">Sənədli</string>
   <string name="effects_duotone">Cüt ton</string>
+  <string name="effects_emboss">Qabart</string>
+  <string name="effects_fisheye">Balıq gözü</string>
+  <string name="effects_glow">Parlaq</string>
+  <string name="effects_grain">Dənə</string>
+  <string name="effects_grayscale">Boz çaları</string>
+  <string name="effects_halftone">Yarım ton</string>
+  <string name="effects_lomoish">Lomo-ish</string>
+  <string name="effects_mirror">Güzgü</string>
+  <string name="effects_negative">Neqativ</string>
+  <string name="effects_outline">Kontur</string>
+  <string name="effects_pixelate">Pikselləşdir</string>
   <string name="effects_popart">Pop art</string>
   <string name="effects_posterize">Posterləşdir</string>
   <string name="effects_saturate">Doymuş</string>
+  <string name="effects_scanlines">Sətir pikseli</string>
+  <string name="effects_sepia">Sepia</string>
+  <string name="effects_temperature">İstilik</string>
+  <string name="effects_tint">Rəng tonu</string>
+  <string name="effects_vignette">Səhnəcik</string>
+  <string name="color_picker_alpha_slider_text">Alfa</string>
+  <string name="color_picker_current_text">Hazırki:</string>
+  <string name="color_picker_new_text">Yeni:</string>
+  <string name="color_picker_color">Rəng:</string>
   <string name="changelog_title">Dəyişiklik qeydi</string>
 </resources>
