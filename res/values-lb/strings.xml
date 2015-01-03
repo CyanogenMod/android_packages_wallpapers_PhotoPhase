@@ -42,7 +42,7 @@
   <string name="pref_general_touch_action">Beréierungsaktioun</string>
   <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> wann eng Rumm beréiert gëtt</string>
   <string name="pref_general_aspect_ratio_correction">Säiteverhältnës</string>
-  <string name="pref_general_aspect_ratio_correction_summary">Probéier d\'Dimensioune vum Bild ze korrigéieren andeem s de et schneits fir dass et an d\'Rumm passt</string>
+  <string name="pref_general_aspect_ratio_correction_summary">Probéier d\'Dimensioune vum Bild ze korrigéieren andeem s de et schneits fir datt et an d\'Rumm passt</string>
   <string name="pref_general_transitions">Transitiounen</string>
   <string name="pref_general_transitions_types">Typen</string>
   <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> Typen ausgewielt</string>
@@ -51,13 +51,13 @@
   <string name="pref_general_effects_types">Typen</string>
   <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> vu(n) <xliff:g id="total">%2$d</xliff:g> Billereffekter ausgewielt</string>
   <string name="pref_media">Medien</string>
-  <string name="pref_media_summary">Alben déi sollen ugewise ginn, Aktualiséierungsintervall an aner Medienastellungen</string>
+  <string name="pref_media_summary">Alben déi sollen ugewise ginn, Opfrëschungsintervall an aner Medienastellungen</string>
   <string name="pref_media_settings">Astellungen</string>
-  <string name="pref_media_settings_refresh_interval">Intervall fir nei ze lueden</string>
-  <string name="pref_media_settings_refresh_interval_disable">D\'Sich no neie Biller ass deaktivéiert</string>
-  <string name="pref_media_settings_refresh_interval_summary">All <xliff:g id="interval">%1$s</xliff:g> nei Biller sichen</string>
-  <string name="pref_media_settings_refresh_now">Elo nei lueden</string>
-  <string name="pref_media_settings_refresh_now_summary">Billerdatebank manuell aktualiséieren</string>
+  <string name="pref_media_settings_refresh_interval">Intervall fir opzefrëschen</string>
+  <string name="pref_media_settings_refresh_interval_disable">D\'Sich no neie Biller ass desaktivéiert</string>
+  <string name="pref_media_settings_refresh_interval_summary">All <xliff:g id="interval">%1$s</xliff:g> no neie Biller sichen</string>
+  <string name="pref_media_settings_refresh_now">Elo opfrëschen</string>
+  <string name="pref_media_settings_refresh_now_summary">Billerdatebank manuell opfrëschen</string>
   <string name="pref_media_pictures">Biller</string>
   <string name="pref_media_albums">Alben</string>
   <string name="pref_media_albums_summary">Alben a Biller, déi als Hannergrond ugewise solle ginn</string>
@@ -77,17 +77,17 @@
   </plurals>
   <string name="disposition_orientation_portrait">Héichformat</string>
   <string name="disposition_orientation_landscape">Breetformat</string>
-  <string name="pref_disposition_description">Rumm laang drécken an d\'Ränner verréckelen fir d\'Gréisst ze änneren. No lénks a riets wësche fir virdefinéiert Virlagen ze benotzen</string>
+  <string name="pref_disposition_description">Rumm laang drécken an d\'Ränner verréckelen fir d\'Gréisst z\'änneren. No lénks a riets wësche fir virdefinéiert Virlagen ze benotzen</string>
   <string name="pref_disposition_template">Virlag <xliff:g id="number_of_template">%1$s</xliff:g> / <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Konnt déi ausgewielte Rumm net läschen</string>
   <string name="pref_about">Iwwer</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nCopyright \u00A9 2014 The CyanogenMod Project</string>
   <string name="refresh_intervals_disabled">Desaktivéiert</string>
-  <string name="refresh_intervals_1h">1 Stonn</string>
+  <string name="refresh_intervals_1h">Stonn</string>
   <string name="refresh_intervals_4h">4 Stonnen</string>
-  <string name="refresh_intervals_1d">1 Dag</string>
+  <string name="refresh_intervals_1d">Dag</string>
   <string name="refresh_intervals_2d">2 Deeg</string>
-  <string name="refresh_intervals_1w">1 Woch</string>
+  <string name="refresh_intervals_1w">Woch</string>
   <string name="touch_actions_none">Keng</string>
   <string name="touch_actions_transition">Transitioun virhuelen</string>
   <string name="touch_actions_open">Opmaachen</string>
