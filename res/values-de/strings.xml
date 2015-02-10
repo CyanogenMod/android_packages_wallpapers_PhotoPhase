@@ -92,8 +92,8 @@
   <string name="touch_actions_transition">Bildübergang</string>
   <string name="touch_actions_open">Öffnen</string>
   <string name="touch_actions_share">Teilen</string>
-  <string name="touch_actions_none_summary">nichts tun</string>
-  <string name="touch_actions_transition_summary">zum nächsten Bild wechseln</string>
+  <string name="touch_actions_none_summary">Nichts tun</string>
+  <string name="touch_actions_transition_summary">Zum nächsten Bild wechseln</string>
   <string name="touch_actions_open_summary">Bild öffnen</string>
   <string name="touch_actions_share_summary">Bild teilen</string>
   <string name="transitions_cube">Würfel</string>
