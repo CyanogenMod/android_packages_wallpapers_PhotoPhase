@@ -45,11 +45,11 @@
   <string name="pref_general_aspect_ratio_correction_summary">Pabandyti nustatyti nuotraukos kraštinių santykį kopijuojant jį tam, kad tilptu paskirties rėmelis</string>
   <string name="pref_general_transitions">Perėjimai</string>
   <string name="pref_general_transitions_types">Tipai</string>
-  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> iš <xliff:g id="total">%2$d</xliff:g> pasirinktų tipų</string>
+  <string name="pref_general_transitions_types_summary_format">pasirinkta <xliff:g id="selected">%1$d</xliff:g> iš <xliff:g id="total">%2$d</xliff:g> tipų</string>
   <string name="pref_general_transitions_interval">Intervalas</string>
   <string name="pref_general_effects">Efektai</string>
   <string name="pref_general_effects_types">Tipai</string>
-  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> iš <xliff:g id="total">%2$d</xliff:g> pasirinktų vaizdo efektų</string>
+  <string name="pref_general_effects_types_summary_format">pasirinkta <xliff:g id="selected">%1$d</xliff:g> iš <xliff:g id="total">%2$d</xliff:g> vaizdo efektų</string>
   <string name="pref_media">Medija</string>
   <string name="pref_media_summary">Rodomi albumai, atnaujinimo intervalas ir kiti medijos nustatymai</string>
   <string name="pref_media_settings">Nustatymai</string>
@@ -76,10 +76,10 @@
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> vaizdai rodomi <xliff:g id="orientation">%2$s</xliff:g></item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> vaizdų rodoma <xliff:g id="orientation">%2$s</xliff:g></item>
   </plurals>
-  <string name="disposition_orientation_portrait">stačia orientacija</string>
+  <string name="disposition_orientation_portrait">portreto orientacija</string>
   <string name="disposition_orientation_landscape">gulsčia orientacija</string>
-  <string name="pref_disposition_description">Ilgai bakstelėkite kadrą ir vilkite, paleiskite kraštus.\nBraukite kairėn ir dešinėn norėdami parodyti apibrėžtus šablonus</string>
-  <string name="pref_disposition_template">Šablonas <xliff:g id="number_of_template">%1$s</xliff:g> of <xliff:g id="total_of_templates">%2$s</xliff:g></string>
+  <string name="pref_disposition_description">Ilgai bakstelėkite kadrą ir vilkite, paleiskite kraštus.\nBraukite kairėn ir dešinėn, kad praodytumėte apibrėžtus šablonus</string>
+  <string name="pref_disposition_template">Šablonas <xliff:g id="number_of_template">%1$s</xliff:g> iš <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Nepavyko ištrinti pasirinkto rėmelio</string>
   <string name="pref_about">Apie</string>
   <string name="pref_about_summary">„PhotoPhase“ v<xliff:g id="version">%1$s</xliff:g>\nAutorinės teisės \u00A9 2014 „CyanogenMod“ projektas</string>
@@ -120,7 +120,7 @@
   <string name="effects_negative">Negatyvas</string>
   <string name="effects_outline">Kontūras</string>
   <string name="effects_pixelate">Išryškinti pikselius</string>
-  <string name="effects_popart">Pop menas</string>
+  <string name="effects_popart">Popso menas</string>
   <string name="effects_posterize">Posterizacija</string>
   <string name="effects_saturate">Sotis</string>
   <string name="effects_scanlines">Eilučių skleistinės</string>
