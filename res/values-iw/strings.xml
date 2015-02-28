@@ -16,9 +16,9 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_description">PhotoPhase רקע חי</string>
+  <string name="app_description">רקע חי PhotoPhase</string>
   <string name="no_pictures_oops_msg">לא נמצאו תמונות</string>
-  <string name="mnu_restore">שחזור</string>
+  <string name="mnu_restore">שחזר</string>
   <string name="mnu_delete">מחק</string>
   <string name="mnu_settings">הגדרות</string>
   <string name="mnu_select_all">בחר הכל</string>
@@ -42,7 +42,7 @@
   <string name="pref_general_touch_action">פעולה במגע</string>
   <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> כשנוגעים בתמונה</string>
   <string name="pref_general_aspect_ratio_correction">יחס גובה-רוחב</string>
-  <string name="pref_general_aspect_ratio_correction_summary">נסה לתקן יחס רוחב-אורך של תמונה על ידי חיתוכה עבור התאמה למסגרת</string>
+  <string name="pref_general_aspect_ratio_correction_summary">נסה לתקן את יחס גובה-רוחב של התמונה על ידי חיתוכה על מנת להתאימה למסגרת היעד</string>
   <string name="pref_general_transitions">מעברים</string>
   <string name="pref_general_transitions_types">סוגים</string>
   <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> מ-<xliff:g id="total">%2$d</xliff:g> סוגים נבחרו</string>
@@ -102,31 +102,31 @@
   <string name="transitions_swap">החלפה</string>
   <string name="transitions_translation">מעבר</string>
   <string name="transitions_window">חלון</string>
-  <string name="effects_noeffect">רגיל</string>
-  <string name="effects_autofix">סידור אוטומטי</string>
-  <string name="effects_blur">טשטוש</string>
-  <string name="effects_crossprocess">עבור תהליך</string>
-  <string name="effects_documentary">תיעודי</string>
-  <string name="effects_duotone">Duotone</string>
-  <string name="effects_emboss">אמבוס</string>
-  <string name="effects_fisheye">עין הדג</string>
-  <string name="effects_glow">זוהר</string>
-  <string name="effects_grain">דגן</string>
-  <string name="effects_grayscale">גווני אפור</string>
+  <string name="effects_noeffect">רגיל (Normal)</string>
+  <string name="effects_autofix">תיקון אוטומטי (Autofix)</string>
+  <string name="effects_blur">טשטוש (Blur)</string>
+  <string name="effects_crossprocess">החלפת תהליך (Cross process)</string>
+  <string name="effects_documentary">תיעודי (Documentary)</string>
+  <string name="effects_duotone">דו-טוני (Duotone)</string>
+  <string name="effects_emboss">הבלטה (Emboss)</string>
+  <string name="effects_fisheye">עין הדג (Fisheye)</string>
+  <string name="effects_glow">זוהר (Glow)</string>
+  <string name="effects_grain">מגורען (Grain)</string>
+  <string name="effects_grayscale">גווני אפור (Grayscale)</string>
   <string name="effects_halftone">רשת הדפסה</string>
   <string name="effects_lomoish">Lomo-ish</string>
-  <string name="effects_mirror">מראה</string>
-  <string name="effects_negative">נגטיבי</string>
-  <string name="effects_outline">קו מתאר</string>
-  <string name="effects_pixelate">פיקסליזציה</string>
-  <string name="effects_popart">Pop art</string>
-  <string name="effects_posterize">פוסטריזציה</string>
-  <string name="effects_saturate">רווי</string>
-  <string name="effects_scanlines">קווי סריקה</string>
-  <string name="effects_sepia">ספיה</string>
-  <string name="effects_temperature">טמפרטורה</string>
-  <string name="effects_tint">גוון</string>
-  <string name="effects_vignette">פינות כהות</string>
+  <string name="effects_mirror">מראה (Mirror)</string>
+  <string name="effects_negative">נגטיב (Negative)</string>
+  <string name="effects_outline">קו מתאר (Outline)</string>
+  <string name="effects_pixelate">פיקסליזציה (Pixelate)</string>
+  <string name="effects_popart">פופ ארט (Pop art)</string>
+  <string name="effects_posterize">פוסטריזציה (Posterize)</string>
+  <string name="effects_saturate">רוויה (Saturate)</string>
+  <string name="effects_scanlines">קווי סריקה (Scanlines)</string>
+  <string name="effects_sepia">ספיה (Sepia)</string>
+  <string name="effects_temperature">טמפרטורה (Temperature)</string>
+  <string name="effects_tint">גוון (Tint)</string>
+  <string name="effects_vignette">פינות כהות (Vignette)</string>
   <string name="color_picker_alpha_slider_text">אלפא</string>
   <string name="color_picker_current_text">נוכחי:</string>
   <string name="color_picker_new_text">חדש:</string>
