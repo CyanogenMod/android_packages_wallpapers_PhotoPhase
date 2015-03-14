@@ -69,14 +69,14 @@
   <string name="pref_random_dispositions">Atsitiktinis</string>
   <string name="pref_random_dispositions_summary">Generuoti atsitiktinius išdėstymus pasirinktu intervalu</string>
   <string name="pref_random_dispositions_interval">Intervalas</string>
-  <string name="pref_disposition_portrait">Portreto išdėstymas</string>
+  <string name="pref_disposition_portrait">Status išdėstymas</string>
   <string name="pref_disposition_landscape">Gulsčias išdėstymas</string>
   <plurals name="pref_disposition_summary_format">
     <item quantity="one">1 vaizdas rodomas <xliff:g id="orientation">%2$s</xliff:g></item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> vaizdai rodomi <xliff:g id="orientation">%2$s</xliff:g></item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> vaizdų rodoma <xliff:g id="orientation">%2$s</xliff:g></item>
   </plurals>
-  <string name="disposition_orientation_portrait">portreto orientacija</string>
+  <string name="disposition_orientation_portrait">stati orientacija</string>
   <string name="disposition_orientation_landscape">gulsčia orientacija</string>
   <string name="pref_disposition_description">Ilgai bakstelėkite kadrą ir vilkite, paleiskite kraštus.\nBraukite kairėn ir dešinėn, kad praodytumėte apibrėžtus šablonus</string>
   <string name="pref_disposition_template">Šablonas <xliff:g id="number_of_template">%1$s</xliff:g> iš <xliff:g id="total_of_templates">%2$s</xliff:g></string>
@@ -122,7 +122,7 @@
   <string name="effects_pixelate">Išryškinti pikselius</string>
   <string name="effects_popart">Popso menas</string>
   <string name="effects_posterize">Posterizacija</string>
-  <string name="effects_saturate">Sotis</string>
+  <string name="effects_saturate">Sodrumas</string>
   <string name="effects_scanlines">Eilučių skleistinės</string>
   <string name="effects_sepia">Sepija</string>
   <string name="effects_temperature">Temperatūra</string>
