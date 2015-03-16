@@ -21,7 +21,7 @@
     <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> fotografias</item>
   </plurals>
   <plurals name="msg_media_reload_complete">
-    <item quantity="one">Carregamento mutimédia completo. Foi encontrada 1 fotografia.</item>
-    <item quantity="other">Carregamento mutimédia completo. Foram encontradas <xliff:g id="pictures" example="7">%d</xliff:g> fotografias.</item>
+    <item quantity="one">Carregamento multimédia completo. Foi encontrada 1 fotografia.</item>
+    <item quantity="other">Carregamento multimédia completo. Foram encontradas <xliff:g id="pictures" example="7">%d</xliff:g> fotografias.</item>
   </plurals>
 </resources>
