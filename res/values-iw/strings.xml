@@ -16,13 +16,13 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_description">רקע חי PhotoPhase</string>
+  <string name="app_description">טפט חי PhotoPhase</string>
   <string name="no_pictures_oops_msg">לא נמצאו תמונות</string>
   <string name="mnu_restore">שחזר</string>
   <string name="mnu_delete">מחק</string>
   <string name="mnu_settings">הגדרות</string>
   <string name="mnu_select_all">בחר הכל</string>
-  <string name="mnu_deselect_all">הורד בחירה מכולם</string>
+  <string name="mnu_deselect_all">בטל את כל הבחירות</string>
   <string name="mnu_invert">הפוך</string>
   <string name="mnu_select_album">בחר אלבום</string>
   <string name="mnu_deselect_album">הסר בחירת אלבום</string>
@@ -36,7 +36,7 @@
   <string name="pref_general">כללי</string>
   <string name="pref_general_summary">הגדרות כלליות, אפקטים ומעברים</string>
   <string name="pref_general_settings">הגדרות</string>
-  <string name="pref_general_settings_wallpaper_dim">עימום רקע</string>
+  <string name="pref_general_settings_wallpaper_dim">עמעום טפט</string>
   <string name="pref_general_settings_background_color">צבע רקע</string>
   <string name="pref_general_settings_background_color_summary">הגדר צבע רקע</string>
   <string name="pref_general_touch_action">פעולה במגע</string>
@@ -51,7 +51,7 @@
   <string name="pref_general_effects_types">סוגים</string>
   <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> מ-<xliff:g id="total">%2$d</xliff:g> אפקטי תמונות נבחרו</string>
   <string name="pref_media">מדיה</string>
-  <string name="pref_media_summary">אלבומים שיוצכו, מרווחי עדכון והגדרות מדיה אחרות</string>
+  <string name="pref_media_summary">אלבומים שיוצגו, מרווחי עדכון והגדרות מדיה אחרות</string>
   <string name="pref_media_settings">הגדרות</string>
   <string name="pref_media_settings_refresh_interval">מרווח זמן לרענון</string>
   <string name="pref_media_settings_refresh_interval_disable">חיפוש תמונות חדשות מושבת</string>
@@ -60,7 +60,7 @@
   <string name="pref_media_settings_refresh_now_summary">רענן ידנית מסד נתונים של תמונות</string>
   <string name="pref_media_pictures">תמונות</string>
   <string name="pref_media_albums">אלבומים</string>
-  <string name="pref_media_albums_summary">הגדר את האלבומים והתמונות שיוצגו כרקע</string>
+  <string name="pref_media_albums_summary">הגדר את האלבומים והתמונות שיוצגו על המסך</string>
   <string name="pref_media_auto_select_new">בחירה אלבומים אוטומטית</string>
   <string name="pref_media_auto_select_new_summary">בחר אלבומים חדשים אוטומטית כשמתגלה מדיה חדשה</string>
   <string name="pref_layout">פריסה</string>
