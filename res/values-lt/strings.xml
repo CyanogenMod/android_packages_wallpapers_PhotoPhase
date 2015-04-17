@@ -17,7 +17,7 @@
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_description">„PhotoPhase“ judantys darbalaukio fonai</string>
-  <string name="no_pictures_oops_msg">Nuotraukų nerasta</string>
+  <string name="no_pictures_oops_msg">Atvaizdų nerasta</string>
   <string name="mnu_restore">Atkurti</string>
   <string name="mnu_delete">Ištrinti</string>
   <string name="mnu_settings">Nustatymai</string>
@@ -42,7 +42,7 @@
   <string name="pref_general_touch_action">Lietimo veiksmas</string>
   <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g>, kai liečiamas rėmelis</string>
   <string name="pref_general_aspect_ratio_correction">Kraštinių santykis</string>
-  <string name="pref_general_aspect_ratio_correction_summary">Pabandyti nustatyti nuotraukos kraštinių santykį kopijuojant jį tam, kad tilptu paskirties rėmelis</string>
+  <string name="pref_general_aspect_ratio_correction_summary">Pabandyti nustatyti atvaizdo kraštinių santykį kopijuojant jį tam, kad tilptu paskirties rėmelis</string>
   <string name="pref_general_transitions">Perėjimai</string>
   <string name="pref_general_transitions_types">Tipai</string>
   <string name="pref_general_transitions_types_summary_format">pasirinkta <xliff:g id="selected">%1$d</xliff:g> iš <xliff:g id="total">%2$d</xliff:g> tipų</string>
@@ -54,17 +54,17 @@
   <string name="pref_media_summary">Rodomi albumai, atnaujinimo intervalas ir kiti medijos nustatymai</string>
   <string name="pref_media_settings">Nustatymai</string>
   <string name="pref_media_settings_refresh_interval">Atnaujinimo intervalas</string>
-  <string name="pref_media_settings_refresh_interval_disable">Naujų nuotraukų paieška neleidžiama</string>
-  <string name="pref_media_settings_refresh_interval_summary">Ieškoti naujų nuotraukų kiekvieną <xliff:g id="interval">%1$s</xliff:g></string>
+  <string name="pref_media_settings_refresh_interval_disable">Naujų atvaizdų paieška neleidžiama</string>
+  <string name="pref_media_settings_refresh_interval_summary">Ieškoti naujų atvaizdų kiekvieną <xliff:g id="interval">%1$s</xliff:g></string>
   <string name="pref_media_settings_refresh_now">Atnaujinti dabar</string>
-  <string name="pref_media_settings_refresh_now_summary">Rankiniu būdu atnaujinti nuotraukų duomenų bazes</string>
-  <string name="pref_media_pictures">Nuotraukos</string>
+  <string name="pref_media_settings_refresh_now_summary">Rankiniu būdu atnaujinti atvaizdų duomenų bazes</string>
+  <string name="pref_media_pictures">Atvaizdai</string>
   <string name="pref_media_albums">Albumai</string>
-  <string name="pref_media_albums_summary">Nustatyti albumus ir nuotraukas, kurie bus rodomi darbalaukio fone</string>
+  <string name="pref_media_albums_summary">Nustatyti albumus ir atvaizdus, kurie bus rodomi darbalaukio fone</string>
   <string name="pref_media_auto_select_new">Automatiškai parinkti albumus</string>
   <string name="pref_media_auto_select_new_summary">Automatiškai parinkti naujus albumus, kai įvyksta medijos atradimas</string>
   <string name="pref_layout">Išdėstymas</string>
-  <string name="pref_layout_summary">Nuotraukų pozicija ekrane</string>
+  <string name="pref_layout_summary">Atvaizdų pozicija ekrane</string>
   <string name="pref_layout_disposition">Išdėstymas</string>
   <string name="pref_random_dispositions">Atsitiktinis</string>
   <string name="pref_random_dispositions_summary">Generuoti atsitiktinius išdėstymus pasirinktu intervalu</string>
@@ -72,9 +72,9 @@
   <string name="pref_disposition_portrait">Stačias išdėstymas</string>
   <string name="pref_disposition_landscape">Gulsčias išdėstymas</string>
   <plurals name="pref_disposition_summary_format">
-    <item quantity="one">1 vaizdas rodomas <xliff:g id="orientation">%2$s</xliff:g></item>
-    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> vaizdai rodomi <xliff:g id="orientation">%2$s</xliff:g></item>
-    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> vaizdų rodoma <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="one">1 atvaizdas rodomas <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> atvaizdai rodomi <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> atvaizdų rodoma <xliff:g id="orientation">%2$s</xliff:g></item>
   </plurals>
   <string name="disposition_orientation_portrait">stačia orientacija</string>
   <string name="disposition_orientation_landscape">gulsčia orientacija</string>
@@ -94,9 +94,9 @@
   <string name="touch_actions_open">Atidaryti</string>
   <string name="touch_actions_share">Bendrinti</string>
   <string name="touch_actions_none_summary">Nieko nedaryti</string>
-  <string name="touch_actions_transition_summary">Atlikti vaizdo perėjimą</string>
-  <string name="touch_actions_open_summary">Atidaryti vaizdą</string>
-  <string name="touch_actions_share_summary">Bendrinti vaizdą</string>
+  <string name="touch_actions_transition_summary">Atlikti atvaizdo perėjimą</string>
+  <string name="touch_actions_open_summary">Atidaryti atvaizdą</string>
+  <string name="touch_actions_share_summary">Bendrinti atvaizdą</string>
   <string name="transitions_cube">Kubas</string>
   <string name="transitions_fade">Išnikti</string>
   <string name="transitions_flip">Apversti</string>
@@ -122,7 +122,7 @@
   <string name="effects_pixelate">Išryškinti pikselius</string>
   <string name="effects_popart">Popso menas</string>
   <string name="effects_posterize">Posterizacija</string>
-  <string name="effects_saturate">Sodrumas</string>
+  <string name="effects_saturate">Saturacija</string>
   <string name="effects_scanlines">Eilučių skleistinės</string>
   <string name="effects_sepia">Sepija</string>
   <string name="effects_temperature">Temperatūra</string>
