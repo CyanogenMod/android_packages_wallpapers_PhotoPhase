@@ -16,14 +16,6 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="album_number_of_pictures">
-    <item quantity="one">1 atvaizdas</item>
-    <item quantity="few"><xliff:g id="pictures" example="7">%d</xliff:g> atvaizdai</item>
-    <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> atvaizdų</item>
-  </plurals>
-  <plurals name="msg_media_reload_complete">
-    <item quantity="one">Medijos perkrovimas baigtas. Rastas 1 atvaizdas.</item>
-    <item quantity="few">Medijos perkrovimas baigtas. Rasti <xliff:g id="pictures" example="7">%d</xliff:g> atvaizdai.</item>
-    <item quantity="other">Medijos perkrovimas baigtas. Rasta <xliff:g id="pictures" example="7">%d</xliff:g> atvaizdų.</item>
-  </plurals>
+  <string name="mnu_settings">Cài đặt</string>
+  <string name="pref_general_settings">Cài đặt</string>
 </resources>

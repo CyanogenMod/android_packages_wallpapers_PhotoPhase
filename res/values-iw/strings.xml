@@ -28,21 +28,21 @@
   <string name="mnu_deselect_album">הסר בחירת אלבום</string>
   <string name="format_disabled">מושבת</string>
   <string name="format_rotate_only">בסיבוב</string>
-  <string name="format_seconds">%s שניות.</string>
-  <string name="format_minutes">%s דקות.</string>
-  <string name="format_hours">%s שעות.</string>
-  <string name="format_days">%s ימים.</string>
+  <string name="format_seconds">%s שנ\'</string>
+  <string name="format_minutes">%s דק\'</string>
+  <string name="format_hours">%s ש\'</string>
+  <string name="format_days">%s י\'</string>
   <string name="format_dim">%s%%</string>
   <string name="pref_general">כללי</string>
   <string name="pref_general_summary">הגדרות כלליות, אפקטים ומעברים</string>
   <string name="pref_general_settings">הגדרות</string>
   <string name="pref_general_settings_wallpaper_dim">עמעום טפט</string>
   <string name="pref_general_settings_background_color">צבע רקע</string>
-  <string name="pref_general_settings_background_color_summary">הגדר צבע רקע</string>
+  <string name="pref_general_settings_background_color_summary">הגדר את צבע הרקע</string>
   <string name="pref_general_touch_action">פעולה במגע</string>
   <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> כשנוגעים בתמונה</string>
   <string name="pref_general_aspect_ratio_correction">יחס גובה-רוחב</string>
-  <string name="pref_general_aspect_ratio_correction_summary">נסה לתקן את יחס גובה-רוחב של התמונה על ידי חיתוכה על מנת להתאימה למסגרת היעד</string>
+  <string name="pref_general_aspect_ratio_correction_summary">נסה לתקן את יחס הגובה-רוחב של התמונה על ידי חיתוכה על מנת להתאימה למסגרת היעד</string>
   <string name="pref_general_transitions">מעברים</string>
   <string name="pref_general_transitions_types">סוגים</string>
   <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> מ-<xliff:g id="total">%2$d</xliff:g> סוגים נבחרו</string>

@@ -16,7 +16,6 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_description">PhotoPhase hormairudi bizia</string>
   <string name="no_pictures_oops_msg">Ez da irudirik aurkitu</string>
   <string name="mnu_restore">Berrezarri</string>
   <string name="mnu_delete">Ezabatu</string>
@@ -36,7 +35,6 @@
   <string name="pref_general">Orokorra</string>
   <string name="pref_general_summary">Ezarpen aurreratuak, efektuak eta trantsizioak</string>
   <string name="pref_general_settings">Ezarpenak</string>
-  <string name="pref_general_settings_wallpaper_dim">Hormairudia ilundu</string>
   <string name="pref_general_settings_background_color">Atzeko kolorea</string>
   <string name="pref_general_settings_background_color_summary">Atzeko kolorea ezarri</string>
   <string name="pref_general_touch_action">Sakatzerako ekintza</string>
@@ -60,7 +58,6 @@
   <string name="pref_media_settings_refresh_now_summary">Irudien datu basea eskuz berritu</string>
   <string name="pref_media_pictures">Irudiak</string>
   <string name="pref_media_albums">Albumak</string>
-  <string name="pref_media_albums_summary">Hormairudian erakutsiko diren irudi eta albumak ezarri</string>
   <string name="pref_media_auto_select_new">Albumak automatikoki hautatu</string>
   <string name="pref_media_auto_select_new_summary">Median elementu berriak aurkitzean album berriak automatikoki hautatu</string>
   <string name="pref_layout">Itxura</string>
@@ -77,7 +74,6 @@
   </plurals>
   <string name="disposition_orientation_portrait">Kokapen bertikala</string>
   <string name="disposition_orientation_landscape">Kokapen horizontala</string>
-  <string name="pref_disposition_description">Gelaxka bat sakatu eta bere ertzak mugitu. Ezkerrera eta eskumara irristatu lehenetsitako txantiloiak ikusteko</string>
   <string name="pref_disposition_template"><xliff:g id="total_of_templates">%2$s</xliff:g> -(e)tik <xliff:g id="number_of_template">%1$s</xliff:g>. txantiloia</string>
   <string name="pref_disposition_unable_delete_advise">Ezinezkoa aukeraturiko gelaxka ezabatzea</string>
   <string name="pref_about">Honi buruz</string>
@@ -91,11 +87,11 @@
   <string name="touch_actions_none">Bat ere ez</string>
   <string name="touch_actions_transition">Hurrengo trantsizioa</string>
   <string name="touch_actions_open">Ireki</string>
-  <string name="touch_actions_share">Elkarbanatu</string>
+  <string name="touch_actions_share">Partekatu</string>
   <string name="touch_actions_none_summary">Ez egin ezer</string>
   <string name="touch_actions_transition_summary">Trantsizioa burutu</string>
   <string name="touch_actions_open_summary">Irudia ireki</string>
-  <string name="touch_actions_share_summary">Irudia elkarbanatu</string>
+  <string name="touch_actions_share_summary">Irudia partekatu</string>
   <string name="transitions_cube">Kuboa</string>
   <string name="transitions_fade">Uxatzea</string>
   <string name="transitions_flip">Irauli</string>
@@ -110,7 +106,7 @@
   <string name="effects_duotone">Duotonoa</string>
   <string name="effects_emboss">Nabarmendu</string>
   <string name="effects_fisheye">Arrain begia</string>
-  <string name="effects_glow">Diztira</string>
+  <string name="effects_glow">Dirdira</string>
   <string name="effects_grain">Pikortsua</string>
   <string name="effects_grayscale">Gris eskala</string>
   <string name="effects_halftone">Tono erdia</string>
