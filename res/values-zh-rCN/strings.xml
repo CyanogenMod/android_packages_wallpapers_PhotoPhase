@@ -72,7 +72,7 @@
   <string name="pref_disposition_portrait">纵向布局</string>
   <string name="pref_disposition_landscape">横向布局</string>
   <plurals name="pref_disposition_summary_format">
-    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 张图片 <xliff:g id="orientation">%2$s</xliff:g> 展示</item>
+    <item quantity="other"><xliff:g id="count"><xliff:g id="count">%1$d</xliff:g> 张图片 <xliff:g id="orientation">%2$s</xliff:g> 展示</item>
   </plurals>
   <string name="disposition_orientation_portrait">纵向</string>
   <string name="disposition_orientation_landscape">横向</string>
