@@ -17,13 +17,13 @@
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <plurals name="album_number_of_pictures">
-    <item quantity="one">1 atvaizdas</item>
-    <item quantity="few"><xliff:g id="pictures" example="7">%d</xliff:g> atvaizdai</item>
-    <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> atvaizdų</item>
+    <item quantity="one">1 paveikslėlis</item>
+    <item quantity="few"><xliff:g id="pictures" example="7">%d</xliff:g> paveikslėliai</item>
+    <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> paveikslėlių</item>
   </plurals>
   <plurals name="msg_media_reload_complete">
-    <item quantity="one">Medijos perkrovimas baigtas. Rastas 1 atvaizdas.</item>
-    <item quantity="few">Medijos perkrovimas baigtas. Rasti <xliff:g id="pictures" example="7">%d</xliff:g> atvaizdai.</item>
-    <item quantity="other">Medijos perkrovimas baigtas. Rasta <xliff:g id="pictures" example="7">%d</xliff:g> atvaizdų.</item>
+    <item quantity="one">Medijos perkrovimas baigtas. Rastas 1 paveikslėlis.</item>
+    <item quantity="few">Medijos perkrovimas baigtas. Rasti <xliff:g id="pictures" example="7">%d</xliff:g> paveikslėliai.</item>
+    <item quantity="other">Medijos perkrovimas baigtas. Rasta <xliff:g id="pictures" example="7">%d</xliff:g> paveikslėlių.</item>
   </plurals>
 </resources>
