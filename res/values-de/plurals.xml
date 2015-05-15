@@ -20,4 +20,8 @@
     <item quantity="one">1 Bild</item>
     <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> Bilder</item>
   </plurals>
+  <plurals name="msg_media_reload_complete">
+    <item quantity="one">Aktualisierung der Bilddatenbank abgeschlossen: 1 Bild gefunden.</item>
+    <item quantity="other">Aktualisierung der Bilddatenbank abgeschlossen: <xliff:g id="pictures" example="7">%d</xliff:g> Bilder gefunden.</item>
+  </plurals>
 </resources>

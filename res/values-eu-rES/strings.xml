@@ -21,11 +21,11 @@
   <string name="mnu_restore">Berrezarri</string>
   <string name="mnu_delete">Ezabatu</string>
   <string name="mnu_settings">Ezarpenak</string>
-  <string name="mnu_select_all">Dena aukeratu</string>
-  <string name="mnu_deselect_all">Ezer ez aukeratu</string>
+  <string name="mnu_select_all">Hautatu guztiak</string>
+  <string name="mnu_deselect_all">Desautatu guztiak</string>
   <string name="mnu_invert">Alderantzikatu</string>
-  <string name="mnu_select_album">Albuma aukeratu</string>
-  <string name="mnu_deselect_album">Albuma ez aukeratu</string>
+  <string name="mnu_select_album">Hautatu albuma</string>
+  <string name="mnu_deselect_album">Desautatu albuma</string>
   <string name="format_disabled">Ezgaituta</string>
   <string name="format_rotate_only">Biratzean</string>
   <string name="format_seconds">%s s</string>
@@ -45,7 +45,7 @@
   <string name="pref_general_aspect_ratio_correction_summary">Irudia ebakitzen bere aspektu-erlazioa zuzentzen saiatu, helburuko gelaxkarekin bat etortzeko</string>
   <string name="pref_general_transitions">Trantsizioak</string>
   <string name="pref_general_transitions_types">Motak</string>
-  <string name="pref_general_transitions_types_summary_format"><xliff:g id="total">%2$d</xliff:g> -tik <xliff:g id="selected">%1$d</xliff:g> mota aukeratuta</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="total">%2$d</xliff:g> -tik <xliff:g id="selected">%1$d</xliff:g> mota hautatuta</string>
   <string name="pref_general_transitions_interval">Denbora tartea</string>
   <string name="pref_general_effects">Efektuak</string>
   <string name="pref_general_effects_types">Motak</string>
@@ -79,7 +79,7 @@
   <string name="disposition_orientation_landscape">Kokapen horizontala</string>
   <string name="pref_disposition_description">Gelaxka bat sakatu eta bere ertzak mugitu. Ezkerrera eta eskumara irristatu definitutako txantiloiak ikusteko</string>
   <string name="pref_disposition_template"><xliff:g id="total_of_templates">%2$s</xliff:g> -(e)tik <xliff:g id="number_of_template">%1$s</xliff:g>. txantiloia</string>
-  <string name="pref_disposition_unable_delete_advise">Ezinezkoa aukeraturiko gelaxka ezabatzea</string>
+  <string name="pref_disposition_unable_delete_advise">Ezinezkoa hautaturiko gelaxka ezabatzea</string>
   <string name="pref_about">Honi buruz</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nCopyright \u00A9 2014 The CyanogenMod Project</string>
   <string name="refresh_intervals_disabled">Ezgaituta</string>
@@ -95,7 +95,7 @@
   <string name="touch_actions_none_summary">Ez egin ezer</string>
   <string name="touch_actions_transition_summary">Trantsizioa burutu</string>
   <string name="touch_actions_open_summary">Irudia ireki</string>
-  <string name="touch_actions_share_summary">Irudia partekatu</string>
+  <string name="touch_actions_share_summary">Partekatu irudia</string>
   <string name="transitions_cube">Kuboa</string>
   <string name="transitions_fade">Uxatzea</string>
   <string name="transitions_flip">Irauli</string>
