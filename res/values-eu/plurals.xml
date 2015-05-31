@@ -21,7 +21,7 @@
     <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> irudi</item>
   </plurals>
   <plurals name="msg_media_reload_complete">
-    <item quantity="one">Media arrakastaz birkargatu egin da. Irudi 1 aurkitu da.</item>
-    <item quantity="other">Media arrakastaz birkargatu egin da. <xliff:g id="pictures" example="7">%d</xliff:g> irudi aurkitu dira.</item>
+    <item quantity="one">Media birkargatu da. Irudi 1 aurkitu da.</item>
+    <item quantity="other">Media birkargatu da. <xliff:g id="pictures" example="7">%d</xliff:g> irudi aurkitu dira.</item>
   </plurals>
 </resources>
