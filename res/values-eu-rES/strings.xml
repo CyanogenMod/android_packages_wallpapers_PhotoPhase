@@ -62,7 +62,7 @@
   <string name="pref_media_albums">Albumak</string>
   <string name="pref_media_albums_summary">Ezarri horma-paperan erakutsiko diren album eta irudiak</string>
   <string name="pref_media_auto_select_new">Albumak automatikoki hautatu</string>
-  <string name="pref_media_auto_select_new_summary">Median elementu berriak aurkitzean album berriak automatikoki hautatu</string>
+  <string name="pref_media_auto_select_new_summary">Hautatu automatikoki album berriak medioa aurkitzen denean</string>
   <string name="pref_layout">Itxura</string>
   <string name="pref_layout_summary">Irudien kokalekua pantailan</string>
   <string name="pref_layout_disposition">Kokalekua</string>
