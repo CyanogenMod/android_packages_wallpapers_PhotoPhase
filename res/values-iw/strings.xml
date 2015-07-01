@@ -61,7 +61,7 @@
   <string name="pref_media_pictures">תמונות</string>
   <string name="pref_media_albums">אלבומים</string>
   <string name="pref_media_albums_summary">הגדר את האלבומים והתמונות שיוצגו על המסך</string>
-  <string name="pref_media_auto_select_new">בחירה אלבומים אוטומטית</string>
+  <string name="pref_media_auto_select_new">בחירת אלבומים אוטומטית</string>
   <string name="pref_media_auto_select_new_summary">בחר אלבומים חדשים אוטומטית כשמתגלה מדיה חדשה</string>
   <string name="pref_layout">פריסה</string>
   <string name="pref_layout_summary">מיקום תמונות על המסך</string>
@@ -105,7 +105,7 @@
   <string name="effects_noeffect">רגיל (Normal)</string>
   <string name="effects_autofix">תיקון אוטומטי (Autofix)</string>
   <string name="effects_blur">טשטוש (Blur)</string>
-  <string name="effects_crossprocess">החלפת תהליך (Cross process)</string>
+  <string name="effects_crossprocess">תהליכים חופפים (Cross process)</string>
   <string name="effects_documentary">תיעודי (Documentary)</string>
   <string name="effects_duotone">דו-טוני (Duotone)</string>
   <string name="effects_emboss">הבלטה (Emboss)</string>
@@ -114,7 +114,7 @@
   <string name="effects_grain">מגורען (Grain)</string>
   <string name="effects_grayscale">גווני אפור (Grayscale)</string>
   <string name="effects_halftone">רשת הדפסה</string>
-  <string name="effects_lomoish">Lomo-ish</string>
+  <string name="effects_lomoish">אפקטים מוגזמים (Lomo-ish)</string>
   <string name="effects_mirror">מראה (Mirror)</string>
   <string name="effects_negative">נגטיב (Negative)</string>
   <string name="effects_outline">קו מתאר (Outline)</string>
