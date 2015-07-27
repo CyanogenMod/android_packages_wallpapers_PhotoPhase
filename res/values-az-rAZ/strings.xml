@@ -18,7 +18,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_description">PhotoPhase Canlı Divar Kağızı</string>
   <string name="no_pictures_oops_msg">Şəkil tapılmadı</string>
-  <string name="mnu_restore">Geri yüklə</string>
+  <string name="mnu_restore">Bərpa et</string>
   <string name="mnu_delete">Sil</string>
   <string name="mnu_settings">Tənzimləmələr</string>
   <string name="mnu_select_all">Hamısını seç</string>
@@ -42,13 +42,13 @@
   <string name="pref_general_touch_action">Toxunuş hərəkəti</string>
   <string name="pref_general_touch_action_summary_format">Bir çərçivəyə toxunduğunuzda <xliff:g id="action_summary">%1$s</xliff:g></string>
   <string name="pref_general_aspect_ratio_correction">Tərəflərin nisbəti</string>
-  <string name="pref_general_aspect_ratio_correction_summary">Şəklin çərçivəyə yerləşməsi üçün kəsərək tərəflərin nisbətini düzəltməyə çalışır</string>
+  <string name="pref_general_aspect_ratio_correction_summary">Hədəf çərçivəyə yerləşməsi üçün şəkli kəsərək tərəflərin nisbətini düzəltməyə çalışır</string>
   <string name="pref_general_transitions">Keçidlər</string>
-  <string name="pref_general_transitions_types">Tiplər</string>
-  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> of <xliff:g id="total">%2$d</xliff:g> tip seçildi</string>
+  <string name="pref_general_transitions_types">Növlər</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> növ seçildi</string>
   <string name="pref_general_transitions_interval">Aralıq</string>
   <string name="pref_general_effects">Effektlər</string>
-  <string name="pref_general_effects_types">Tiplər</string>
+  <string name="pref_general_effects_types">Növlər</string>
   <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> təsvir effekti seçildi</string>
   <string name="pref_media">Media</string>
   <string name="pref_media_summary">Göstəriləcək albom, yeniləmə aralığı və digər media tənzimlənmələri</string>
@@ -63,7 +63,7 @@
   <string name="pref_media_albums_summary">Divar kağızında göstəriləcək albom və şəkilləri tənzimləyər</string>
   <string name="pref_media_auto_select_new">Albomları avtomatik seçin</string>
   <string name="pref_media_auto_select_new_summary">Media elementleri tapılanda yeni albomları avtomatik seçər</string>
-  <string name="pref_layout">Nizam</string>
+  <string name="pref_layout">Düzüm</string>
   <string name="pref_layout_summary">Şəkillərin ekranda yerləşdirilməsi</string>
   <string name="pref_layout_disposition">Nizamlama</string>
   <string name="pref_random_dispositions">Təsadüfi</string>
@@ -72,8 +72,8 @@
   <string name="pref_disposition_portrait">Portret nizamlaması</string>
   <string name="pref_disposition_landscape">Mənzərə nizamlaması</string>
   <plurals name="pref_disposition_summary_format">
-    <item quantity="one"><xliff:g id="orientation">%2$s</xliff:g> \'də 1 şəkil göstərilir</item>
-    <item quantity="other"><xliff:g id="orientation">%2$s</xliff:g> \'də <xliff:g id="count">%1$d</xliff:g> şəkil göstərilir</item>
+    <item quantity="one"><xliff:g id="orientation">%2$s</xliff:g> \'də 1 təsvir göstərilir</item>
+    <item quantity="other"><xliff:g id="orientation">%2$s</xliff:g> \'də <xliff:g id="count">%1$d</xliff:g> təsvir göstərilir</item>
   </plurals>
   <string name="disposition_orientation_portrait">şaquli yerləşmə</string>
   <string name="disposition_orientation_landscape">üfüqi yerləşmə</string>
@@ -93,9 +93,9 @@
   <string name="touch_actions_open">Aç</string>
   <string name="touch_actions_share">Paylaş</string>
   <string name="touch_actions_none_summary">Heç bir şey etməz</string>
-  <string name="touch_actions_transition_summary">Təsvir keçidi yerinə yetirər</string>
-  <string name="touch_actions_open_summary">Şəkili aç</string>
-  <string name="touch_actions_share_summary">Şəkili paylaş</string>
+  <string name="touch_actions_transition_summary">Təsvir keçidi yerinə yetirilər</string>
+  <string name="touch_actions_open_summary">Təsvir açılar</string>
+  <string name="touch_actions_share_summary">Təsvir paylaşılar</string>
   <string name="transitions_cube">Kub</string>
   <string name="transitions_fade">Sönmə</string>
   <string name="transitions_flip">Çevir</string>
@@ -111,7 +111,7 @@
   <string name="effects_emboss">Qabart</string>
   <string name="effects_fisheye">Balıq gözü</string>
   <string name="effects_glow">Parlaq</string>
-  <string name="effects_grain">Dənə</string>
+  <string name="effects_grain">Dənəcik</string>
   <string name="effects_grayscale">Boz çaları</string>
   <string name="effects_halftone">Yarım ton</string>
   <string name="effects_lomoish">Lomo-ish</string>

@@ -17,11 +17,15 @@
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <plurals name="album_number_of_pictures">
-    <item quantity="one">1 şəkil</item>
-    <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> şəkil</item>
+    <item quantity="one">1 slika</item>
+    <item quantity="two"><xliff:g id="pictures" example="7">%d</xliff:g> sliki</item>
+    <item quantity="few"><xliff:g id="pictures" example="7">%d</xliff:g> slike</item>
+    <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> slik</item>
   </plurals>
   <plurals name="msg_media_reload_complete">
-    <item quantity="one">Media yenidən yükləndi. %d şəkil tapıldı.</item>
-    <item quantity="other">Media yenidən yükləndi. <xliff:g id="pictures" example="7">%d</xliff:g> şəkil tapıldı.</item>
+    <item quantity="one">Ponovno nalaganje predstavnosti končano. Najdena 1 slika.</item>
+    <item quantity="two">Ponovno nalaganje predstavnosti končano. Najdeni <xliff:g id="pictures" example="7">%d</xliff:g> sliki.</item>
+    <item quantity="few">Ponovno nalaganje predstavnosti končano. Najdene <xliff:g id="pictures" example="7">%d</xliff:g> slike.</item>
+    <item quantity="other">Ponovno nalaganje predstavnosti končano. Najdenih <xliff:g id="pictures" example="7">%d</xliff:g> slik.</item>
   </plurals>
 </resources>
