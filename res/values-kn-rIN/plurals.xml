@@ -17,11 +17,11 @@
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <plurals name="album_number_of_pictures">
-    <item quantity="one">1 şəkil</item>
-    <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> şəkil</item>
+    <item quantity="one">1 ಚಿತ್ರ</item>
+    <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> ಚಿತ್ರಗಳು</item>
   </plurals>
   <plurals name="msg_media_reload_complete">
-    <item quantity="one">Media yenidən yükləndi. %d şəkil tapıldı.</item>
-    <item quantity="other">Media yenidən yükləndi. <xliff:g id="pictures" example="7">%d</xliff:g> şəkil tapıldı.</item>
+    <item quantity="one">ಮಾಧ್ಯಮ ಮರುಲೋಡ್ ಪೂರ್ಣಗೊಂಡಿದೆ. 1 ಚಿತ್ರ ಪತ್ತೆಯಾಗಿದೆ.</item>
+    <item quantity="other">ಮಾಧ್ಯಮ ಮರುಲೋಡ್ ಪೂರ್ಣಗೊಂಡಿದೆ. <xliff:g id="pictures" example="7">%d</xliff:g> ಚಿತ್ರಗಳು ಪತ್ತೆಯಾಗಿದೆ.</item>
   </plurals>
 </resources>
