@@ -16,30 +16,30 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_description">PhotoPhase خلفية حية</string>
-  <string name="no_pictures_oops_msg">لم يتم العثور على صور</string>
+  <string name="app_description">الخلفية الحية PhotoPhase</string>
+  <string name="no_pictures_oops_msg">لم يُعثر على صور</string>
   <string name="mnu_restore">استعادة</string>
   <string name="mnu_delete">حذف</string>
-  <string name="mnu_settings">إعدادات</string>
+  <string name="mnu_settings">الإعدادات</string>
   <string name="mnu_select_all">تحديد الكل</string>
   <string name="mnu_deselect_all">إلغاء تحديد الكل</string>
   <string name="mnu_invert">عكس</string>
   <string name="mnu_select_album">حدد الألبوم</string>
   <string name="mnu_deselect_album">قم بإلغاء تحديد الألبوم</string>
   <string name="format_disabled">معطل</string>
-  <string name="format_rotate_only">على اساس الدوران</string>
-  <string name="format_seconds">%s ثانية.</string>
-  <string name="format_minutes">%s دقيقة.</string>
-  <string name="format_hours">%s ساعة.</string>
-  <string name="format_days">دقيقة %s.</string>
+  <string name="format_rotate_only">عند تغير دوران الجهاز</string>
+  <string name="format_seconds">%s ثا.</string>
+  <string name="format_minutes">%s د.</string>
+  <string name="format_hours">%s سا.</string>
+  <string name="format_days">%s يوم.</string>
   <string name="format_dim">%s%%</string>
   <string name="pref_general">عام</string>
   <string name="pref_general_summary">الإعدادات العامة والتأثيرات والانتقالات</string>
-  <string name="pref_general_settings">إعدادات</string>
-  <string name="pref_general_settings_wallpaper_dim">خلفية قاتمة</string>
+  <string name="pref_general_settings">الإعدادات</string>
+  <string name="pref_general_settings_wallpaper_dim">إعتام الخلفية</string>
   <string name="pref_general_settings_background_color">لون الخلفية</string>
   <string name="pref_general_settings_background_color_summary">تعيين لون الخلفية</string>
-  <string name="pref_general_touch_action">اللمس للإجراء</string>
+  <string name="pref_general_touch_action">الإجراء عند اللمس</string>
   <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> عند لمس الإطار</string>
   <string name="pref_general_aspect_ratio_correction">نسبة العرض إلى الارتفاع</string>
   <string name="pref_general_aspect_ratio_correction_summary">في محاولة لتصحيح نسبة العرض إلى الارتفاع للصورة عن طريق الإقتصاص لتناسب مع إطار الواجهة</string>

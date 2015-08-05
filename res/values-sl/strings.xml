@@ -46,14 +46,14 @@
   <string name="pref_general_transitions">Prehodi</string>
   <string name="pref_general_transitions_types">Vrste</string>
   <string name="pref_general_transitions_types_summary_format">Izbranih <xliff:g id="selected">%1$d</xliff:g> od <xliff:g id="total">%2$d</xliff:g> vrst</string>
-  <string name="pref_general_transitions_interval">Časovni razmik</string>
+  <string name="pref_general_transitions_interval">Razmik</string>
   <string name="pref_general_effects">Učinki</string>
   <string name="pref_general_effects_types">Vrste</string>
   <string name="pref_general_effects_types_summary_format">Izbranih <xliff:g id="selected">%1$d</xliff:g> od <xliff:g id="total">%2$d</xliff:g> učinkov slik</string>
   <string name="pref_media">Predstavnost</string>
   <string name="pref_media_summary">Prikazani albumi, časovni razmik osveževanja in druge nastavitve predstavnosti</string>
   <string name="pref_media_settings">Nastavitve</string>
-  <string name="pref_media_settings_refresh_interval">Časovni razmik osveževanja</string>
+  <string name="pref_media_settings_refresh_interval">Razmik osveževanja</string>
   <string name="pref_media_settings_refresh_interval_disable">Iskanje novih slik je onemogočeno</string>
   <string name="pref_media_settings_refresh_interval_summary">Poišči nove slike vsakih <xliff:g id="interval">%1$s</xliff:g></string>
   <string name="pref_media_settings_refresh_now">Osveži zdaj</string>
@@ -68,7 +68,7 @@
   <string name="pref_layout_disposition">Ureditev</string>
   <string name="pref_random_dispositions">Naključna</string>
   <string name="pref_random_dispositions_summary">Ustvari naključno ureditev v izbranem časovnem razmiku</string>
-  <string name="pref_random_dispositions_interval">Časovni razmik</string>
+  <string name="pref_random_dispositions_interval">Razmik</string>
   <string name="pref_disposition_portrait">Pokončna ureditev</string>
   <string name="pref_disposition_landscape">Ležeča ureditev</string>
   <plurals name="pref_disposition_summary_format">
@@ -82,7 +82,7 @@
   <string name="pref_disposition_description">Pridržite okvir in povlecite in spustite njegove obrobe. Potegnite levo in desno, da prikažete določene predloge</string>
   <string name="pref_disposition_template">Predloga <xliff:g id="number_of_template">%1$s</xliff:g> od <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Izbranega okvirja ni mogoče izbrisati</string>
-  <string name="pref_about">O aplikaciji</string>
+  <string name="pref_about">O programu</string>
   <string name="pref_about_summary">PhotoPhase različice <xliff:g id="version">%1$s</xliff:g>\nAvtorske pravice \u00A9 2014 The CyanogenMod Project</string>
   <string name="refresh_intervals_disabled">Onemogočeno</string>
   <string name="refresh_intervals_1h">1 ura</string>
