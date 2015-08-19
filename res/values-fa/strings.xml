@@ -16,14 +16,119 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_description">کاغذدیواری زنده PhotoPhase</string>
+  <string name="no_pictures_oops_msg">عکسی پیدا نشد</string>
+  <string name="mnu_restore">بازیابی</string>
   <string name="mnu_delete">حذف</string>
+  <string name="mnu_settings">تنظیمات</string>
+  <string name="mnu_select_all">انتخاب همه</string>
+  <string name="mnu_deselect_all">عدم انتخاب همه</string>
+  <string name="mnu_invert">معکوس کردن</string>
+  <string name="mnu_select_album">آلبوم را انتخاب کنید</string>
+  <string name="mnu_deselect_album">آلبوم را از انتخاب خارج کنید</string>
+  <string name="format_disabled">غیرفعال شد</string>
   <string name="format_rotate_only">در چرخش</string>
+  <string name="format_seconds">%s ثانیه.</string>
+  <string name="format_minutes">%s دقیقه.</string>
+  <string name="format_hours">%s ساعت.</string>
+  <string name="format_days">%s روز.</string>
+  <string name="format_dim">%s%%</string>
+  <string name="pref_general">کلی</string>
+  <string name="pref_general_summary">تنظیمات کلی، جلوه ها و نحوه حرکت</string>
+  <string name="pref_general_settings">تنظیمات</string>
   <string name="pref_general_settings_wallpaper_dim">تیرگی کاغذدیواری</string>
+  <string name="pref_general_settings_background_color">رنگ پس‌زمینه</string>
+  <string name="pref_general_settings_background_color_summary">تنظیم رنگ پس زمینه</string>
+  <string name="pref_general_touch_action">عملکرد صفحه لمسی</string>
+  <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> هنگامی که به یک قالب دست می زنید</string>
+  <string name="pref_general_aspect_ratio_correction">نسبت تصویر</string>
+  <string name="pref_general_aspect_ratio_correction_summary">سعی کنید نسبت تصویر را به وسیله ی بریدن و تنظیم آن برای قالب مقصد بهتر کنید</string>
+  <string name="pref_general_transitions">نحوه حرکت</string>
+  <string name="pref_general_transitions_types">انواع</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d </xliff:g> از نوع <xliff:g id="total">%2$d </xliff:g> انتخاب شده</string>
+  <string name="pref_general_transitions_interval">فاصله</string>
   <string name="pref_general_effects">جلوه‌ها</string>
   <string name="pref_general_effects_types">انواع</string>
+  <string name="pref_general_effects_types_summary_format">جلوه <xliff:g id="selected">%1$d </xliff:g> از نوع <xliff:g id="total">%2$d </xliff:g> انتخاب شده</string>
+  <string name="pref_media">رسانه</string>
+  <string name="pref_media_summary">تنظیمات آلبوم های برای نمایش، تازه سازی فاصله ها، و رسانه های دیگر</string>
+  <string name="pref_media_settings">تنظیمات</string>
+  <string name="pref_media_settings_refresh_interval">تازه سازی فاصله</string>
+  <string name="pref_media_settings_refresh_interval_disable">جستجو برای تصاویر جدید غیر فعال است</string>
+  <string name="pref_media_settings_refresh_interval_summary">جستجو برای تصاویر جدید هر <xliff:g id="interval">%1$s </xliff:g></string>
+  <string name="pref_media_settings_refresh_now">تازه سازی</string>
+  <string name="pref_media_settings_refresh_now_summary">دستی بانک اطلاعاتی تصاویر را تازه سازی کن</string>
+  <string name="pref_media_pictures">تصاویر</string>
+  <string name="pref_media_albums">آلبوم‌ها</string>
+  <string name="pref_media_albums_summary">تنظیم آلبوم ها و تصاویری که برای تصویر پس زمینه نمایش داده شوند</string>
+  <string name="pref_media_auto_select_new">انتخاب خودکار آلبوم</string>
+  <string name="pref_media_auto_select_new_summary">وقتی رسانه ی جدیدی پیدا می کنی به طور خودکار آلبوم را انتخاب کن</string>
+  <string name="pref_layout">چیدمان</string>
+  <string name="pref_layout_summary">موقعیت تصویر بر روی صفحه نمایش</string>
+  <string name="pref_layout_disposition">آرایش</string>
+  <string name="pref_random_dispositions">تصادفی</string>
+  <string name="pref_random_dispositions_summary">تولید آرایش تصادفی در فاصله انتخابی</string>
+  <string name="pref_random_dispositions_interval">فاصله</string>
+  <string name="pref_disposition_portrait">آرایش پرتره</string>
   <string name="pref_disposition_landscape">آرایش چشم‌انداز</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> تصویر در <xliff:g id="orientation">%2$s</xliff:g> نمایش داده می شود</item>
+  </plurals>
+  <string name="disposition_orientation_portrait">جهت عمودی</string>
   <string name="disposition_orientation_landscape">جهت افقی</string>
+  <string name="pref_disposition_description">قالب را نگه دارید و بکشید\u2026 و مرز ها را رها کنید. برای نمایش نمونه های تعریف شده به چپ و راست حرکت دهید</string>
+  <string name="pref_disposition_template">نمونه <xliff:g id="number_of_template">%1$s </xliff:g> از <xliff:g id="total_of_templates">%2$s </xliff:g></string>
+  <string name="pref_disposition_unable_delete_advise">قادر به حذف قاب انتخاب شده نیست</string>
+  <string name="pref_about">درباره</string>
   <string name="pref_about_summary">PhotoPhase نسخه<xliff:g id="version">%1$s</xliff:g>\nکپی‌رایت\u00A9 ۲۰۱۴ پروژه سایانوژن‌مود</string>
+  <string name="refresh_intervals_disabled">غیرفعال شد</string>
+  <string name="refresh_intervals_1h">1 ساعت</string>
+  <string name="refresh_intervals_4h">4 ساعت</string>
+  <string name="refresh_intervals_1d">1 روز</string>
+  <string name="refresh_intervals_2d">2 روز</string>
+  <string name="refresh_intervals_1w">1 هفته</string>
+  <string name="touch_actions_none">هیچ کدام</string>
+  <string name="touch_actions_transition">اجرای نحوه حرکت</string>
+  <string name="touch_actions_open">گشودن</string>
+  <string name="touch_actions_share">اشتراک ﮔﺬﺍﺭﯼ</string>
+  <string name="touch_actions_none_summary">کاری نکن</string>
+  <string name="touch_actions_transition_summary">اجرای نحوه حرکت تصویر</string>
+  <string name="touch_actions_open_summary">گشودن تصویر</string>
+  <string name="touch_actions_share_summary">اشتراک گذاری تصویر</string>
+  <string name="transitions_cube">مکعب</string>
+  <string name="transitions_fade">محو شدن</string>
+  <string name="transitions_flip">تلنگر</string>
+  <string name="transitions_swap">جابجایی</string>
+  <string name="transitions_translation">ترجمه</string>
+  <string name="transitions_window">پنجره</string>
   <string name="effects_noeffect">عادی</string>
+  <string name="effects_autofix">تعمیر خودکار</string>
+  <string name="effects_blur">محو سازی</string>
+  <string name="effects_crossprocess">عبور از فرآیند</string>
+  <string name="effects_documentary">مستند</string>
+  <string name="effects_duotone">غلیظ سازی</string>
+  <string name="effects_emboss">برجسته کردن</string>
+  <string name="effects_fisheye">چشم ماهی</string>
+  <string name="effects_glow">درخشش</string>
+  <string name="effects_grain">دانه</string>
+  <string name="effects_grayscale">سیاه و سفید</string>
+  <string name="effects_halftone">سایه نقطه اى</string>
+  <string name="effects_lomoish">Lomo-ish</string>
+  <string name="effects_mirror">آینه</string>
+  <string name="effects_negative">نگاتیو</string>
+  <string name="effects_outline">برون نما</string>
+  <string name="effects_pixelate">پیکسلی شدن</string>
+  <string name="effects_popart">هنر پاپ</string>
+  <string name="effects_posterize">حالت پوستری</string>
+  <string name="effects_saturate">اشباع</string>
+  <string name="effects_scanlines">خط اسکن</string>
+  <string name="effects_sepia">قهوه ای</string>
+  <string name="effects_temperature">دما</string>
+  <string name="effects_tint">رنگ</string>
+  <string name="effects_vignette">شرح کوتاه</string>
+  <string name="color_picker_alpha_slider_text">آلفا</string>
+  <string name="color_picker_current_text">فعلی:</string>
+  <string name="color_picker_new_text">جدید:</string>
+  <string name="color_picker_color">رنگ:</string>
   <string name="changelog_title">لیست تغییرات</string>
 </resources>
