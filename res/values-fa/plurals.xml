@@ -20,6 +20,6 @@
     <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> تصویر</item>
   </plurals>
   <plurals name="msg_media_reload_complete">
-    <item quantity="other">بارگزاری مجدد رسانه تکمیل شد. <xliff:g id="pictures" example="7">%d</xliff:g> تصویر پیدا شد.</item>
+    <item quantity="other">بارگذاری مجدد رسانه تکمیل شد. <xliff:g id="pictures" example="7">%d</xliff:g> تصویر پیدا شد.</item>
   </plurals>
 </resources>

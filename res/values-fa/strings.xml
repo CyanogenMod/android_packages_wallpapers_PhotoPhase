@@ -91,7 +91,7 @@
   <string name="touch_actions_transition">اجرای نحوه حرکت</string>
   <string name="touch_actions_open">باز کردن</string>
   <string name="touch_actions_share">اشتراک ﮔﺬﺍﺭﯼ</string>
-  <string name="touch_actions_none_summary">کاری نکن</string>
+  <string name="touch_actions_none_summary">تغییری نمی‌کند</string>
   <string name="touch_actions_transition_summary">اجرای نحوه حرکت تصویر</string>
   <string name="touch_actions_open_summary">باز کردن تصویر</string>
   <string name="touch_actions_share_summary">اشتراک گذاری تصویر</string>
