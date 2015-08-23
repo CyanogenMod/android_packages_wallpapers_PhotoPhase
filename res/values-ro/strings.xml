@@ -94,7 +94,6 @@
   <string name="touch_actions_open">Deschidere</string>
   <string name="touch_actions_share">Distribuie</string>
   <string name="touch_actions_none_summary">Nu fă nimic</string>
-  <string name="touch_actions_transition_summary">Efectuează tranzița imaginii</string>
   <string name="touch_actions_open_summary">Deschide imaginea</string>
   <string name="touch_actions_share_summary">Partajază imaginea</string>
   <string name="transitions_cube">Cub</string>

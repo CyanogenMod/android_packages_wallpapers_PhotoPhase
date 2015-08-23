@@ -37,8 +37,8 @@
   <string name="pref_general_summary">Ezarpen aurreratuak, efektuak eta trantsizioak</string>
   <string name="pref_general_settings">Ezarpenak</string>
   <string name="pref_general_settings_wallpaper_dim">Horma-papera ilundu</string>
-  <string name="pref_general_settings_background_color">Atzeko kolorea</string>
-  <string name="pref_general_settings_background_color_summary">Ezarri atzeko kolorea</string>
+  <string name="pref_general_settings_background_color">Atzeko planoaren kolorea</string>
+  <string name="pref_general_settings_background_color_summary">Ezarri atzeko planoaren kolorea</string>
   <string name="pref_general_touch_action">Sakatzerako ekintza</string>
   <string name="pref_general_touch_action_summary_format">Irudi bat sakatzean <xliff:g id="action_summary">%1$s</xliff:g></string>
   <string name="pref_general_aspect_ratio_correction">Aspektu-erlazioa</string>
