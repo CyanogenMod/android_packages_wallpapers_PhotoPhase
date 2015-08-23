@@ -23,6 +23,7 @@
   <string name="pref_general_effects_types">انواع</string>
   <string name="pref_disposition_landscape">آرایش چشم‌انداز</string>
   <string name="disposition_orientation_landscape">جهت افقی</string>
+  <string name="touch_actions_none_summary">تغییری نمی‌کند</string>
   <string name="effects_noeffect">عادی</string>
   <string name="changelog_title">لیست تغییرات</string>
 </resources>
