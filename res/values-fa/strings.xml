@@ -42,7 +42,7 @@
   <string name="pref_general_touch_action">عملکرد لمس</string>
   <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> هنگام لمس یک قالب</string>
   <string name="pref_general_aspect_ratio_correction">نسبت تصویر</string>
-  <string name="pref_general_aspect_ratio_correction_summary">سعی کنید نسبت تصویر را به وسیله‌ی بریدن و تنظیم آن برای قالب مقصد بهتر کنید</string>
+  <string name="pref_general_aspect_ratio_correction_summary">سعی کنید نسبت تصویر را با بریدن و تنظیم آن برای قاب مقصد بهتر کنید</string>
   <string name="pref_general_transitions">نحوه حرکت</string>
   <string name="pref_general_transitions_types">انواع</string>
   <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d </xliff:g> از <xliff:g id="total">%2$d </xliff:g> نوع انتخاب شد</string>

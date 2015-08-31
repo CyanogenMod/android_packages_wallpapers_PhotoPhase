@@ -17,9 +17,12 @@
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_description">PhotoPhase 動態牆紙</string>
+  <string name="format_disabled">已停用</string>
   <string name="pref_general_settings_wallpaper_dim">牆紙朦朧</string>
   <string name="pref_general_aspect_ratio_correction_summary">嘗試修復圖片的縱橫比透過裁剪以適合目標幀</string>
   <string name="pref_media_summary">專輯顯示、重新整理間隔和其他媒體設定</string>
+  <string name="pref_media_albums">專輯</string>
+  <string name="refresh_intervals_disabled">已停用</string>
   <string name="effects_scanlines">掃描綫</string>
   <string name="changelog_title">更新日誌</string>
 </resources>
