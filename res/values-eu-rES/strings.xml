@@ -42,7 +42,7 @@
   <string name="pref_general_touch_action">Sakatzerako ekintza</string>
   <string name="pref_general_touch_action_summary_format">Irudi bat sakatzean <xliff:g id="action_summary">%1$s</xliff:g></string>
   <string name="pref_general_aspect_ratio_correction">Aspektu-erlazioa</string>
-  <string name="pref_general_aspect_ratio_correction_summary">Irudia ebakitzen bere aspektu-erlazioa zuzentzen saiatu, helburuko gelaxkarekin bat etortzeko</string>
+  <string name="pref_general_aspect_ratio_correction_summary">Saiatu irudiaren aspektu-erlazioa zuzentzen xede markoarekin bat etortzeko moztuz</string>
   <string name="pref_general_transitions">Trantsizioak</string>
   <string name="pref_general_transitions_types">Motak</string>
   <string name="pref_general_transitions_types_summary_format"><xliff:g id="total">%2$d</xliff:g> -tik <xliff:g id="selected">%1$d</xliff:g> mota hautatuta</string>
