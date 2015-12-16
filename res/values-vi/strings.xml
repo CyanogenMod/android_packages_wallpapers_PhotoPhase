@@ -16,94 +16,18 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_description">Hình nền động PhotoPhase</string>
-  <string name="no_pictures_oops_msg">Không tìm thấy hình ảnh</string>
-  <string name="mnu_restore">Khôi phục</string>
-  <string name="mnu_delete">Xóa</string>
-  <string name="mnu_settings">Cài đặt</string>
-  <string name="mnu_select_all">Chọn tất cả</string>
-  <string name="mnu_deselect_all">Bỏ chọn tất cả</string>
-  <string name="mnu_invert">Đảo ngược</string>
-  <string name="mnu_select_album">Chọn album</string>
-  <string name="mnu_deselect_album">Bỏ chọn album</string>
-  <string name="format_disabled">Tắt</string>
-  <string name="format_rotate_only">Khi xoay màn hình</string>
-  <string name="format_seconds">%s giây.</string>
-  <string name="format_minutes">%s phút.</string>
-  <string name="format_hours">%s giờ.</string>
-  <string name="format_days">%s ngày.</string>
-  <string name="format_dim">%s%%</string>
-  <string name="pref_general">Chung</string>
-  <string name="pref_general_summary">Cài đặt chung, hiệu ứng và chuyển cảnh</string>
-  <string name="pref_general_settings">Cài đặt</string>
-  <string name="pref_general_settings_wallpaper_dim">Hình nền mờ</string>
-  <string name="pref_general_settings_background_color">Màu nền</string>
-  <string name="pref_general_settings_background_color_summary">Đặt màu nền</string>
-  <string name="pref_general_touch_action">Hành động chạm</string>
-  <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> khi chạm vào một khung</string>
-  <string name="pref_general_aspect_ratio_correction">Tỷ lệ khung hình</string>
-  <string name="pref_general_aspect_ratio_correction_summary">Hãy thử sửa tỷ lệ khung hình bằng cách cắt nó để phù hợp với khung đích</string>
-  <string name="pref_general_transitions">Hiệu ứng chuyển đổi</string>
-  <string name="pref_general_transitions_types">Loại</string>
-  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> trong <xliff:g id="total">%2$d</xliff:g> loại đã được chọn</string>
-  <string name="pref_general_transitions_interval">Khoảng thời gian</string>
-  <string name="pref_general_effects">Hiệu ứng</string>
-  <string name="pref_general_effects_types">Loại</string>
-  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> trong <xliff:g id="total">%2$d</xliff:g> hiệu ứng hình ảnh đã được chọn</string>
-  <string name="pref_media">Phương tiện</string>
   <string name="pref_media_summary">Album sẽ được hiển thị, làm mới khoảng thời gian, và các cài đặt phương tiện khác</string>
-  <string name="pref_media_settings">Thiết lập</string>
-  <string name="pref_media_settings_refresh_interval">Làm mới khoảng thời gian</string>
-  <string name="pref_media_settings_refresh_interval_disable">Tìm kiếm hình ảnh mới đã tắt</string>
-  <string name="pref_media_settings_refresh_interval_summary">Tìm kiếm hình ảnh mới mỗi <xliff:g id="interval">%1$s</xliff:g></string>
-  <string name="pref_media_settings_refresh_now">Làm mới ngay</string>
-  <string name="pref_media_settings_refresh_now_summary">Tự làm mới cơ sở dữ liệu hình ảnh</string>
-  <string name="pref_media_pictures">Hình ảnh</string>
-  <string name="pref_media_albums">Album</string>
-  <string name="pref_media_albums_summary">Thiết lập các album và hình ảnh sẽ được hiển thị trên hình nền</string>
-  <string name="pref_media_auto_select_new">Tự động chọn album</string>
   <string name="pref_media_auto_select_new_summary">Tự động chọn album mới khi phát hiện phương tiện</string>
-  <string name="pref_layout">Bố trí</string>
-  <string name="pref_layout_summary">Vị trí của các hình ảnh trên màn hình</string>
-  <string name="pref_layout_disposition">Sắp xếp</string>
-  <string name="pref_random_dispositions">Ngẫu nhiên</string>
   <string name="pref_random_dispositions_summary">Tạo ra sự sắp xếp ngẫu nhiên tại một khoảng thời gian đã chọn</string>
-  <string name="pref_random_dispositions_interval">Khoảng thời gian</string>
-  <string name="pref_disposition_portrait">Sắp xếp dọc</string>
-  <string name="pref_disposition_landscape">Sắp xếp ngang</string>
-  <plurals name="pref_disposition_summary_format">
-    <item quantity="other"><xliff:g id="count">%1$d </xliff:g> hình ảnh được hiển thị trong <xliff:g id="orientation">%2$s </xliff:g></item>
-  </plurals>
   <string name="disposition_orientation_portrait">định hướng dọc</string>
   <string name="disposition_orientation_landscape">định hướng xoay ngang</string>
   <string name="pref_disposition_description">Chạm lâu vào khung và kéo thả \u0026 đường viền. Vuốt trái và phải để hiển thị mẫu đã định</string>
   <string name="pref_disposition_template">Mẫu <xliff:g id="number_of_template">%1$s</xliff:g> / <xliff:g id="total_of_templates">%2$s</xliff:g></string>
-  <string name="pref_disposition_unable_delete_advise">Không thể xoá bỏ khung đã chọn</string>
-  <string name="pref_about">Giới thiệu</string>
-  <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nBản quyền \u00A9 2014 Dự án CyanogenMod</string>
-  <string name="refresh_intervals_disabled">Tắt</string>
-  <string name="refresh_intervals_1h">1 giờ</string>
-  <string name="refresh_intervals_4h">4 giờ</string>
-  <string name="refresh_intervals_1d">1 ngày</string>
-  <string name="refresh_intervals_2d">2 ngày</string>
-  <string name="refresh_intervals_1w">1 tuần</string>
-  <string name="touch_actions_none">Không</string>
   <string name="touch_actions_transition">Thực hiện chuyển đổi</string>
-  <string name="touch_actions_open">Mở</string>
-  <string name="touch_actions_share">Chia sẻ</string>
-  <string name="touch_actions_none_summary">Không làm gì</string>
   <string name="touch_actions_transition_summary">Thực hiện chuyển đổi hình ảnh</string>
-  <string name="touch_actions_open_summary">Mở hình ảnh</string>
-  <string name="touch_actions_share_summary">Chia sẻ hình ảnh</string>
-  <string name="transitions_cube">Lập phương</string>
-  <string name="transitions_fade">Mờ dần</string>
-  <string name="transitions_flip">Lật</string>
   <string name="transitions_swap">Hoán đổi</string>
   <string name="transitions_translation">Biên dịch</string>
-  <string name="transitions_window">Cửa sổ</string>
-  <string name="effects_noeffect">Bình thường</string>
   <string name="effects_autofix">Tự động sửa</string>
-  <string name="effects_blur">Mờ</string>
   <string name="effects_crossprocess">Quy trình chéo</string>
   <string name="effects_documentary">Phim tài liệu</string>
   <string name="effects_duotone">Có hai màu</string>
@@ -114,8 +38,6 @@
   <string name="effects_grayscale">Dải màu xám</string>
   <string name="effects_halftone">Ảnh bán sắc</string>
   <string name="effects_lomoish">Tạo độ mờ ngẫu nhiên</string>
-  <string name="effects_mirror">Gương</string>
-  <string name="effects_negative">Âm tính</string>
   <string name="effects_outline">Bản phác thảo</string>
   <string name="effects_pixelate">Tạo điểm ảnh</string>
   <string name="effects_popart">Nghệ thuật pop</string>
@@ -123,12 +45,6 @@
   <string name="effects_saturate">Bão hòa</string>
   <string name="effects_scanlines">Dòng quét</string>
   <string name="effects_sepia">Nâu đỏ</string>
-  <string name="effects_temperature">Nhiệt độ</string>
   <string name="effects_tint">Màu nhẹ</string>
   <string name="effects_vignette">Họa tiết</string>
-  <string name="color_picker_alpha_slider_text">Giá trị Alpha</string>
-  <string name="color_picker_current_text">Hiện tại:</string>
-  <string name="color_picker_new_text">Mới:</string>
-  <string name="color_picker_color">Màu sắc:</string>
-  <string name="changelog_title">Nhật ký thay đổi</string>
 </resources>
