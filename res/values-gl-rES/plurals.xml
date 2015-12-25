@@ -20,4 +20,8 @@
     <item quantity="one">1 imaxe</item>
     <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> imaxes</item>
   </plurals>
+  <plurals name="msg_media_reload_complete">
+    <item quantity="one">Carga dos medios completada. Atopouse 1 imaxe.</item>
+    <item quantity="other">Carga dos medios completada. Atopáronse <xliff:g id="pictures" example="7">%d</xliff:g> imaxes.</item>
+  </plurals>
 </resources>
