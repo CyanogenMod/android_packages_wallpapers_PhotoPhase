@@ -21,7 +21,7 @@
     <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> resim</item>
   </plurals>
   <plurals name="msg_media_reload_complete">
-    <item quantity="one">Medya ortamı yeniden yüklendi. <xliff:g id="pictures" example="7">%d</xliff:g> resim bulundu.</item>
+    <item quantity="one">Medya ortamı yeniden yüklendi. 1 resim bulundu.</item>
     <item quantity="other">Medya ortamı yeniden yüklendi. <xliff:g id="pictures" example="7">%d</xliff:g> resim bulundu.</item>
   </plurals>
 </resources>
