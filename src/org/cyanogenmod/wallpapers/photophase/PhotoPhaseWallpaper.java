@@ -19,6 +19,7 @@ package org.cyanogenmod.wallpapers.photophase;
 import android.app.ActivityManager;
 import android.app.WallpaperManager;
 import android.content.Context;
+import android.content.Intent;
 import android.opengl.GLSurfaceView;
 import android.opengl.GLSurfaceView.Renderer;
 import android.os.Bundle;
@@ -94,8 +95,17 @@ public class PhotoPhaseWallpaper
      */
     @Override
     public Engine onCreateEngine() {
+        checkPermission();
         mEngine = new PhotoPhaseWallpaperEngine(this);
         return mEngine;
+    }
+
+    private void checkPermission() {
+        if (!RequestPermissionsActivity.hasRequestedPermissions(this)) {
+            startActivity(new Intent(Intent.ACTION_MAIN)
+                    .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                    .setClass(this, RequestPermissionsActivity.class));
+        }
     }
 
     /**
