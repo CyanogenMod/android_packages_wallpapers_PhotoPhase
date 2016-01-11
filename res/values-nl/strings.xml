@@ -63,7 +63,7 @@
   <string name="pref_media_albums_summary">Albums en afbeeldingen selecteren die worden weergegeven op de achtergrond</string>
   <string name="pref_media_auto_select_new">Albums automatisch selecteren</string>
   <string name="pref_media_auto_select_new_summary">Nieuwe albums automatisch selecteren wanneer media ontdekt wordt</string>
-  <string name="pref_layout">Lay-out</string>
+  <string name="pref_layout">Indeling</string>
   <string name="pref_layout_summary">Indeling van afbeeldingen op scherm</string>
   <string name="pref_layout_disposition">Indeling</string>
   <string name="pref_random_dispositions">Willekeurig</string>
