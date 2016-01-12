@@ -50,6 +50,8 @@
   <string name="pref_general_effects">تأثيرات</string>
   <string name="pref_general_effects_types">أنواع</string>
   <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> من <xliff:g id="total">%2$d</xliff:g> تأثيرات الصورة المحددة</string>
+  <string name="pref_media">وسائط</string>
+  <string name="pref_media_summary">الألبومات المراد عرضها، قم بتحديث الفاصل، وإعدادات الوسائط الأخرى</string>
   <string name="pref_media_settings">إعدادات</string>
   <string name="pref_media_settings_refresh_interval">الفاصل الزمني للتحديث</string>
   <string name="pref_media_settings_refresh_interval_disable">البحث عن صور جديدة في حالة تعطيل</string>
@@ -57,8 +59,81 @@
   <string name="pref_media_settings_refresh_now">تحديث الآن</string>
   <string name="pref_media_settings_refresh_now_summary">تحديث قاعدة بيانات الصور يدوياً</string>
   <string name="pref_media_pictures">الصور</string>
+  <string name="pref_media_albums">الألبومات</string>
+  <string name="pref_media_albums_summary">تعيين الألبومات والصور التي سيتم عرضها في خلفية الشاشة</string>
+  <string name="pref_media_auto_select_new">تحديد ألبومات تلقائياً</string>
   <string name="pref_media_auto_select_new_summary">تحديد ألبومات جديدة تلقائياً عند الكشف عن الوسائط</string>
   <string name="pref_layout">تخطيط</string>
   <string name="pref_layout_summary">تحديد موقع الصور على الشاشة</string>
   <string name="pref_layout_disposition">ترتيب</string>
+  <string name="pref_random_dispositions">عشوائي</string>
+  <string name="pref_random_dispositions_summary">إنشاء ترتيبات عشوائية في فاصل مختار</string>
+  <string name="pref_random_dispositions_interval">فاصل</string>
+  <string name="pref_disposition_portrait">ترتيب عمودي</string>
+  <string name="pref_disposition_landscape">ترتيب أفقي</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="zero"><xliff:g id="count">%1$d</xliff:g> صورة تظهر في العرض<xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="one">1 صورة في العرض <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="two"><xliff:g id="count">%1$d</xliff:g> صور تظهر في العرض <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> صور تظهر في العرض <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="many"><xliff:g id="count">%1$d</xliff:g> صور تظهر في العرض <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> صور تظهر في العرض <xliff:g id="orientation">%2$s</xliff:g></item>
+  </plurals>
+  <string name="disposition_orientation_portrait">إتجاه عمودي</string>
+  <string name="disposition_orientation_landscape">إتجاه أفقي</string>
+  <string name="pref_disposition_description">إضغط وإسحب الإطار لفترة طويلة \u0026وأسقطه على الحواف. قم بالتبديل لليسار واليمين لإظهار قوالب محددة</string>
+  <string name="pref_disposition_template">قالب <xliff:g id="number_of_template">%1$s</xliff:g> من<xliff:g id="total_of_templates">%2$s</xliff:g></string>
+  <string name="pref_disposition_unable_delete_advise">يتعذر حذف الإطار المحدد</string>
+  <string name="pref_about">حول</string>
+  <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nحقوق النشر والتأليف \u00A9 2014 The CyanogenMod Project</string>
+  <string name="refresh_intervals_disabled">تعطيل</string>
+  <string name="refresh_intervals_1h">ساعة 1</string>
+  <string name="refresh_intervals_4h">4 ساعات</string>
+  <string name="refresh_intervals_1d">1 يوم</string>
+  <string name="refresh_intervals_2d">2 يوم</string>
+  <string name="refresh_intervals_1w">أسبوع 1</string>
+  <string name="touch_actions_none">بلا</string>
+  <string name="touch_actions_transition">تنفيذ الإنتقال</string>
+  <string name="touch_actions_open">فتح</string>
+  <string name="touch_actions_share">مشاركة</string>
+  <string name="touch_actions_none_summary">لا تفعل شيئا</string>
+  <string name="touch_actions_transition_summary">تنفيذ إنتقال الصورة</string>
+  <string name="touch_actions_open_summary">فتح الصورة</string>
+  <string name="touch_actions_share_summary">مشاركة الصورة</string>
+  <string name="transitions_cube">مكعب</string>
+  <string name="transitions_fade">تلاشي</string>
+  <string name="transitions_flip">لف</string>
+  <string name="transitions_swap">تبديل</string>
+  <string name="transitions_translation">الترجمة</string>
+  <string name="transitions_window">إطار</string>
+  <string name="effects_noeffect">عادي</string>
+  <string name="effects_autofix">تصحيح تلقائي</string>
+  <string name="effects_blur">عدم وضوح</string>
+  <string name="effects_crossprocess">عبر عملية</string>
+  <string name="effects_documentary">وثائقي</string>
+  <string name="effects_duotone">نغمة ثنائية</string>
+  <string name="effects_emboss">مزخرف</string>
+  <string name="effects_fisheye">سمكي</string>
+  <string name="effects_glow">توهج</string>
+  <string name="effects_grain">حبوب</string>
+  <string name="effects_grayscale">تدرج الرمادي</string>
+  <string name="effects_halftone">الألوان النصفية</string>
+  <string name="effects_lomoish">إخضرار</string>
+  <string name="effects_mirror">مرآة</string>
+  <string name="effects_negative">سلبي</string>
+  <string name="effects_outline">مخطط تفصيلي</string>
+  <string name="effects_pixelate">تقطيع</string>
+  <string name="effects_popart">فن شعبي</string>
+  <string name="effects_posterize">تتالي</string>
+  <string name="effects_saturate">تشبع</string>
+  <string name="effects_scanlines">خطوط المسح</string>
+  <string name="effects_sepia">بني داكن</string>
+  <string name="effects_temperature">درجة الحرارة</string>
+  <string name="effects_tint">لون خفيف</string>
+  <string name="effects_vignette">تدرج الإضاءة</string>
+  <string name="color_picker_alpha_slider_text">ألفا</string>
+  <string name="color_picker_current_text">الحالي:</string>
+  <string name="color_picker_new_text">الجديد:</string>
+  <string name="color_picker_color">لون:</string>
+  <string name="changelog_title">سجل التغيير</string>
 </resources>

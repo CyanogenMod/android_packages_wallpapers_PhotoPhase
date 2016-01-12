@@ -65,8 +65,10 @@
   <string name="pref_media_auto_select_new_summary">Ortam ögeleri bulunduğunda yeni albümleri otomatik seçer</string>
   <string name="pref_layout">Düzen</string>
   <string name="pref_layout_summary">Resimlerin ekrandaki konumlandırılmaları</string>
+  <string name="pref_layout_disposition">Düzenleme</string>
   <string name="pref_random_dispositions">Rastgele</string>
   <string name="pref_random_dispositions_summary">Seçilen süre aralığında rastgele düzenlemeler oluşturur</string>
+  <string name="pref_random_dispositions_interval">Düzenleme aralığı</string>
   <string name="pref_disposition_portrait">Portre düzenlemesi</string>
   <string name="pref_disposition_landscape">Manzara düzenlemesi</string>
   <plurals name="pref_disposition_summary_format">
@@ -83,6 +85,8 @@
   <string name="refresh_intervals_disabled">Devre dışı</string>
   <string name="refresh_intervals_1h">1 saat</string>
   <string name="refresh_intervals_4h">4 saat</string>
+  <string name="refresh_intervals_1d">1 gün</string>
+  <string name="refresh_intervals_2d">2 gün</string>
   <string name="refresh_intervals_1w">1 hafta</string>
   <string name="touch_actions_none">Hiçbiri</string>
   <string name="touch_actions_transition">Geçişi uygula</string>
@@ -100,6 +104,9 @@
   <string name="transitions_window">Pencere</string>
   <string name="effects_noeffect">Normal</string>
   <string name="effects_autofix">Otomatik ayarla</string>
+  <string name="effects_blur">Bulanık</string>
+  <string name="effects_crossprocess">Çapraz işlem</string>
+  <string name="effects_documentary">Belgesel</string>
   <string name="effects_duotone">Çift ton</string>
   <string name="effects_emboss">Kabart</string>
   <string name="effects_fisheye">Balıkgözü</string>
@@ -108,13 +115,21 @@
   <string name="effects_grayscale">Gri tonlama</string>
   <string name="effects_halftone">Noktalı resim</string>
   <string name="effects_lomoish">Lomo-ish</string>
+  <string name="effects_mirror">Ayna</string>
+  <string name="effects_negative">Negatif</string>
   <string name="effects_outline">Anahat</string>
   <string name="effects_pixelate">Pikselleştir</string>
   <string name="effects_popart">Pop art</string>
+  <string name="effects_posterize">Posterleştir</string>
+  <string name="effects_saturate">Doymuş</string>
   <string name="effects_scanlines">Tarama çizgileri</string>
   <string name="effects_sepia">Sepya</string>
   <string name="effects_temperature">Sıcaklık</string>
+  <string name="effects_tint">Renk tonu</string>
+  <string name="effects_vignette">Skeç</string>
   <string name="color_picker_alpha_slider_text">Alfa</string>
   <string name="color_picker_current_text">Şimdiki:</string>
   <string name="color_picker_new_text">Yeni:</string>
+  <string name="color_picker_color">Renk:</string>
+  <string name="changelog_title">Değişiklik kaydı</string>
 </resources>
