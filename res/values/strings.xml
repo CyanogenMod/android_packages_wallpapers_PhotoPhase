@@ -27,7 +27,7 @@
     <string name="no_pictures_oops_msg">No pictures found</string>
 
     <!-- runtime permission warning -->
-    <string name="runtime_permission_warning">The application can not run without permission to read the external storage.</string>
+    <string name="runtime_permission_warning">The app cannot run without permission to read the external storage.</string>
 
     <!-- Menus -->
     <string name="mnu_ok" translatable="false">@android:string/ok</string>
