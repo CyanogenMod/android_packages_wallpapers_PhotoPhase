@@ -18,6 +18,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_description">Slika ozadja PhotoPhase Live</string>
   <string name="no_pictures_oops_msg">Ni najdenih slik</string>
+  <string name="runtime_permission_warning">Ta aplikacija ne deluje brez dovoljenja za branje zunanje pomnilniške naprave.</string>
   <string name="mnu_restore">Obnovi</string>
   <string name="mnu_delete">Izbriši</string>
   <string name="mnu_settings">Nastavitve</string>

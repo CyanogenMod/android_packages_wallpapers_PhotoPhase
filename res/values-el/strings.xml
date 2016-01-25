@@ -18,6 +18,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_description">Ζωντανή ταπετσαρία PhotoPhase</string>
   <string name="no_pictures_oops_msg">Δεν βρέθηκαν εικόνες</string>
+  <string name="runtime_permission_warning">Η εφαρμογή δεν μπορεί να λειτουργήσει χωρίς άδεια ανάγνωσης του εξωτερικού αποθ. χώρου.</string>
   <string name="mnu_restore">Επαναφορά</string>
   <string name="mnu_delete">Διαγραφή</string>
   <string name="mnu_settings">Ρυθμίσεις</string>
