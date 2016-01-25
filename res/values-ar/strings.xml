@@ -71,6 +71,14 @@
   <string name="pref_random_dispositions_interval">فاصل</string>
   <string name="pref_disposition_portrait">ترتيب عمودي</string>
   <string name="pref_disposition_landscape">ترتيب أفقي</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="zero"><xliff:g id="count">%1$d</xliff:g> صورة تظهر في العرض<xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="one">1 صورة في العرض <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="two"><xliff:g id="count">%1$d</xliff:g> صور تظهر في العرض <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> صور تظهر في العرض <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="many"><xliff:g id="count">%1$d</xliff:g> صور تظهر في العرض <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> صور تظهر في العرض <xliff:g id="orientation">%2$s</xliff:g></item>
+  </plurals>
   <string name="disposition_orientation_portrait">إتجاه عمودي</string>
   <string name="disposition_orientation_landscape">إتجاه أفقي</string>
   <string name="pref_disposition_description">إضغط وإسحب الإطار لفترة طويلة \u0026وأسقطه على الحواف. قم بالتبديل لليسار واليمين لإظهار قوالب محددة</string>
