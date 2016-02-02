@@ -18,6 +18,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_description">PhotoPhase Live Baggrund</string>
   <string name="no_pictures_oops_msg">Ingen billeder fundet</string>
+  <string name="runtime_permission_warning">Denne app kan ikke køre uden tilladelse til at læse den eksterne lagerplads.</string>
   <string name="mnu_restore">Gendan</string>
   <string name="mnu_delete">Slet</string>
   <string name="mnu_settings">Indstillinger</string>

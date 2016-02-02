@@ -18,6 +18,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_description">Живые обои PhotoPhase</string>
   <string name="no_pictures_oops_msg">Фотографии не найдены</string>
+  <string name="runtime_permission_warning">Приложение не может работать без разрешения на чтение для внешнего накопителя.</string>
   <string name="mnu_restore">Восстановить</string>
   <string name="mnu_delete">Удалить</string>
   <string name="mnu_settings">Настройки</string>

@@ -18,6 +18,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_description">PhotoPhase Levande bakgrundsbild</string>
   <string name="no_pictures_oops_msg">Inga bilder hittades</string>
+  <string name="runtime_permission_warning">Appen kan inte köras utan behörighet att läsa extern lagring.</string>
   <string name="mnu_restore">Återställ</string>
   <string name="mnu_delete">Ta bort</string>
   <string name="mnu_settings">Inställningar</string>

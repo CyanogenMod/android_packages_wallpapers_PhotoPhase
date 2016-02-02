@@ -18,6 +18,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_description">Animowana tapeta PhotoPhase</string>
   <string name="no_pictures_oops_msg">Nie znaleziono zdjęć</string>
+  <string name="runtime_permission_warning">Aplikacja nie może zostać uruchomiona bez uprawnień do zapisu w pamięci zewnętrznej.</string>
   <string name="mnu_restore">Przywróć</string>
   <string name="mnu_delete">Usuń</string>
   <string name="mnu_settings">Ustawienia</string>

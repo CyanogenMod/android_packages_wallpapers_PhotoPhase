@@ -18,6 +18,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_description">PhotoPhase Live-taustakuva</string>
   <string name="no_pictures_oops_msg">Kuvia ei löytynyt</string>
+  <string name="runtime_permission_warning">Sovellusta ei voida suorittaa ilman lupaa lukea ulkoista tallennustilaa.</string>
   <string name="mnu_restore">Palauta</string>
   <string name="mnu_delete">Poista</string>
   <string name="mnu_settings">Asetukset</string>
