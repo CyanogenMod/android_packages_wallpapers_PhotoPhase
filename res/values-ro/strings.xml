@@ -18,6 +18,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_description">Imagine de fundal PhotoPhase</string>
   <string name="no_pictures_oops_msg">Nicio imagine găsită</string>
+  <string name="runtime_permission_warning">Aplicația nu poate rula fără permisiunea de citire a stocării externe.</string>
   <string name="mnu_restore">Restaurează</string>
   <string name="mnu_delete">Șterge</string>
   <string name="mnu_settings">Setări</string>
