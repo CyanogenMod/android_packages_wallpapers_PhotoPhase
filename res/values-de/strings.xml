@@ -18,6 +18,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_description">PhotoPhase Live-Hintergrund</string>
   <string name="no_pictures_oops_msg">Keine Bilder gefunden</string>
+  <string name="runtime_permission_warning">Diese App kann nicht ohne Berechtigung zum Lesen des externen Speichers ausgeführt werden.</string>
   <string name="mnu_restore">Wiederherstellen</string>
   <string name="mnu_delete">Löschen</string>
   <string name="mnu_settings">Einstellungen</string>
@@ -54,7 +55,7 @@
   <string name="pref_media_summary">Verwendete Alben, Aktualisierungsintervall und andere Medieneinstellungen</string>
   <string name="pref_media_settings">Einstellungen</string>
   <string name="pref_media_settings_refresh_interval">Aktualisierungsintervall</string>
-  <string name="pref_media_settings_refresh_interval_disable">Die Suche nach neuen Bildern ist deaktiviert</string>
+  <string name="pref_media_settings_refresh_interval_disable">Die Suche nach neuen Bildern ist deaktiviert.</string>
   <string name="pref_media_settings_refresh_interval_summary">Alle <xliff:g id="interval">%1$s</xliff:g> nach neuen Bildern suchen</string>
   <string name="pref_media_settings_refresh_now">Jetzt aktualisieren</string>
   <string name="pref_media_settings_refresh_now_summary">Bilddatenbank manuell aktualisieren</string>
@@ -77,7 +78,7 @@
   </plurals>
   <string name="disposition_orientation_portrait">Hochformat</string>
   <string name="disposition_orientation_landscape">Querformat</string>
-  <string name="pref_disposition_description">Rahmen gedrückt halten und Kanten verschieben, um die Größe zu verändern.\nNach rechts und links wischen, um voreingestellte Vorlagen zu verwenden</string>
+  <string name="pref_disposition_description">Rahmen gedrückt halten und Kanten verschieben, um die Größe zu verändern.\nNach rechts und links wischen, um voreingestellte Vorlagen anzuzeigen.</string>
   <string name="pref_disposition_template">Vorlage <xliff:g id="number_of_template">%1$s</xliff:g> von <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Ausgewählter Rahmen kann nicht gelöscht werden</string>
   <string name="pref_about">Über</string>
@@ -108,7 +109,7 @@
   <string name="effects_crossprocess">Crossentwicklung</string>
   <string name="effects_documentary">Dokumentarfilm</string>
   <string name="effects_duotone">Duotone</string>
-  <string name="effects_emboss">Prägen</string>
+  <string name="effects_emboss">Prägung</string>
   <string name="effects_fisheye">Fischauge</string>
   <string name="effects_glow">Leuchten</string>
   <string name="effects_grain">Körnen</string>
