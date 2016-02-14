@@ -18,6 +18,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_description">PhotoPhase interactieve achtergrond</string>
   <string name="no_pictures_oops_msg">Geen afbeeldingen gevonden</string>
+  <string name="runtime_permission_warning">De app werkt niet zonder machtiging om de externe opslag te lezen.</string>
   <string name="mnu_restore">Herstellen</string>
   <string name="mnu_delete">Verwijderen</string>
   <string name="mnu_settings">Instellingen</string>
