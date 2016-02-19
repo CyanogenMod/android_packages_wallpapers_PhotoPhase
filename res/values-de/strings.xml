@@ -54,14 +54,14 @@
   <string name="pref_media_summary">Verwendete Alben, Aktualisierungsintervall und andere Medieneinstellungen</string>
   <string name="pref_media_settings">Einstellungen</string>
   <string name="pref_media_settings_refresh_interval">Aktualisierungsintervall</string>
-  <string name="pref_media_settings_refresh_interval_disable">Die Suche nach neuen Bildern ist deaktiviert</string>
+  <string name="pref_media_settings_refresh_interval_disable">Die Suche nach neuen Bildern ist deaktiviert.</string>
   <string name="pref_media_settings_refresh_interval_summary">Alle <xliff:g id="interval">%1$s</xliff:g> nach neuen Bildern suchen</string>
   <string name="pref_media_settings_refresh_now">Jetzt aktualisieren</string>
   <string name="pref_media_settings_refresh_now_summary">Bilddatenbank manuell aktualisieren</string>
   <string name="pref_media_pictures">Bilder</string>
   <string name="pref_media_albums">Alben</string>
   <string name="pref_media_albums_summary">Alben und Bilder, die als Hintergrund angezeigt werden sollen</string>
-  <string name="pref_media_auto_select_new">Alben automatisch wählen</string>
+  <string name="pref_media_auto_select_new">Alben automatisch auswählen</string>
   <string name="pref_media_auto_select_new_summary">Neue Alben automatisch auswählen, wenn neue Medien erkannt werden</string>
   <string name="pref_layout">Layout</string>
   <string name="pref_layout_summary">Platzierung von Bildern auf dem Bildschirm</string>
@@ -72,12 +72,12 @@
   <string name="pref_disposition_portrait">Anordnung im Hochformat</string>
   <string name="pref_disposition_landscape">Anordnung im Querformat</string>
   <plurals name="pref_disposition_summary_format">
-    <item quantity="one">1 Bild wird im <xliff:g id="orientation">%2$s</xliff:g> angezeigt</item>
-    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Bilder werden im <xliff:g id="orientation">%2$s</xliff:g> angezeigt</item>
+    <item quantity="one">1 Bild wird im <xliff:g id="orientation">%2$s</xliff:g> angezeigt.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Bilder werden im <xliff:g id="orientation">%2$s</xliff:g> angezeigt.</item>
   </plurals>
   <string name="disposition_orientation_portrait">Hochformat</string>
   <string name="disposition_orientation_landscape">Querformat</string>
-  <string name="pref_disposition_description">Rahmen gedrückt halten und Kanten verschieben, um die Größe zu verändern.\nNach rechts und links wischen, um voreingestellte Vorlagen zu verwenden</string>
+  <string name="pref_disposition_description">Rahmen gedrückt halten und Kanten verschieben, um die Größe zu verändern.\nNach rechts und links wischen, um voreingestellte Vorlagen anzuzeigen.</string>
   <string name="pref_disposition_template">Vorlage <xliff:g id="number_of_template">%1$s</xliff:g> von <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Ausgewählter Rahmen kann nicht gelöscht werden</string>
   <string name="pref_about">Über</string>
@@ -108,7 +108,7 @@
   <string name="effects_crossprocess">Crossentwicklung</string>
   <string name="effects_documentary">Dokumentarfilm</string>
   <string name="effects_duotone">Duotone</string>
-  <string name="effects_emboss">Prägen</string>
+  <string name="effects_emboss">Prägung</string>
   <string name="effects_fisheye">Fischauge</string>
   <string name="effects_glow">Leuchten</string>
   <string name="effects_grain">Körnen</string>
@@ -128,7 +128,7 @@
   <string name="effects_tint">Farbton</string>
   <string name="effects_vignette">Vignette</string>
   <string name="color_picker_alpha_slider_text">Deckkraft</string>
-  <string name="color_picker_current_text">Momentan:</string>
+  <string name="color_picker_current_text">Aktuell:</string>
   <string name="color_picker_new_text">Neu:</string>
   <string name="color_picker_color">Farbe:</string>
   <string name="changelog_title">Änderungsprotokoll</string>
