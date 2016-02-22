@@ -62,7 +62,7 @@
   <string name="pref_media_pictures">Bilder</string>
   <string name="pref_media_albums">Alben</string>
   <string name="pref_media_albums_summary">Alben und Bilder, die als Hintergrund angezeigt werden sollen</string>
-  <string name="pref_media_auto_select_new">Alben automatisch wählen</string>
+  <string name="pref_media_auto_select_new">Alben automatisch auswählen</string>
   <string name="pref_media_auto_select_new_summary">Neue Alben automatisch auswählen, wenn neue Medien erkannt werden</string>
   <string name="pref_layout">Layout</string>
   <string name="pref_layout_summary">Platzierung von Bildern auf dem Bildschirm</string>
@@ -129,7 +129,7 @@
   <string name="effects_tint">Farbton</string>
   <string name="effects_vignette">Vignette</string>
   <string name="color_picker_alpha_slider_text">Deckkraft</string>
-  <string name="color_picker_current_text">Momentan:</string>
+  <string name="color_picker_current_text">Aktuell:</string>
   <string name="color_picker_new_text">Neu:</string>
   <string name="color_picker_color">Farbe:</string>
   <string name="changelog_title">Änderungsprotokoll</string>

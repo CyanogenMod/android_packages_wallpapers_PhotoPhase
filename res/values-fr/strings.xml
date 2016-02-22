@@ -39,7 +39,7 @@
   <string name="pref_general_settings_wallpaper_dim">Transparence du fond d\'écran</string>
   <string name="pref_general_settings_background_color">Couleur d\'arrière-plan</string>
   <string name="pref_general_settings_background_color_summary">Régler la couleur d\'arrière-plan</string>
-  <string name="pref_general_touch_action">Action à l\'appui</string>
+  <string name="pref_general_touch_action">Action appuyer</string>
   <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> en touchant une image</string>
   <string name="pref_general_aspect_ratio_correction">Format de l\'image</string>
   <string name="pref_general_aspect_ratio_correction_summary">Essayer de corriger la proportion de l\'image en la recadrant pour l\'adapter au cadre de destination</string>
@@ -57,7 +57,7 @@
   <string name="pref_media_settings_refresh_interval_disable">La recherche de nouvelles images est désactivée</string>
   <string name="pref_media_settings_refresh_interval_summary">Rechercher de nouvelles images chaque <xliff:g id="interval">%1$s</xliff:g></string>
   <string name="pref_media_settings_refresh_now">Actualiser maintenant</string>
-  <string name="pref_media_settings_refresh_now_summary">Actualiser manuellement la base de donnée d\'image</string>
+  <string name="pref_media_settings_refresh_now_summary">Actualiser manuellement la base de donnée d\'images</string>
   <string name="pref_media_pictures">Images</string>
   <string name="pref_media_albums">Albums</string>
   <string name="pref_media_albums_summary">Choisir les albums et les images qui s\'afficheront en fond d\'écran</string>
@@ -67,7 +67,7 @@
   <string name="pref_layout_summary">Positionnement des images sur l\'écran</string>
   <string name="pref_layout_disposition">Disposition</string>
   <string name="pref_random_dispositions">Aléatoire</string>
-  <string name="pref_random_dispositions_summary">Générer des dispositions aléatoires à un intervalle choisis</string>
+  <string name="pref_random_dispositions_summary">Générer des dispositions aléatoires à un intervalle choisi</string>
   <string name="pref_random_dispositions_interval">Intervalle</string>
   <string name="pref_disposition_portrait">Disposition en portrait</string>
   <string name="pref_disposition_landscape">Disposition en paysage</string>
