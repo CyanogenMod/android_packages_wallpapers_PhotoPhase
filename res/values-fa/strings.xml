@@ -16,8 +16,13 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">کاغذدیواری زنده PhotoPhase</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">تصویری پیدا نشد</string>
+  <!-- runtime permission warning -->
+  <!-- Menus -->
   <string name="mnu_restore">بازیابی</string>
   <string name="mnu_delete">حذف</string>
   <string name="mnu_settings">تنظیمات</string>
@@ -26,6 +31,7 @@
   <string name="mnu_invert">معکوس کردن</string>
   <string name="mnu_select_album">انتخاب آلبوم</string>
   <string name="mnu_deselect_album">عدم انتخاب آلبوم</string>
+  <!-- Formats -->
   <string name="format_disabled">غیرفعال</string>
   <string name="format_rotate_only">در چرخش</string>
   <string name="format_seconds">%s ثانیه.</string>
@@ -33,6 +39,7 @@
   <string name="format_hours">%s ساعت.</string>
   <string name="format_days">%s روز.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">عمومي</string>
   <string name="pref_general_summary">تنظیمات کلی، جلوه‌ها و نحوه حرکت</string>
   <string name="pref_general_settings">تنظیمات</string>
@@ -76,17 +83,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">جهت عمودی</string>
   <string name="disposition_orientation_landscape">جهت افقی</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">روی یک قاب لمس طولانی کرده و گوشه‌های آن را بگیرید و بکشید. برای نمایش نمونه‌های تعریف شده به چپ و راست بکشید</string>
   <string name="pref_disposition_template">نمونه <xliff:g id="number_of_template">%1$s </xliff:g> از <xliff:g id="total_of_templates">%2$s </xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">قادر به حذف قاب انتخاب شده نیست</string>
   <string name="pref_about">درباره</string>
   <string name="pref_about_summary">PhotoPhase نسخه<xliff:g id="version">%1$s</xliff:g>\nکپی‌رایت\u00A9 ۲۰۱۴ پروژه سایانوژن‌مود</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">غیرفعال</string>
   <string name="refresh_intervals_1h">۱ ساعت</string>
   <string name="refresh_intervals_4h">۴ ساعت</string>
   <string name="refresh_intervals_1d">۱ روز</string>
   <string name="refresh_intervals_2d">۲ روز</string>
   <string name="refresh_intervals_1w">۱ هفته</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">هیچ‌کدام</string>
   <string name="touch_actions_transition">اجرای نحوه حرکت</string>
   <string name="touch_actions_open">باز کردن</string>
@@ -95,12 +105,14 @@
   <string name="touch_actions_transition_summary">اجرای نحوه حرکت تصویر</string>
   <string name="touch_actions_open_summary">باز کردن تصویر</string>
   <string name="touch_actions_share_summary">اشتراک گذاری تصویر</string>
+  <!-- Transitions -->
   <string name="transitions_cube">مکعب</string>
   <string name="transitions_fade">محو شدن</string>
   <string name="transitions_flip">تلنگر</string>
   <string name="transitions_swap">جابجایی</string>
   <string name="transitions_translation">انتقال</string>
   <string name="transitions_window">پنجره</string>
+  <!-- Effects -->
   <string name="effects_noeffect">عادی</string>
   <string name="effects_autofix">تعمیر خودکار</string>
   <string name="effects_blur">محوسازی</string>
@@ -126,9 +138,11 @@
   <string name="effects_temperature">دما</string>
   <string name="effects_tint">رنگ</string>
   <string name="effects_vignette">شرح کوتاه</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">آلفا</string>
   <string name="color_picker_current_text">فعلی:</string>
   <string name="color_picker_new_text">جدید:</string>
   <string name="color_picker_color">رنگ:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">لیست تغییرات</string>
 </resources>

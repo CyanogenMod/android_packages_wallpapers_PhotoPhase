@@ -16,8 +16,13 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">PhotoPhase Live Wallpaper</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Tidak ada gambar yang ditemukan</string>
+  <!-- runtime permission warning -->
+  <!-- Menus -->
   <string name="mnu_restore">Kembalikan</string>
   <string name="mnu_delete">Hapus</string>
   <string name="mnu_settings">Pengaturan</string>
@@ -26,6 +31,7 @@
   <string name="mnu_invert">Balikkan</string>
   <string name="mnu_select_album">Pilih album</string>
   <string name="mnu_deselect_album">Batalkan pilihan album</string>
+  <!-- Formats -->
   <string name="format_disabled">Non-aktif</string>
   <string name="format_rotate_only">Pada rotasi</string>
   <string name="format_seconds">%s det.</string>
@@ -33,6 +39,7 @@
   <string name="format_hours">%s j.</string>
   <string name="format_days">%s h.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">Umum</string>
   <string name="pref_general_summary">Pengaturan umum, efek dan transisi</string>
   <string name="pref_general_settings">Pengaturan</string>
@@ -76,17 +83,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">orientasi potret</string>
   <string name="disposition_orientation_landscape">orientasi lanskap</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Tekan lama bingkai dan tarik \u0026 menjatuhkan perbatasannya. Geser ke kiri dan kanan untuk menampilkan template yang didefinisikan</string>
   <string name="pref_disposition_template">Template <xliff:g id="number_of_template">%1$s</xliff:g> dari <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Tidak dapat menghapus bingkai yang dipilih</string>
   <string name="pref_about">Tentang</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nHak cipta \u00A9 2014 The CyanogenMod Project</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Dinonaktifkan</string>
   <string name="refresh_intervals_1h">1 jam</string>
   <string name="refresh_intervals_4h">4 jam</string>
   <string name="refresh_intervals_1d">1 hari</string>
   <string name="refresh_intervals_2d">2 hari</string>
   <string name="refresh_intervals_1w">1 minggu</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Tidak ada</string>
   <string name="touch_actions_transition">Lakukan transisi</string>
   <string name="touch_actions_open">Buka</string>
@@ -95,12 +105,14 @@
   <string name="touch_actions_transition_summary">Lakukan transisi gambar</string>
   <string name="touch_actions_open_summary">Buka gambar</string>
   <string name="touch_actions_share_summary">Bagikan gambar</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Kubus</string>
   <string name="transitions_fade">Memudar</string>
   <string name="transitions_flip">Membalik</string>
   <string name="transitions_swap">Menukar</string>
   <string name="transitions_translation">Translasi</string>
   <string name="transitions_window">Jendela</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Normal</string>
   <string name="effects_autofix">Perbaikan Otomatis</string>
   <string name="effects_blur">Mengaburkan</string>
@@ -126,9 +138,11 @@
   <string name="effects_temperature">Temperatur</string>
   <string name="effects_tint">Warna</string>
   <string name="effects_vignette">Sketsa</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Alfa</string>
   <string name="color_picker_current_text">Saat ini:</string>
   <string name="color_picker_new_text">Baru:</string>
   <string name="color_picker_color">Warna:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Daftar perubahan</string>
 </resources>

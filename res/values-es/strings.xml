@@ -16,8 +16,13 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">Fondo de pantalla animado PhotoPhase</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">No se han encontrado imágenes</string>
+  <!-- runtime permission warning -->
+  <!-- Menus -->
   <string name="mnu_restore">Restaurar</string>
   <string name="mnu_delete">Eliminar</string>
   <string name="mnu_settings">Ajustes</string>
@@ -26,6 +31,7 @@
   <string name="mnu_invert">Invertir</string>
   <string name="mnu_select_album">Seleccionar álbum</string>
   <string name="mnu_deselect_album">Cancelar la selección del álbum</string>
+  <!-- Formats -->
   <string name="format_disabled">Desactivado</string>
   <string name="format_rotate_only">En rotación</string>
   <string name="format_seconds">%s seg.</string>
@@ -33,6 +39,7 @@
   <string name="format_hours">%s h.</string>
   <string name="format_days">%s d.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">General</string>
   <string name="pref_general_summary">Ajustes generales, efectos y transiciones</string>
   <string name="pref_general_settings">Ajustes</string>
@@ -77,17 +84,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">orientación vertical</string>
   <string name="disposition_orientation_landscape">disposición horizontal</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Presiona una celda y arrastra sus bordes. Desliza a izquierda y derecha para ver plantillas predefinidas</string>
   <string name="pref_disposition_template">Plantilla <xliff:g id="number_of_template">%1$s</xliff:g> de <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">No es posible borrar la celda seleccionada</string>
   <string name="pref_about">Acerca de</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nCopyright \u00A9 2014 The CyanogenMod Project</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Desactivado</string>
   <string name="refresh_intervals_1h">1 hora</string>
   <string name="refresh_intervals_4h">4 horas</string>
   <string name="refresh_intervals_1d">1 día</string>
   <string name="refresh_intervals_2d">2 días</string>
   <string name="refresh_intervals_1w">1 semana</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Ninguno</string>
   <string name="touch_actions_transition">Efectuar transición</string>
   <string name="touch_actions_open">Abrir</string>
@@ -96,12 +106,14 @@
   <string name="touch_actions_transition_summary">Efectuar la transición</string>
   <string name="touch_actions_open_summary">Abrir la imagen</string>
   <string name="touch_actions_share_summary">Compartir la imagen</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Cubo</string>
   <string name="transitions_fade">Desvanecer</string>
   <string name="transitions_flip">Voltear</string>
   <string name="transitions_swap">Intercambiar</string>
   <string name="transitions_translation">Traducción</string>
   <string name="transitions_window">Ventana</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Normal</string>
   <string name="effects_autofix">Autocorrección</string>
   <string name="effects_blur">Desenfocar</string>
@@ -127,9 +139,11 @@
   <string name="effects_temperature">Temperatura</string>
   <string name="effects_tint">Tinte</string>
   <string name="effects_vignette">Viñeta</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Transparencia</string>
   <string name="color_picker_current_text">Actual:</string>
   <string name="color_picker_new_text">Nuevo:</string>
   <string name="color_picker_color">Color:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Registro de cambios</string>
 </resources>

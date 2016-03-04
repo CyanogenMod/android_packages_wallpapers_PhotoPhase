@@ -16,9 +16,14 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">טפט חי PhotoPhase</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">לא נמצאו תמונות</string>
+  <!-- runtime permission warning -->
   <string name="runtime_permission_warning">היישום אינו יכול לרוץ ללא הרשאה לקריאת האחסון החיצוני.</string>
+  <!-- Menus -->
   <string name="mnu_restore">שחזר</string>
   <string name="mnu_delete">מחק</string>
   <string name="mnu_settings">הגדרות</string>
@@ -27,6 +32,7 @@
   <string name="mnu_invert">הפוך</string>
   <string name="mnu_select_album">בחר אלבום</string>
   <string name="mnu_deselect_album">הסר בחירת אלבום</string>
+  <!-- Formats -->
   <string name="format_disabled">מושבת</string>
   <string name="format_rotate_only">בסיבוב</string>
   <string name="format_seconds">%s שנ\'</string>
@@ -34,6 +40,7 @@
   <string name="format_hours">%s ש\'</string>
   <string name="format_days">%s י\'</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">כללי</string>
   <string name="pref_general_summary">הגדרות כלליות, אפקטים ומעברים</string>
   <string name="pref_general_settings">הגדרות</string>
@@ -78,17 +85,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">כיוון עומד</string>
   <string name="disposition_orientation_landscape">כיוון שוכב</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">לחיצה ארוכה ומשיכה \u0026 הסר את הגבולות.\nהחלק ימינה כדי להציג תבניות מוגדרות</string>
   <string name="pref_disposition_template">התבנית <xliff:g id="number_of_template">%1$s</xliff:g> מ-<xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">אין אפשרות למחוק את המסגרת שנבחרה</string>
   <string name="pref_about">אודות</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nזכויות  \u00A9 2014 פרויקט ה-CyanogenMod</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">מושבת</string>
   <string name="refresh_intervals_1h">שעה אחת</string>
   <string name="refresh_intervals_4h">4 שעות</string>
   <string name="refresh_intervals_1d">יום אחד</string>
   <string name="refresh_intervals_2d">2 ימים</string>
   <string name="refresh_intervals_1w">שבוע אחד</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">ללא</string>
   <string name="touch_actions_transition">ביצוע המעבר</string>
   <string name="touch_actions_open">פתח</string>
@@ -97,12 +107,14 @@
   <string name="touch_actions_transition_summary">בצע מעבר תמונה</string>
   <string name="touch_actions_open_summary">פתח תמונה</string>
   <string name="touch_actions_share_summary">שתף תמונה</string>
+  <!-- Transitions -->
   <string name="transitions_cube">קוביה</string>
   <string name="transitions_fade">עמעום</string>
   <string name="transitions_flip">היפוך</string>
   <string name="transitions_swap">החלפה</string>
   <string name="transitions_translation">מעבר</string>
   <string name="transitions_window">חלון</string>
+  <!-- Effects -->
   <string name="effects_noeffect">רגיל</string>
   <string name="effects_autofix">תיקון אוטומטי</string>
   <string name="effects_blur">טשטוש</string>
@@ -128,9 +140,11 @@
   <string name="effects_temperature">טמפרטורה</string>
   <string name="effects_tint">גוון</string>
   <string name="effects_vignette">פינות כהות</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">אלפא</string>
   <string name="color_picker_current_text">נוכחי:</string>
   <string name="color_picker_new_text">חדש:</string>
   <string name="color_picker_color">צבע:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">רשימת שינויים</string>
 </resources>

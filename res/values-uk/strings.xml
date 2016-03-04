@@ -16,9 +16,14 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">PhotoPhase живі шпалери</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Зображень не знайдено</string>
+  <!-- runtime permission warning -->
   <string name="runtime_permission_warning">Програма не може працювати без дозволу на запис для зовнішнього накопичувача.</string>
+  <!-- Menus -->
   <string name="mnu_restore">Відновити</string>
   <string name="mnu_delete">Вилучити</string>
   <string name="mnu_settings">Налаштування</string>
@@ -27,6 +32,7 @@
   <string name="mnu_invert">Інвертувати</string>
   <string name="mnu_select_album">Виберіть альбом</string>
   <string name="mnu_deselect_album">Зняти виділення з альбому</string>
+  <!-- Formats -->
   <string name="format_disabled">Вимкнено</string>
   <string name="format_rotate_only">При обертанні</string>
   <string name="format_seconds">%s сек.</string>
@@ -34,6 +40,7 @@
   <string name="format_hours">%s год.</string>
   <string name="format_days">%s д.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">Загальні</string>
   <string name="pref_general_summary">Загальні налаштування, ефекти і переходи</string>
   <string name="pref_general_settings">Налаштування</string>
@@ -79,17 +86,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">портретна орієнтація</string>
   <string name="disposition_orientation_landscape">альбомна орієнтація</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Утримуйте рамку і перетягніть її межі. Проведіть вліво або вправо для відображення шаблонів</string>
   <string name="pref_disposition_template">Шаблон <xliff:g id="number_of_template">%1$s</xliff:g> із <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Неможливо видалити вибраний кадр</string>
   <string name="pref_about">Про</string>
   <string name="pref_about_summary">PhotoPhase, версія <xliff:g id="version">%1$s</xliff:g>\n\u00A9 Проект CyanogenMod, 2014</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Вимкнено</string>
   <string name="refresh_intervals_1h">1 година</string>
   <string name="refresh_intervals_4h">4 години</string>
   <string name="refresh_intervals_1d">1 день</string>
   <string name="refresh_intervals_2d">2 дні</string>
   <string name="refresh_intervals_1w">1 тиждень</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Немає</string>
   <string name="touch_actions_transition">Виконати перехід</string>
   <string name="touch_actions_open">Відкрити</string>
@@ -98,12 +108,14 @@
   <string name="touch_actions_transition_summary">Виконати перехід зображення</string>
   <string name="touch_actions_open_summary">Відкрити зображення</string>
   <string name="touch_actions_share_summary">Поширити зображення</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Куб</string>
   <string name="transitions_fade">Затухання</string>
   <string name="transitions_flip">Переворот</string>
   <string name="transitions_swap">Заміна</string>
   <string name="transitions_translation">Переклад</string>
   <string name="transitions_window">Вікно</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Звичайний</string>
   <string name="effects_autofix">Автовиправлення</string>
   <string name="effects_blur">Розмиття</string>
@@ -129,9 +141,11 @@
   <string name="effects_temperature">Температура</string>
   <string name="effects_tint">Відтінок</string>
   <string name="effects_vignette">Віньєтка</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Альфа</string>
   <string name="color_picker_current_text">Поточний:</string>
   <string name="color_picker_new_text">Новий:</string>
   <string name="color_picker_color">Колір:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Список змін</string>
 </resources>

@@ -16,8 +16,13 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">फ़ोटोफ़ेस सजीव वॉलपेपर</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">कोई चित्र नहीं मिले</string>
+  <!-- runtime permission warning -->
+  <!-- Menus -->
   <string name="mnu_restore">बहाल करें</string>
   <string name="mnu_delete">हटाएँ</string>
   <string name="mnu_settings">सेटिंग</string>
@@ -26,6 +31,7 @@
   <string name="mnu_invert">पलटें</string>
   <string name="mnu_select_album">एल्बम चुनें</string>
   <string name="mnu_deselect_album">एल्बम को अचयनित करें</string>
+  <!-- Formats -->
   <string name="format_disabled">अक्षम किया गया</string>
   <string name="format_rotate_only">घुमाने पर</string>
   <string name="format_seconds">%s सेकंड</string>
@@ -33,6 +39,7 @@
   <string name="format_hours">%s घंटे</string>
   <string name="format_days">%s दि.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">सामान्य</string>
   <string name="pref_general_summary">सामान्य सेटिंग, प्रभाव और संक्रमण</string>
   <string name="pref_general_settings">सेटिंग</string>
@@ -77,17 +84,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">पोर्ट्रेट ओरिएंटेशन</string>
   <string name="disposition_orientation_landscape">लैंडस्केप ओरिएंटेशन</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">देर तक फ़्रेम को टैप करें और उसके किनारों को खींचें\u0026 और डालें। परिभाषित टेंप्लेट दर्शाने के लिए बाएँ और दाएँ स्वाइप करें</string>
   <string name="pref_disposition_template">टेंप्लेट <xliff:g id="number_of_template">%1$s</xliff:g>, कुल <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">चुने गए फ़्रेम को हटा नहीं सके</string>
   <string name="pref_about">संक्षिप्त परिचय</string>
   <string name="pref_about_summary">फ़ोटोफ़ेस v<xliff:g id="version">%1$s</xliff:g>\nकॉपीराइट \u00A9 2014 सियानोजेनमोड परियोजना</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">अक्षम</string>
   <string name="refresh_intervals_1h">1 घंटा</string>
   <string name="refresh_intervals_4h">4 घंटे</string>
   <string name="refresh_intervals_1d">1 दिन</string>
   <string name="refresh_intervals_2d">2 दिन</string>
   <string name="refresh_intervals_1w">1 सप्ताह</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">कोई नहीं</string>
   <string name="touch_actions_transition">संक्रमण करें</string>
   <string name="touch_actions_open">खोलें</string>
@@ -96,12 +106,14 @@
   <string name="touch_actions_transition_summary">छवि संक्रमण करें</string>
   <string name="touch_actions_open_summary">छवि को खोलें</string>
   <string name="touch_actions_share_summary">छवि को साझा करें</string>
+  <!-- Transitions -->
   <string name="transitions_cube">घन</string>
   <string name="transitions_fade">फीका करें</string>
   <string name="transitions_flip">पलटें</string>
   <string name="transitions_swap">अदला-बदली करें</string>
   <string name="transitions_translation">अनुवाद</string>
   <string name="transitions_window">विंडो</string>
+  <!-- Effects -->
   <string name="effects_noeffect">सामान्य</string>
   <string name="effects_autofix">स्वतः ठीक करें</string>
   <string name="effects_blur">धुँधला करें</string>
@@ -127,9 +139,11 @@
   <string name="effects_temperature">तापमान</string>
   <string name="effects_tint">टिंट</string>
   <string name="effects_vignette">विग्नेट</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">अल्फ़ा</string>
   <string name="color_picker_current_text">वर्तमान:</string>
   <string name="color_picker_new_text">नया:</string>
   <string name="color_picker_color">रंग:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">परिवर्तन लॉग</string>
 </resources>
