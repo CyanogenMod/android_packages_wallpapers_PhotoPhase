@@ -16,8 +16,13 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">Živá tapeta PhotoPhase</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Nenašli sa žiadne obrázky</string>
+  <!-- runtime permission warning -->
+  <!-- Menus -->
   <string name="mnu_restore">Obnoviť</string>
   <string name="mnu_delete">Vymazať</string>
   <string name="mnu_settings">Nastavenia</string>
@@ -26,6 +31,7 @@
   <string name="mnu_invert">Invertovať</string>
   <string name="mnu_select_album">Vybrať album</string>
   <string name="mnu_deselect_album">Zrušiť výber albumu</string>
+  <!-- Formats -->
   <string name="format_disabled">Zakázané</string>
   <string name="format_rotate_only">Pri otáčaní</string>
   <string name="format_seconds">%s sek.</string>
@@ -33,6 +39,7 @@
   <string name="format_hours">%s h.</string>
   <string name="format_days">%s d.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">Všeobecné</string>
   <string name="pref_general_summary">Všeobecné nastavenia, efekty a prechody</string>
   <string name="pref_general_settings">Nastavenia</string>
@@ -78,17 +85,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">orientácia na výšku</string>
   <string name="disposition_orientation_landscape">orientácia na šírku</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Dlho stlačte rám a chyťte \u0026 pustite jeho hranice. Potiahnite vľavo a vpravo pre zobrazenie definovanej šablóny</string>
   <string name="pref_disposition_template">Šablóna <xliff:g id="number_of_template">%1$s</xliff:g> of <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Nemožno vymazať vybraný rám</string>
   <string name="pref_about">O aplikácii</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nAutorské práva \u00A9 2014 The CyanogenMod Project</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Zakázané</string>
   <string name="refresh_intervals_1h">1 hodina</string>
   <string name="refresh_intervals_4h">4 hodiny</string>
   <string name="refresh_intervals_1d">1 deň</string>
   <string name="refresh_intervals_2d">2 dni</string>
   <string name="refresh_intervals_1w">1 týždeň</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Žiadna</string>
   <string name="touch_actions_transition">Vykonať prechod</string>
   <string name="touch_actions_open">Otvoriť</string>
@@ -97,12 +107,14 @@
   <string name="touch_actions_transition_summary">Vykonávať obrázkový prechod</string>
   <string name="touch_actions_open_summary">Otvoriť obrázok</string>
   <string name="touch_actions_share_summary">Zdieľať obrázok</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Kocka</string>
   <string name="transitions_fade">Miznutie</string>
   <string name="transitions_flip">Preklopenie</string>
   <string name="transitions_swap">Výmena</string>
   <string name="transitions_translation">Preklad</string>
   <string name="transitions_window">Okno</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Normálne</string>
   <string name="effects_autofix">Automatická oprava</string>
   <string name="effects_blur">Rozmazanie</string>
@@ -128,9 +140,11 @@
   <string name="effects_temperature">Teplota</string>
   <string name="effects_tint">Odtieň</string>
   <string name="effects_vignette">Medailónik</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Alfa</string>
   <string name="color_picker_current_text">Súčasná:</string>
   <string name="color_picker_new_text">Nová:</string>
   <string name="color_picker_color">Farba:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Zoznam zmien</string>
 </resources>

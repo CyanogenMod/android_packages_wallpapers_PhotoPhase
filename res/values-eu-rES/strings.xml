@@ -16,9 +16,14 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">PhotoPhase horma-paper bizia</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Ez da irudirik aurkitu</string>
+  <!-- runtime permission warning -->
   <string name="runtime_permission_warning">Aplikazioa ez dabil kanpo biltegiratzea irakurtzeko baimenik gabe.</string>
+  <!-- Menus -->
   <string name="mnu_restore">Berrezarri</string>
   <string name="mnu_delete">Ezabatu</string>
   <string name="mnu_settings">Ezarpenak</string>
@@ -27,6 +32,7 @@
   <string name="mnu_invert">Alderantzikatu</string>
   <string name="mnu_select_album">Hautatu albuma</string>
   <string name="mnu_deselect_album">Desautatu albuma</string>
+  <!-- Formats -->
   <string name="format_disabled">Ezgaituta</string>
   <string name="format_rotate_only">Biratzean</string>
   <string name="format_seconds">%s s</string>
@@ -34,6 +40,7 @@
   <string name="format_hours">%s h</string>
   <string name="format_days">%s eg.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">Orokorra</string>
   <string name="pref_general_summary">Ezarpen aurreratuak, efektuak eta trantsizioak</string>
   <string name="pref_general_settings">Ezarpenak</string>
@@ -78,17 +85,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">Kokaleku bertikala</string>
   <string name="disposition_orientation_landscape">Kokaleku horizontala</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Luze sakatu gelaxka eta bere ertzak mugitu. Pasatu hatza ezkerrera eta eskumara definitutako txantiloiak ikusteko</string>
   <string name="pref_disposition_template"><xliff:g id="total_of_templates">%2$s</xliff:g> -(e)tik <xliff:g id="number_of_template">%1$s</xliff:g>. txantiloia</string>
   <string name="pref_disposition_unable_delete_advise">Ezin izan da hautatutako gelaxka ezabatu</string>
   <string name="pref_about">Honi buruz</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nCopyright \u00A9 2014 The CyanogenMod Project</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Ezgaituta</string>
   <string name="refresh_intervals_1h">Ordu 1</string>
   <string name="refresh_intervals_4h">4 ordu</string>
   <string name="refresh_intervals_1d">Egun 1</string>
   <string name="refresh_intervals_2d">2 egun</string>
   <string name="refresh_intervals_1w">Aste 1</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Bat ere ez</string>
   <string name="touch_actions_transition">Hurrengo trantsizioa</string>
   <string name="touch_actions_open">Ireki</string>
@@ -97,12 +107,14 @@
   <string name="touch_actions_transition_summary">Trantsizioa burutu</string>
   <string name="touch_actions_open_summary">Irudia ireki</string>
   <string name="touch_actions_share_summary">Partekatu irudia</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Kuboa</string>
   <string name="transitions_fade">Uxatzea</string>
   <string name="transitions_flip">Irauli</string>
   <string name="transitions_swap">Elkartrukatu</string>
   <string name="transitions_translation">Traslazioa</string>
   <string name="transitions_window">Leihoa</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Arrunta</string>
   <string name="effects_autofix">Autodoiketa</string>
   <string name="effects_blur">Desenfokatu</string>
@@ -128,9 +140,11 @@
   <string name="effects_temperature">Tenperatura</string>
   <string name="effects_tint">Tindaketa</string>
   <string name="effects_vignette">Bineta</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Gardentasuna</string>
   <string name="color_picker_current_text">Unekoa:</string>
   <string name="color_picker_new_text">Berria:</string>
   <string name="color_picker_color">Kolorea:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Aldaketa-egunkaria</string>
 </resources>

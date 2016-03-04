@@ -16,9 +16,14 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">PhotoPhase Animirana Pozadina</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Nema pronađenih slika</string>
+  <!-- runtime permission warning -->
   <string name="runtime_permission_warning">Aplikacija se ne može pokrenuti bez dozvole za čitanje vanjske pohrane.</string>
+  <!-- Menus -->
   <string name="mnu_restore">Vraćanje</string>
   <string name="mnu_delete">Obriši</string>
   <string name="mnu_settings">Postavke</string>
@@ -27,6 +32,7 @@
   <string name="mnu_invert">Invertni</string>
   <string name="mnu_select_album">Odaberite album</string>
   <string name="mnu_deselect_album">Poništite odabir albuma</string>
+  <!-- Formats -->
   <string name="format_disabled">Onemogućeno</string>
   <string name="format_rotate_only">Na rotaciju</string>
   <string name="format_seconds">%s sek.</string>
@@ -34,6 +40,7 @@
   <string name="format_hours">%s s.</string>
   <string name="format_days">%s d.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">Općenito</string>
   <string name="pref_general_summary">Opće postavke, efekti i prijelazi</string>
   <string name="pref_general_settings">Postavke</string>
@@ -79,17 +86,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">okomitom usmjerenju</string>
   <string name="disposition_orientation_landscape">vodoravnom usmjerenju</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Dugo dodirnite okvir i povucite \u0026 spustite njegove obrube. Kliznite lijevo i desno za prikaz definiranih predložaka</string>
   <string name="pref_disposition_template">Predložak <xliff:g id="number_of_template"> %1$s </xliff:g> od <xliff:g id="total_of_templates"> %2$s </xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Nije moguće izbrisati odabrani okvir</string>
   <string name="pref_about">O</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nCopyright \u00A9 2014 The CyanogenMod Project</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Onemogućeno</string>
   <string name="refresh_intervals_1h">1 sat</string>
   <string name="refresh_intervals_4h">4 sata</string>
   <string name="refresh_intervals_1d">1 dan</string>
   <string name="refresh_intervals_2d">2 dana</string>
   <string name="refresh_intervals_1w">1 tjedan</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Ništa</string>
   <string name="touch_actions_transition">Obaviti prijelaz</string>
   <string name="touch_actions_open">Otvoriti</string>
@@ -98,12 +108,14 @@
   <string name="touch_actions_transition_summary">Obavi prijelaz slike</string>
   <string name="touch_actions_open_summary">Otvori sliku</string>
   <string name="touch_actions_share_summary">Podijeli sliku</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Kocka</string>
   <string name="transitions_fade">Izblijediti</string>
   <string name="transitions_flip">Flip</string>
   <string name="transitions_swap">Zamijeni</string>
   <string name="transitions_translation">Prijevod</string>
   <string name="transitions_window">Prozor</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Normalno</string>
   <string name="effects_autofix">Auto</string>
   <string name="effects_blur">Zamagljenje</string>
@@ -129,9 +141,11 @@
   <string name="effects_temperature">Temperatura</string>
   <string name="effects_tint">Nježna boja</string>
   <string name="effects_vignette">Vinjeta</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Alfa</string>
   <string name="color_picker_current_text">Aktualno:</string>
   <string name="color_picker_new_text">Novo:</string>
   <string name="color_picker_color">Boja:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Noviteti</string>
 </resources>

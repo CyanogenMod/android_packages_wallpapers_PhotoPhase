@@ -16,9 +16,14 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">PhotoPhase Lewendige Agtergrond</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Geen foto\'s gevind</string>
+  <!-- runtime permission warning -->
   <string name="runtime_permission_warning">Die toep kan nie hardloop sonder toegang na eksterne stoor spasie nie.</string>
+  <!-- Menus -->
   <string name="mnu_restore">Herstel</string>
   <string name="mnu_delete">Verwyder</string>
   <string name="mnu_settings">Instellings</string>
@@ -27,6 +32,7 @@
   <string name="mnu_invert">Omgekeerde</string>
   <string name="mnu_select_album">Kies album</string>
   <string name="mnu_deselect_album">Onkies album</string>
+  <!-- Formats -->
   <string name="format_disabled">Gedeaktiveer</string>
   <string name="format_rotate_only">Op rotasie</string>
   <string name="format_seconds">%s sek.</string>
@@ -34,6 +40,7 @@
   <string name="format_hours">%s h.</string>
   <string name="format_days">%s d.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">Algemeen</string>
   <string name="pref_general_summary">Algemene instellings, effekte en oorgange</string>
   <string name="pref_general_settings">Instellings</string>
@@ -78,17 +85,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">portret oriëntasie</string>
   <string name="disposition_orientation_landscape">landskap oriëntasie</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Lang tik \'n raam en sleep \u0026 val sy grense. Sweep links en regs om gedefinieer voorbeelde te wys</string>
   <string name="pref_disposition_template">Voorbeelde <xliff:g id="number_of_template">%1$s</xliff:g> of <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Kan nie die gekose raam verwyder nie</string>
   <string name="pref_about">Aangaande</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nKopiereg \u00A9 2014 Die CyanogenMod Project</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Gedeaktiveer</string>
   <string name="refresh_intervals_1h">1 uur</string>
   <string name="refresh_intervals_4h">4 ure</string>
   <string name="refresh_intervals_1d">1 dag</string>
   <string name="refresh_intervals_2d">2 dae</string>
   <string name="refresh_intervals_1w">1 week</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Geen</string>
   <string name="touch_actions_transition">Voer oorgang uit</string>
   <string name="touch_actions_open">Maak oop</string>
@@ -97,12 +107,14 @@
   <string name="touch_actions_transition_summary">Doen foto verandering</string>
   <string name="touch_actions_open_summary">Maak foto oop</string>
   <string name="touch_actions_share_summary">Deel die foto</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Kubus</string>
   <string name="transitions_fade">Vervaag</string>
   <string name="transitions_flip">Spieël</string>
   <string name="transitions_swap">Ruil</string>
   <string name="transitions_translation">Vertaling</string>
   <string name="transitions_window">Venster</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Normaal</string>
   <string name="effects_autofix">Outo oplossing</string>
   <string name="effects_blur">Wasig</string>
@@ -128,9 +140,11 @@
   <string name="effects_temperature">Temperatuur</string>
   <string name="effects_tint">Tint</string>
   <string name="effects_vignette">Vignette</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Alfa</string>
   <string name="color_picker_current_text">Huidig:</string>
   <string name="color_picker_new_text">Nuut:</string>
   <string name="color_picker_color">Kleur:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Veranderinge</string>
 </resources>

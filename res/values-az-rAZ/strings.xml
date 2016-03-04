@@ -16,9 +16,14 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">PhotoPhase Canlı Divar Kağızı</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Şəkil tapılmadı</string>
+  <!-- runtime permission warning -->
   <string name="runtime_permission_warning">Tətbiqetmə xarici yaddaş oxuma icazəsi olmadan işləyə bilməz.</string>
+  <!-- Menus -->
   <string name="mnu_restore">Bərpa et</string>
   <string name="mnu_delete">Sil</string>
   <string name="mnu_settings">Tənzimləmələr</string>
@@ -27,6 +32,7 @@
   <string name="mnu_invert">Tərsinə çevir</string>
   <string name="mnu_select_album">Albom seç</string>
   <string name="mnu_deselect_album">Albomu seçmə</string>
+  <!-- Formats -->
   <string name="format_disabled">Ləğv edildi</string>
   <string name="format_rotate_only">Ekran dönəndə</string>
   <string name="format_seconds">%s san.</string>
@@ -34,6 +40,7 @@
   <string name="format_hours">%s sa.</string>
   <string name="format_days">%s gün</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">Ümumi</string>
   <string name="pref_general_summary">Ümumi tənzimləmələr, effektlər və keçidlər</string>
   <string name="pref_general_settings">Tənzimləmələr</string>
@@ -78,17 +85,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">şaquli yerləşmə</string>
   <string name="disposition_orientation_landscape">üfüqi yerləşmə</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Çərçivəyə uzun toxunun və kənarlarını dartıb \u0026 buraxın. Müəyyən şablonları göstərmək üçün sola və ya sağa sürüşdürün</string>
   <string name="pref_disposition_template">Şablon <xliff:g id="number_of_template">%1$s</xliff:g> / <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Seçilən çərçivə silinə bilmədi</string>
   <string name="pref_about">Haqqında</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nMüəlliflik hüququ \u00A9 2014 CyanogenMod Layihəsi</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Ləğv edildi</string>
   <string name="refresh_intervals_1h">1 saat</string>
   <string name="refresh_intervals_4h">4 saat</string>
   <string name="refresh_intervals_1d">1 gün</string>
   <string name="refresh_intervals_2d">2 gün</string>
   <string name="refresh_intervals_1w">1 həftə</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Heç biri</string>
   <string name="touch_actions_transition">Keçidi yerinə yetir</string>
   <string name="touch_actions_open">Aç</string>
@@ -97,12 +107,14 @@
   <string name="touch_actions_transition_summary">Təsvir keçidi yerinə yetirilər</string>
   <string name="touch_actions_open_summary">Təsvir açılar</string>
   <string name="touch_actions_share_summary">Təsvir paylaşılar</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Kub</string>
   <string name="transitions_fade">Sönmə</string>
   <string name="transitions_flip">Çevir</string>
   <string name="transitions_swap">Əvəzetmə</string>
   <string name="transitions_translation">Tərcümə</string>
   <string name="transitions_window">Pəncərə</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Normal</string>
   <string name="effects_autofix">Avtomatik düzəlt</string>
   <string name="effects_blur">Bulanıq</string>
@@ -128,9 +140,11 @@
   <string name="effects_temperature">İstilik</string>
   <string name="effects_tint">Rəng tonu</string>
   <string name="effects_vignette">Səhnəcik</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Alfa</string>
   <string name="color_picker_current_text">Hazırki:</string>
   <string name="color_picker_new_text">Yeni:</string>
   <string name="color_picker_color">Rəng:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Dəyişiklik qeydi</string>
 </resources>

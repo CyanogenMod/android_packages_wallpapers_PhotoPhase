@@ -16,9 +16,14 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">Slika ozadja PhotoPhase Live</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Ni najdenih slik</string>
+  <!-- runtime permission warning -->
   <string name="runtime_permission_warning">Ta aplikacija ne deluje brez dovoljenja za branje zunanje pomnilniške naprave.</string>
+  <!-- Menus -->
   <string name="mnu_restore">Obnovi</string>
   <string name="mnu_delete">Izbriši</string>
   <string name="mnu_settings">Nastavitve</string>
@@ -27,6 +32,7 @@
   <string name="mnu_invert">Obrni</string>
   <string name="mnu_select_album">Izberi album</string>
   <string name="mnu_deselect_album">Odstrani izbiro albuma</string>
+  <!-- Formats -->
   <string name="format_disabled">Onemogočeno</string>
   <string name="format_rotate_only">Ob sukanju</string>
   <string name="format_seconds">%s sek.</string>
@@ -34,6 +40,7 @@
   <string name="format_hours">%s ur.</string>
   <string name="format_days">%s dni.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">Splošno</string>
   <string name="pref_general_summary">Splošne nastavitve, učinki in prehodi</string>
   <string name="pref_general_settings">Nastavitve</string>
@@ -80,17 +87,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">pokončna usmerjenost</string>
   <string name="disposition_orientation_landscape">ležeča usmerjenost</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Pridržite okvir in povlecite in spustite njegove obrobe. Potegnite levo in desno, da prikažete določene predloge</string>
   <string name="pref_disposition_template">Predloga <xliff:g id="number_of_template">%1$s</xliff:g> od <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Izbranega okvirja ni mogoče izbrisati</string>
   <string name="pref_about">O programu</string>
   <string name="pref_about_summary">PhotoPhase različice <xliff:g id="version">%1$s</xliff:g>\nAvtorske pravice \u00A9 2014 The CyanogenMod Project</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Onemogočeno</string>
   <string name="refresh_intervals_1h">1 ura</string>
   <string name="refresh_intervals_4h">4 ure</string>
   <string name="refresh_intervals_1d">1 dan</string>
   <string name="refresh_intervals_2d">2 dni</string>
   <string name="refresh_intervals_1w">1 teden</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Brez</string>
   <string name="touch_actions_transition">Opravi prehod</string>
   <string name="touch_actions_open">Odpri</string>
@@ -99,12 +109,14 @@
   <string name="touch_actions_transition_summary">Opravi prehod slike</string>
   <string name="touch_actions_open_summary">Odpri sliko</string>
   <string name="touch_actions_share_summary">Deli sliko</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Kocka</string>
   <string name="transitions_fade">Pojemaj</string>
   <string name="transitions_flip">Obrni</string>
   <string name="transitions_swap">Zamenjaj</string>
   <string name="transitions_translation">Prevod</string>
   <string name="transitions_window">Okno</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Običajno</string>
   <string name="effects_autofix">Samodejno popravi</string>
   <string name="effects_blur">Zamegli</string>
@@ -130,9 +142,11 @@
   <string name="effects_temperature">Temperatura</string>
   <string name="effects_tint">Odtenek</string>
   <string name="effects_vignette">Vinjeta</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Alfa</string>
   <string name="color_picker_current_text">Trenutno:</string>
   <string name="color_picker_new_text">Novo:</string>
   <string name="color_picker_color">Barva:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Dnevnik sprememb</string>
 </resources>

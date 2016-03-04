@@ -16,8 +16,13 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">ফোটোফেজ লাইভ ওয়ালপেপার</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">কোন ছবি খুঁজে পাওয়া যায়নি</string>
+  <!-- runtime permission warning -->
+  <!-- Menus -->
   <string name="mnu_restore">পুনঃস্থাপন</string>
   <string name="mnu_delete">মুছে ফেলুন</string>
   <string name="mnu_settings">রুপান্তর নির্ধারণ</string>
@@ -26,6 +31,7 @@
   <string name="mnu_invert">বিপরীতমুখী</string>
   <string name="mnu_select_album">অ্যালবাম নির্বাচন করুন</string>
   <string name="mnu_deselect_album">অ্যালবাম নির্বাচন প্রত্যাহার করুন</string>
+  <!-- Formats -->
   <string name="format_disabled">অসমর্থ</string>
   <string name="format_rotate_only">আবর্তন</string>
   <string name="format_seconds">%s সেকেন্ড</string>
@@ -33,6 +39,7 @@
   <string name="format_hours">%s ঘঃ</string>
   <string name="format_days">%s দিঃ</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">সাধারণ</string>
   <string name="pref_general_summary">সাধারন রূপান্তর নির্ধারণ, প্রভাব ও অবস্থান্তর</string>
   <string name="pref_general_settings">রুপান্তর নির্ধারণ</string>
@@ -59,25 +66,30 @@
   <string name="pref_layout_disposition">ব্যবস্থা</string>
   <string name="pref_random_dispositions">এলোমেলো</string>
   <string name="pref_random_dispositions_interval">বিরতি</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_about">সম্বন্ধে</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">নিষ্ক্রিয়</string>
   <string name="refresh_intervals_1h">১ ঘণ্টা</string>
   <string name="refresh_intervals_4h">৪ ঘন্টা</string>
   <string name="refresh_intervals_1d">১ দিন</string>
   <string name="refresh_intervals_2d">২ দিন</string>
   <string name="refresh_intervals_1w">১ সপ্তাহ</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">কোনটি নয়</string>
   <string name="touch_actions_open">সচল</string>
   <string name="touch_actions_share">শেয়ার</string>
   <string name="touch_actions_none_summary">কিছু করবেন না</string>
   <string name="touch_actions_open_summary">ছবিটি খুলুন</string>
   <string name="touch_actions_share_summary">ছবিটি শেয়ার করুন</string>
+  <!-- Transitions -->
   <string name="transitions_cube">কিউব</string>
   <string name="transitions_fade">ফেইড</string>
   <string name="transitions_flip">ফ্লিপ</string>
   <string name="transitions_swap">সোয়াপ</string>
   <string name="transitions_translation">অনুবাদ</string>
   <string name="transitions_window">জানালা</string>
+  <!-- Effects -->
   <string name="effects_noeffect">স্বাভাবিক</string>
   <string name="effects_autofix">অটোফিক্স</string>
   <string name="effects_blur">ঝাপসা</string>
@@ -100,9 +112,11 @@
   <string name="effects_temperature">টেম্পারেচার</string>
   <string name="effects_tint">আভা</string>
   <string name="effects_vignette">ভিনয়েট</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">আলফা</string>
   <string name="color_picker_current_text">বর্তমানঃ</string>
   <string name="color_picker_new_text">নতুনঃ</string>
   <string name="color_picker_color">রঙঃ</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">পরিবর্তনসূচী</string>
 </resources>

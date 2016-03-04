@@ -16,9 +16,14 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">PhotoPhase Live-Hintergrund</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Keine Bilder gefunden</string>
+  <!-- runtime permission warning -->
   <string name="runtime_permission_warning">Diese App kann nicht ohne Berechtigung zum Lesen des externen Speichers ausgeführt werden.</string>
+  <!-- Menus -->
   <string name="mnu_restore">Wiederherstellen</string>
   <string name="mnu_delete">Löschen</string>
   <string name="mnu_settings">Einstellungen</string>
@@ -27,6 +32,7 @@
   <string name="mnu_invert">Umkehren</string>
   <string name="mnu_select_album">Album auswählen</string>
   <string name="mnu_deselect_album">Albumauswahl aufheben</string>
+  <!-- Formats -->
   <string name="format_disabled">Deaktiviert</string>
   <string name="format_rotate_only">Bei Drehung</string>
   <string name="format_seconds">%s Sek.</string>
@@ -34,6 +40,7 @@
   <string name="format_hours">%s h.</string>
   <string name="format_days">%s d.</string>
   <string name="format_dim">%s %%</string>
+  <!-- Preferences -->
   <string name="pref_general">Allgemein</string>
   <string name="pref_general_summary">Allgemeine Einstellungen, Effekte und Übergänge</string>
   <string name="pref_general_settings">Einstellungen</string>
@@ -78,17 +85,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">Hochformat</string>
   <string name="disposition_orientation_landscape">Querformat</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Rahmen gedrückt halten und Kanten verschieben, um die Größe zu verändern.\nNach rechts und links wischen, um voreingestellte Vorlagen anzuzeigen.</string>
   <string name="pref_disposition_template">Vorlage <xliff:g id="number_of_template">%1$s</xliff:g> von <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Ausgewählter Rahmen kann nicht gelöscht werden</string>
   <string name="pref_about">Über</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nCopyright \u00A9 2014 The CyanogenMod Project</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Deaktiviert</string>
   <string name="refresh_intervals_1h">1 Stunde</string>
   <string name="refresh_intervals_4h">4 Stunden</string>
   <string name="refresh_intervals_1d">1 Tag</string>
   <string name="refresh_intervals_2d">2 Tage</string>
   <string name="refresh_intervals_1w">1 Woche</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Keine</string>
   <string name="touch_actions_transition">Bildübergang</string>
   <string name="touch_actions_open">Öffnen</string>
@@ -97,12 +107,14 @@
   <string name="touch_actions_transition_summary">Zum nächsten Bild wechseln</string>
   <string name="touch_actions_open_summary">Bild öffnen</string>
   <string name="touch_actions_share_summary">Bild teilen</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Würfel</string>
   <string name="transitions_fade">Ausblenden</string>
   <string name="transitions_flip">Umdrehen</string>
   <string name="transitions_swap">Tauschen</string>
   <string name="transitions_translation">Übergang</string>
   <string name="transitions_window">Fenster</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Normal</string>
   <string name="effects_autofix">Autokorrektur</string>
   <string name="effects_blur">Weichzeichnen</string>
@@ -128,9 +140,11 @@
   <string name="effects_temperature">Farbtemperatur</string>
   <string name="effects_tint">Farbton</string>
   <string name="effects_vignette">Vignette</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Deckkraft</string>
   <string name="color_picker_current_text">Aktuell:</string>
   <string name="color_picker_new_text">Neu:</string>
   <string name="color_picker_color">Farbe:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Änderungsprotokoll</string>
 </resources>

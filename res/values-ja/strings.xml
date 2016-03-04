@@ -16,9 +16,14 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">PhotoPhaseライブ壁紙</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">写真がありません</string>
+  <!-- runtime permission warning -->
   <string name="runtime_permission_warning">外部ストレージの読み取り権限がないとこのアプリは実行できません。</string>
+  <!-- Menus -->
   <string name="mnu_restore">復元</string>
   <string name="mnu_delete">削除</string>
   <string name="mnu_settings">設定</string>
@@ -27,6 +32,7 @@
   <string name="mnu_invert">逆転</string>
   <string name="mnu_select_album">アルバムを選択</string>
   <string name="mnu_deselect_album">アルバムを選択解除</string>
+  <!-- Formats -->
   <string name="format_disabled">無効</string>
   <string name="format_rotate_only">回転時</string>
   <string name="format_seconds">%s秒</string>
@@ -34,6 +40,7 @@
   <string name="format_hours">%s時間</string>
   <string name="format_days">%s日</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">全般</string>
   <string name="pref_general_summary">全般設定、効果、トランジション</string>
   <string name="pref_general_settings">設定</string>
@@ -77,17 +84,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">縦向き</string>
   <string name="disposition_orientation_landscape">横向き</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">フレームを長押しして境界にドラッグアンドドロップします。\n左右にスワイプすると定義されたテンプレートを表示します。</string>
   <string name="pref_disposition_template">テンプレート <xliff:g id="number_of_template">%1$s</xliff:g>/<xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">選択されたフレームを削除できません</string>
   <string name="pref_about">情報</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nCopyright \u00A9 2014 The CyanogenMod Project</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">無効</string>
   <string name="refresh_intervals_1h">1時間</string>
   <string name="refresh_intervals_4h">4時間</string>
   <string name="refresh_intervals_1d">1日</string>
   <string name="refresh_intervals_2d">2日</string>
   <string name="refresh_intervals_1w">1週間</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">なし</string>
   <string name="touch_actions_transition">トランジションを実行</string>
   <string name="touch_actions_open">開く</string>
@@ -96,12 +106,14 @@
   <string name="touch_actions_transition_summary">画像のトランジションを実行</string>
   <string name="touch_actions_open_summary">画像を開く</string>
   <string name="touch_actions_share_summary">画像を共有する</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Cube</string>
   <string name="transitions_fade">Fade</string>
   <string name="transitions_flip">Flip</string>
   <string name="transitions_swap">Swap</string>
   <string name="transitions_translation">Translation</string>
   <string name="transitions_window">Window</string>
+  <!-- Effects -->
   <string name="effects_noeffect">標準</string>
   <string name="effects_autofix">自動補正</string>
   <string name="effects_blur">ブレ</string>
@@ -127,9 +139,11 @@
   <string name="effects_temperature">温度</string>
   <string name="effects_tint">青味</string>
   <string name="effects_vignette">ぼかし</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">アルファ</string>
   <string name="color_picker_current_text">現在:</string>
   <string name="color_picker_new_text">新規:</string>
   <string name="color_picker_color">色:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">更新履歴</string>
 </resources>
