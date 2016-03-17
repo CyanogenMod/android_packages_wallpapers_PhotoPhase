@@ -17,5 +17,13 @@
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Number of pictures found in an album -->
+  <plurals name="album_number_of_pictures">
+    <item quantity="one">1 টা ছবি</item>
+    <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> টা ছবি</item>
+  </plurals>
   <!-- Total of pictures found after a media reload -->
+  <plurals name="msg_media_reload_complete">
+    <item quantity="one">মিডিয়া ৰিলোড সম্পূৰ্ণ হৈছে। 1 টা ছবি পোৱা গৈছে।</item>
+    <item quantity="other">মিডিয়া ৰিলোড সম্পূৰ্ণ হৈছে। <xliff:g id="pictures" example="7">%d</xliff:g> টা ছবি পোৱা গৈছে।</item>
+  </plurals>
 </resources>

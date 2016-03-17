@@ -22,6 +22,7 @@
   <!-- No images message -->
   <string name="no_pictures_oops_msg">ಯಾವುದೇ ಚಿತ್ರಗಳು ಪತ್ತೆಯಾಗಲಿಲ್ಲ</string>
   <!-- runtime permission warning -->
+  <string name="runtime_permission_warning">ಬಾಹ್ಯ ಸಂಗ್ರಹವನ್ನು ಓದಲು ಪರವಾನಗಿ ಇಲ್ಲದೇ ಅಪ್ಲಿಕೇಶನ್‌ ರನ್‌ ಆಗುವುದಿಲ್ಲ.</string>
   <!-- Menus -->
   <string name="mnu_restore">ಪುನಃಸ್ಥಾಪಿಸು</string>
   <string name="mnu_delete">ಅಳಿಸಿ</string>

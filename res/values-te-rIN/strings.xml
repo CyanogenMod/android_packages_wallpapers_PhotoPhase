@@ -18,16 +18,133 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- The application name -->
   <!-- The app description -->
+  <string name="app_description">ఫోటోదశ ప్రత్యక్ష వాల్‌పేపర్</string>
   <!-- No images message -->
+  <string name="no_pictures_oops_msg">ఫోటోలు ఏవీ దొరకలేదు</string>
   <!-- runtime permission warning -->
+  <string name="runtime_permission_warning">బాహ్య నిల్వను చదవడానికి అనుమతి లేకుండా ఈ ప్రోగాం నడవదు.</string>
   <!-- Menus -->
+  <string name="mnu_restore">పునరుద్ధరించు</string>
+  <string name="mnu_delete">తొలగించు</string>
+  <string name="mnu_settings">సెట్టింగ్‌లు</string>
+  <string name="mnu_select_all">అన్నీ ఎంచుకోండి</string>
+  <string name="mnu_deselect_all">అన్నీ తొలగించు</string>
+  <string name="mnu_invert">విలోమం చేయుము</string>
+  <string name="mnu_select_album">ఆల్బమ్ ఎంపిక చెయ్యి</string>
+  <string name="mnu_deselect_album">ఎంపికను తీసివేయుము</string>
   <!-- Formats -->
+  <string name="format_disabled">నిలిపివేయబడింది</string>
+  <string name="format_rotate_only">పరిభ్రమణంలో</string>
+  <string name="format_seconds">%s సెకనులు</string>
+  <string name="format_minutes">%s నిమిషాలు</string>
+  <string name="format_hours">%s h.</string>
+  <string name="format_days">%s d.</string>
+  <string name="format_dim">%s%%</string>
   <!-- Preferences -->
+  <string name="pref_general">సాధారణం</string>
+  <string name="pref_general_summary">సాధారణ సెట్టింగ్‌లు, ప్రభావాలు మరియు పరివర్తనాలు</string>
+  <string name="pref_general_settings">సెట్టింగ్‌లు</string>
+  <string name="pref_general_settings_wallpaper_dim">వాల్‌పేపర్ మసకగా ఉంది</string>
+  <string name="pref_general_settings_background_color">నేపథ్య రంగు</string>
+  <string name="pref_general_settings_background_color_summary">నేపధ్య వర్ణాన్ని సెట్ చేయుము</string>
+  <string name="pref_general_touch_action">చర్యను తాకుము</string>
+  <string name="pref_general_touch_action_summary_format">ఫ్రేమును తాకేటప్పుడు <xliff:g id="action_summary">%1$s</xliff:g></string>
+  <string name="pref_general_aspect_ratio_correction">కారక నిష్పత్తి</string>
+  <string name="pref_general_aspect_ratio_correction_summary">గమ్య ఫ్రేములో పట్టే విధంగా కత్తిరించడం ద్వారా చిత్రం యొక్క కారక నిష్పత్తిని పరిష్కరించడానికి ప్రయత్నించండి</string>
+  <string name="pref_general_transitions">పరివర్తనాలు</string>
+  <string name="pref_general_transitions_types">రకాలు</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%2$d</xliff:g> యొక్క <xliff:g id="total">%1$d</xliff:g> రకాలు ఎంపిక చేయబడ్డాయి</string>
+  <string name="pref_general_transitions_interval">విరామం</string>
+  <string name="pref_general_effects">ప్రభావాలు</string>
+  <string name="pref_general_effects_types">రకాలు</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%2$d</xliff:g> యొక్క <xliff:g id="total">%1$d</xliff:g> చిత్ర ప్రభావాలు ఎంపిక చేయబడ్డాయి</string>
+  <string name="pref_media">మీడియా</string>
+  <string name="pref_media_summary">ప్రదర్శించబడవలసిన ఆల్బములు, పునశ్చరణ విరామం, మరియు ఇతర మీడియా సెట్టింగులు</string>
+  <string name="pref_media_settings">సెట్టింగ్‌లు</string>
+  <string name="pref_media_settings_refresh_interval">పునశ్చరణ విరామం</string>
+  <string name="pref_media_settings_refresh_interval_disable">క్రొత్త ఫోటోల కొరకు శోధన నిలిపివేయబడింది</string>
+  <string name="pref_media_settings_refresh_interval_summary">ప్రతి <xliff:g id="interval">%1$s</xliff:g> ఒకసారి క్రొత్త ఫోటోల కొరకు శోధించుము</string>
+  <string name="pref_media_settings_refresh_now">ఇప్పుడే పునశ్చరించుము</string>
+  <string name="pref_media_settings_refresh_now_summary">చిత్రాల డేటాబేసును మాన్యువలుగా పునశ్చరించుము</string>
+  <string name="pref_media_pictures">చిత్రాలు</string>
+  <string name="pref_media_albums">ఆల్బమ్‌లు</string>
+  <string name="pref_media_albums_summary">వాల్‌పేపర్ పైన ప్రదర్శించబడే ఆల్బములు మరియు ఫోటోలను సెట్ చేయుము</string>
+  <string name="pref_media_auto_select_new">ఆల్బములను స్వయంచాలకంగా ఎంచుకొనుము</string>
+  <string name="pref_media_auto_select_new_summary">మీడియా ఆవిష్కరణ జరిగినప్పుడు స్వయంచాలకంగా క్రొత్త ఆల్బములను ఎంచుకొనుము</string>
+  <string name="pref_layout">లేవుట్‌</string>
+  <string name="pref_layout_summary">తెరపై చిత్రాల యొక్క స్థితిని చూపు</string>
+  <string name="pref_layout_disposition">ఏర్పాటు</string>
+  <string name="pref_random_dispositions">యాదృచ్ఛికం</string>
+  <string name="pref_random_dispositions_summary">ఎంచుకోబడిన విరామంలో యాదృచ్ఛిక ఏర్పాటులను రూపొందించుము</string>
+  <string name="pref_random_dispositions_interval">విరామం</string>
+  <string name="pref_disposition_portrait">పటం ఏర్పాటు</string>
+  <string name="pref_disposition_landscape">సమతలదిశ ఏర్పాటు</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="one"><xliff:g id="orientation">%2$s</xliff:g> లో 1 చిత్రం చూపించబడింది</item>
+    <item quantity="other"><xliff:g id="count">%2$s</xliff:g> లో <xliff:g id="orientation">%1$d</xliff:g> చిత్రాలు చూపించబడ్డాయి</item>
+  </plurals>
+  <string name="disposition_orientation_portrait">పోర్ట్రైట్ విన్యాసం</string>
+  <string name="disposition_orientation_landscape">సమతలదిశ ముద్రణదిశ</string>
   <!-- [2 lines one for describe long tap and another for describe swipe] -->
+  <string name="pref_disposition_description">ఫ్రేమును దీర్ఘంగా ట్యాప్ చేయండి మరియు లాగండి\u0026 దాని యొక్క అంచులను తీసివేయుము నిర్వచిత మూసలను చూపించేందుకు ఎడమకు మరియు కుడి వైపుకు స్వైప్ చేయుము</string>
+  <string name="pref_disposition_template"><xliff:g id="number_of_template">%2$s</xliff:g> యొక్క <xliff:g id="total_of_templates">%1$s</xliff:g> మూస</string>
+  <string name="pref_disposition_unable_delete_advise">ఎంపిక చేయబడిన ఫ్రేమును తొలిగించడం సాధ్యపడలేదు</string>
+  <string name="pref_about">గురించి</string>
+  <string name="pref_about_summary">ఫోటోదశ v<xliff:g id="version">%1$s</xliff:g>\nకాపీరైట్\u00A9 2014 ది సయనోజెన్ మోడ్ ప్రాజెక్ట్</string>
   <!-- Refresh intervals -->
+  <string name="refresh_intervals_disabled">నిలిపివేయబడింది</string>
+  <string name="refresh_intervals_1h">1 గంట</string>
+  <string name="refresh_intervals_4h">4 గంటలు</string>
+  <string name="refresh_intervals_1d">1 రోజు</string>
+  <string name="refresh_intervals_2d">2 రోజులు</string>
+  <string name="refresh_intervals_1w">1 వారం</string>
   <!-- Touch actions -->
+  <string name="touch_actions_none">ఏదీ లేదు</string>
+  <string name="touch_actions_transition">పరివర్తనాన్ని నిర్వర్తించుము</string>
+  <string name="touch_actions_open">తెరువు</string>
+  <string name="touch_actions_share">భాగస్వామ్యం చేయి</string>
+  <string name="touch_actions_none_summary">ఏమీ చేయలేదు</string>
+  <string name="touch_actions_transition_summary">చిత్తరువు పరివర్తనాన్ని నిర్వర్తించుము</string>
+  <string name="touch_actions_open_summary">చిత్రాన్ని తెరువుము</string>
+  <string name="touch_actions_share_summary">చిత్రాన్ని పంచుకొనుము</string>
   <!-- Transitions -->
+  <string name="transitions_cube">క్యూబ్</string>
+  <string name="transitions_fade">పారదర్శకత</string>
+  <string name="transitions_flip">ఫ్లిప్</string>
+  <string name="transitions_swap">స్వాప్ చేయండి</string>
+  <string name="transitions_translation">అనువాదం</string>
+  <string name="transitions_window">విండో</string>
   <!-- Effects -->
+  <string name="effects_noeffect">సాధారణం</string>
+  <string name="effects_autofix">ఆటోఫిక్స్</string>
+  <string name="effects_blur">మసక</string>
+  <string name="effects_crossprocess">క్రాస్ ప్రక్రియ</string>
+  <string name="effects_documentary">డాక్యుమెంటరీ</string>
+  <string name="effects_duotone">డ్యుయోటోన్</string>
+  <string name="effects_emboss">ఎంబోస్</string>
+  <string name="effects_fisheye">ఫిష్ ఐ</string>
+  <string name="effects_glow">ప్రకాశం</string>
+  <string name="effects_grain">గ్రెయిన్</string>
+  <string name="effects_grayscale">గ్రే స్కేల్</string>
+  <string name="effects_halftone">హాఫ్‌టోన్</string>
+  <string name="effects_lomoish">లోమో-ఇష్</string>
+  <string name="effects_mirror">అద్దం</string>
+  <string name="effects_negative">ప్రతికూల</string>
+  <string name="effects_outline">సారాంశ రూపం</string>
+  <string name="effects_pixelate">పిక్సెలేట్</string>
+  <string name="effects_popart">పాప్ కళ</string>
+  <string name="effects_posterize">పోస్టరైజ్</string>
+  <string name="effects_saturate">సంతృప్తం చేయుము</string>
+  <string name="effects_scanlines">స్కాన్ లైన్లు</string>
+  <string name="effects_sepia">సేపియా</string>
+  <string name="effects_temperature">ఉష్ణోగ్రత</string>
+  <string name="effects_tint">చాయ</string>
+  <string name="effects_vignette">విగ్నెట్టె</string>
   <!-- ColorPickerDialog -->
+  <string name="color_picker_alpha_slider_text">ఆల్ఫా</string>
+  <string name="color_picker_current_text">ప్రస్తుత:</string>
+  <string name="color_picker_new_text">క్రొత్త:</string>
+  <string name="color_picker_color">వర్ణం:</string>
   <!-- Changelog dialog -->
+  <string name="changelog_title">చేంజ్ లాగ్</string>
 </resources>

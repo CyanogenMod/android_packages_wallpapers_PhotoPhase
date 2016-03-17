@@ -18,24 +18,133 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- The application name -->
   <!-- The app description -->
+  <string name="app_description">Fondo de pantalla animado PhotoPhase</string>
   <!-- No images message -->
   <string name="no_pictures_oops_msg">No se encontraron imágenes</string>
   <!-- runtime permission warning -->
+  <string name="runtime_permission_warning">La aplicación no se puede ejecutar sin permiso para leer el almacenamiento externo.</string>
   <!-- Menus -->
+  <string name="mnu_restore">Restaurar</string>
+  <string name="mnu_delete">Eliminar</string>
+  <string name="mnu_settings">Opciones</string>
+  <string name="mnu_select_all">Seleccionar todas</string>
+  <string name="mnu_deselect_all">Anular selección de todo</string>
+  <string name="mnu_invert">Invertir</string>
   <string name="mnu_select_album">Seleccionar el álbum</string>
+  <string name="mnu_deselect_album">Deseleccionar álbum</string>
   <!-- Formats -->
+  <string name="format_disabled">Deshabilitada</string>
+  <string name="format_rotate_only">Durante la rotación</string>
+  <string name="format_seconds">%s seg.</string>
+  <string name="format_minutes">%s min.</string>
+  <string name="format_hours">%s h.</string>
+  <string name="format_days">%s d.</string>
+  <string name="format_dim">%s%%</string>
   <!-- Preferences -->
+  <string name="pref_general">General</string>
+  <string name="pref_general_summary">Ajustes generales, efectos y transiciones</string>
+  <string name="pref_general_settings">Opciones</string>
+  <string name="pref_general_settings_wallpaper_dim">Fondo de pantalla dim</string>
+  <string name="pref_general_settings_background_color">Color de fondo</string>
   <string name="pref_general_settings_background_color_summary">Establecer el color de fondo</string>
+  <string name="pref_general_touch_action">Acción al tocar</string>
+  <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s </xliff:g> al tocar un marco</string>
+  <string name="pref_general_aspect_ratio_correction">Relación de aspecto</string>
+  <string name="pref_general_aspect_ratio_correction_summary">Intentar corregir la relación de aspecto original cortando la imagen para ajustarla a la celda de destino</string>
+  <string name="pref_general_transitions">Transiciones</string>
+  <string name="pref_general_transitions_types">Tipos</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> de <xliff:g id="total">%2$d</xliff:g> tipos seleccionados</string>
+  <string name="pref_general_transitions_interval">Intervalo</string>
+  <string name="pref_general_effects">Efectos</string>
+  <string name="pref_general_effects_types">Tipos</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d </xliff:g> de <xliff:g id="total">%2$d </xliff:g> efectos de imagen seleccionado</string>
+  <string name="pref_media">Multimedia</string>
   <string name="pref_media_summary">Álbumes que se mostrarán, intervalo de actualización y otros ajustes de los medios</string>
+  <string name="pref_media_settings">Opciones</string>
+  <string name="pref_media_settings_refresh_interval">Intervalo de actualización</string>
+  <string name="pref_media_settings_refresh_interval_disable">La búsqueda de nuevas imágenes está deshabilitada</string>
+  <string name="pref_media_settings_refresh_interval_summary">Buscar nuevas fotos cada <xliff:g id="interval">%1$s</xliff:g></string>
+  <string name="pref_media_settings_refresh_now">Actualizar ahora</string>
+  <string name="pref_media_settings_refresh_now_summary">Actualizar manualmente la base de datos de imágenes</string>
+  <string name="pref_media_pictures">Imágenes</string>
+  <string name="pref_media_albums">Álbumes</string>
+  <string name="pref_media_albums_summary">Establecer los álbumes e imágenes a mostrar en el fondo de pantalla</string>
   <string name="pref_media_auto_select_new">Seleccionar álbumes autom.</string>
+  <string name="pref_media_auto_select_new_summary">Seleccionar automáticamente los nuevos álbumes cuando se descubran nuevos elementos en los medios</string>
+  <string name="pref_layout">Diseño</string>
+  <string name="pref_layout_summary">Posicionar la imágen en la pantalla</string>
+  <string name="pref_layout_disposition">Disposición</string>
+  <string name="pref_random_dispositions">Al azar</string>
+  <string name="pref_random_dispositions_summary">Generar disposiciones aleatorias cada cierto tiempo</string>
+  <string name="pref_random_dispositions_interval">Intervalo</string>
+  <string name="pref_disposition_portrait">Disposición vertical</string>
+  <string name="pref_disposition_landscape">Disposición horizontal</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="one">Una imagen se muestra en <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> imágenes se muestran en <xliff:g id="orientation">%2$s</xliff:g></item>
+  </plurals>
+  <string name="disposition_orientation_portrait">orientación vertical</string>
+  <string name="disposition_orientation_landscape">orientación horizontal</string>
   <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Presionar una celda y arrastrar los bordes. Deslizar a la izquierda y derecha para ver las plantillas predefinidas</string>
+  <string name="pref_disposition_template">Plantilla <xliff:g id="number_of_template">%1$s</xliff:g> de <xliff:g id="total_of_templates">%2$s</xliff:g></string>
+  <string name="pref_disposition_unable_delete_advise">No se puede eliminar el fotograma seleccionado</string>
+  <string name="pref_about">Acerca de</string>
+  <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nCopyright \u00A9 2014 The CyanogenMod Project</string>
   <!-- Refresh intervals -->
+  <string name="refresh_intervals_disabled">Deshabilitada</string>
+  <string name="refresh_intervals_1h">1 hora</string>
+  <string name="refresh_intervals_4h">4 horas</string>
+  <string name="refresh_intervals_1d">un día</string>
+  <string name="refresh_intervals_2d">2 días</string>
+  <string name="refresh_intervals_1w">1 semana</string>
   <!-- Touch actions -->
+  <string name="touch_actions_none">Ningun</string>
+  <string name="touch_actions_transition">Ejecutar transición</string>
+  <string name="touch_actions_open">Abrir</string>
+  <string name="touch_actions_share">Compartir</string>
+  <string name="touch_actions_none_summary">No hacer nada</string>
   <string name="touch_actions_transition_summary">Realizar la transición de la imagen</string>
+  <string name="touch_actions_open_summary">Abrir la imagen</string>
+  <string name="touch_actions_share_summary">Compartir la imagen</string>
   <!-- Transitions -->
+  <string name="transitions_cube">Cubo</string>
+  <string name="transitions_fade">Desvanecer</string>
+  <string name="transitions_flip">Voltear</string>
+  <string name="transitions_swap">Intercambiar</string>
+  <string name="transitions_translation">Trasladar</string>
+  <string name="transitions_window">Ventana</string>
   <!-- Effects -->
+  <string name="effects_noeffect">Normal</string>
+  <string name="effects_autofix">Autocorrección</string>
+  <string name="effects_blur">Desenfoque</string>
+  <string name="effects_crossprocess">Proceso cruzado</string>
+  <string name="effects_documentary">Documental</string>
+  <string name="effects_duotone">Duotono</string>
+  <string name="effects_emboss">Realzar</string>
+  <string name="effects_fisheye">Ojo de pez</string>
+  <string name="effects_glow">Resplandor</string>
+  <string name="effects_grain">Granulado</string>
+  <string name="effects_grayscale">Escala de grises</string>
+  <string name="effects_halftone">Medio tono</string>
+  <string name="effects_lomoish">Lomografía</string>
+  <string name="effects_mirror">Espejo</string>
+  <string name="effects_negative">Negativo</string>
+  <string name="effects_outline">Perfilar</string>
+  <string name="effects_pixelate">Pixelar</string>
+  <string name="effects_popart">Pop-Art</string>
+  <string name="effects_posterize">Posterizar</string>
+  <string name="effects_saturate">Saturar</string>
+  <string name="effects_scanlines">Líneas de escaneado</string>
+  <string name="effects_sepia">Sepia</string>
+  <string name="effects_temperature">Temperatura</string>
   <string name="effects_tint">Tono</string>
+  <string name="effects_vignette">Viñeta</string>
   <!-- ColorPickerDialog -->
+  <string name="color_picker_alpha_slider_text">Transparencia</string>
+  <string name="color_picker_current_text">Actual:</string>
+  <string name="color_picker_new_text">Nuevo:</string>
+  <string name="color_picker_color">Color:</string>
   <!-- Changelog dialog -->
+  <string name="changelog_title">Changelog</string>
 </resources>

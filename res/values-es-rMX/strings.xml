@@ -20,6 +20,7 @@
   <!-- The app description -->
   <!-- No images message -->
   <!-- runtime permission warning -->
+  <string name="runtime_permission_warning">La aplicación no se puede ejecutar sin permiso para leer el almacenamiento externo.</string>
   <!-- Menus -->
   <!-- Formats -->
   <!-- Preferences -->

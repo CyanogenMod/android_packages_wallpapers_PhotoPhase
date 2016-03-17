@@ -22,7 +22,7 @@
   <!-- No images message -->
   <string name="no_pictures_oops_msg">Фотографии не найдены</string>
   <!-- runtime permission warning -->
-  <string name="runtime_permission_warning">Приложение не может работать без разрешения на чтение для внешнего накопителя.</string>
+  <string name="runtime_permission_warning">Приложение не может работать без разрешения на чтение внешнего накопителя.</string>
   <!-- Menus -->
   <string name="mnu_restore">Восстановить</string>
   <string name="mnu_delete">Удалить</string>
