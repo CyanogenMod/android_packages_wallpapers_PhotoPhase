@@ -18,16 +18,133 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- The application name -->
   <!-- The app description -->
+  <string name="app_description">ഫോട്ടോഫേസ് ലൈവ് വാൾപേപ്പർ</string>
   <!-- No images message -->
+  <string name="no_pictures_oops_msg">ചിത്രങ്ങളൊന്നും കണ്ടെത്തിയില്ല</string>
   <!-- runtime permission warning -->
+  <string name="runtime_permission_warning">ഈ അപ്പ്ലികേശൻ പ്രവർത്തിക്കണമെങ്കിൽ എക്സ്റ്റെർണൽ സ്ടോരേജിൽ നിന്ന് വായിക്കാനുള്ള അനുവാദം വേണം.</string>
   <!-- Menus -->
+  <string name="mnu_restore">പുനസ്ഥാപിക്കുക</string>
+  <string name="mnu_delete">ഇല്ലാതാക്കുക</string>
+  <string name="mnu_settings">ക്രമീകരണം</string>
+  <string name="mnu_select_all">എല്ലാം തിരഞ്ഞെടുക്കുക</string>
+  <string name="mnu_deselect_all">എല്ലാം തിരഞ്ഞെടുത്തത് മാറ്റുക</string>
+  <string name="mnu_invert">വിപരീതം</string>
+  <string name="mnu_select_album">ആൽബം തിരഞ്ഞെടുക്കുക</string>
+  <string name="mnu_deselect_album">ആൽബത്തിന്റെ തിരഞ്ഞെടുപ്പ് മാറ്റുക</string>
   <!-- Formats -->
+  <string name="format_disabled">പ്രവർത്തനരഹിതമാക്കി</string>
+  <string name="format_rotate_only">തിരിയലില്‍</string>
+  <string name="format_seconds">%s സെക്കന്റ്.</string>
+  <string name="format_minutes">%s മിനിറ്റ്.</string>
+  <string name="format_hours">%s h.</string>
+  <string name="format_days">%s d.</string>
+  <string name="format_dim">%s%%</string>
   <!-- Preferences -->
+  <string name="pref_general">പൊതുവായത്</string>
+  <string name="pref_general_summary">ജനറൽ ക്രമീകരണങ്ങൾ, ഇഫക്റ്റുകൾ, ട്രാൻസിഷന്‍</string>
+  <string name="pref_general_settings">ക്രമീകരണം</string>
+  <string name="pref_general_settings_wallpaper_dim">വാൾപേപ്പർ മങ്ങിയിരിക്കുന്നു</string>
+  <string name="pref_general_settings_background_color">പശ്ചാത്തല വര്‍ണം</string>
+  <string name="pref_general_settings_background_color_summary">പശ്ചാത്തല വർണ്ണം സജ്ജമാക്കുക</string>
+  <string name="pref_general_touch_action">സ്പര്‍ശന പ്രവർത്തനം</string>
+  <string name="pref_general_touch_action_summary_format">ഒരു ഫ്രെയിം സ്പർശിക്കുകയാണെങ്കിൽ <xliff:g id="action_summary">%1$s</xliff:g></string>
+  <string name="pref_general_aspect_ratio_correction">വീക്ഷണ അനുപാതം</string>
+  <string name="pref_general_aspect_ratio_correction_summary">ഉദ്ദിഷ്ട ഫ്രെയിമില്‍ അനുയോജ്യമാകുന്നതിന് ക്രോപ്പ് ചെയ്തുകൊണ്ട് ചിത്രത്തിന്റെ വീക്ഷണ അനുപാതം പരിഹരിക്കാൻ ശ്രമിക്കുക</string>
+  <string name="pref_general_transitions">പരിവര്‍ത്തനം</string>
+  <string name="pref_general_transitions_types">തരങ്ങള്‍</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> ന്റെ <xliff:g id="total">%2$d</xliff:g> തരങ്ങള്‍ തിരഞ്ഞെടുത്തു</string>
+  <string name="pref_general_transitions_interval">ഇടവേള</string>
+  <string name="pref_general_effects">ഇഫക്റ്റുകൾ</string>
+  <string name="pref_general_effects_types">തരങ്ങള്‍</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%2$d</xliff:g> ല്‍ <xliff:g id="total">%1$d</xliff:g> ഇമേജ് ഇഫക്റ്റുകൾ തിരഞ്ഞെടുത്തു</string>
+  <string name="pref_media">മീഡിയ</string>
+  <string name="pref_media_summary">പ്രദർശിപ്പിക്കുന്നതിനുള്ള ആൽബങ്ങൾ, പുതുക്കൽ ഇടവേളയും, മറ്റ് മീഡിയ ക്രമീകരണങ്ങൾ</string>
+  <string name="pref_media_settings">ക്രമീകരണം</string>
+  <string name="pref_media_settings_refresh_interval">ഇടവേള പുതുക്കുക</string>
+  <string name="pref_media_settings_refresh_interval_disable">പുതിയ ചിത്രങ്ങൾ തിരയുന്നത് അപ്രാപ്തമാക്കിയിരിക്കുന്നു</string>
+  <string name="pref_media_settings_refresh_interval_summary">ഓരോ <xliff:g id="interval">%1$s</xliff:g> ലും പുതിയ ചിത്രങ്ങൾക്കായി തിരയുക</string>
+  <string name="pref_media_settings_refresh_now">ഇപ്പോൾ പുതുക്കുക</string>
+  <string name="pref_media_settings_refresh_now_summary">ചിത്രം ഡാറ്റാബേസ് കരകൃതമായി പുതുക്കുക</string>
+  <string name="pref_media_pictures">ചിത്രങ്ങൾ</string>
+  <string name="pref_media_albums">ആൽബങ്ങൾ</string>
+  <string name="pref_media_albums_summary">വാൾപേപ്പറില്‍ കാണിക്കുന്ന ആൽബങ്ങൾ ചിത്രങ്ങളും സജ്ജമാക്കുക</string>
+  <string name="pref_media_auto_select_new">ആൽബങ്ങളുടെ സ്വപ്രേരിത തിരഞ്ഞെടുക്കല്‍</string>
+  <string name="pref_media_auto_select_new_summary">മീഡിയ റിക്കവറി സംഭവിക്കുമ്പോള്‍ പുതിയ ആൽബങ്ങൾ സ്വപ്രേരിതമായി തിരഞ്ഞെടുക്കുക</string>
+  <string name="pref_layout">ലേഔട്ട്</string>
+  <string name="pref_layout_summary">സ്ക്രീനിൽ ചിത്രങ്ങളുടെ സ്ഥാനീകരണം</string>
+  <string name="pref_layout_disposition">ക്രമീകരണം</string>
+  <string name="pref_random_dispositions">ക്രമമില്ലാതെ</string>
+  <string name="pref_random_dispositions_summary">തിരഞ്ഞെടുത്ത ഇടവേളയില്‍ ക്രമീകരണങ്ങള്‍ ക്രമമില്ലാതെ സൃഷ്ടിക്കുക</string>
+  <string name="pref_random_dispositions_interval">ഇടവേള</string>
+  <string name="pref_disposition_portrait">പോർട്രെയിറ്റ് ക്രമീകരണം</string>
+  <string name="pref_disposition_landscape">ലാൻഡ്സ്കേപ്പ് ക്രമീകരണം</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="one">കാണിച്ചിരിക്കുന്ന 1 ചിത്രം<xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g>ചിത്രങ്ങൾ കാണിച്ചിരിക്കുന്നു<xliff:g id="orientation">%2$s</xliff:g></item>
+  </plurals>
+  <string name="disposition_orientation_portrait">പോർട്രെയ്റ്റ് വിന്യാസം</string>
+  <string name="disposition_orientation_landscape">ലാൻഡ്സ്കേപ്പ് വിന്യാസം</string>
   <!-- [2 lines one for describe long tap and another for describe swipe] -->
+  <string name="pref_disposition_description">ഒരു ഫ്രെയിമില്‍ നീണ്ട അമര്‍ത്തല്‍ ചെയ്യുക, കൂടാതെ അതിന്റെ അരികുകളില്‍ ഡ്രാഗ് \u2026 ഡ്രോപ്പ് ചെയ്യുക. നിര്‍വചിക്കപ്പെട്ടിട്ടുള്ള ടെംപ്ലേറ്റുകൾ കാണിക്കുന്നതിന് ഇടത്തേക്കും വലത്തേക്കും സ്വൈപ്പ് ചെയ്യുക</string>
+  <string name="pref_disposition_template"><xliff:g id="number_of_template">%2$s</xliff:g> ല്‍ <xliff:g id="total_of_templates">%1$s</xliff:g> ടെംപ്ലേറ്റുകൾ</string>
+  <string name="pref_disposition_unable_delete_advise">തിരഞ്ഞെടുത്ത ഫ്രെയിം ഇല്ലാതാക്കാൻ കഴിയില്ല</string>
+  <string name="pref_about">ആമുഖം</string>
+  <string name="pref_about_summary">ഫോട്ടോഫേസ് v<xliff:g id="version">%1$s</xliff:g>\nപകർപ്പവകാശം \u00A9 2014 CyanogenMod പ്രോജക്റ്റ്</string>
   <!-- Refresh intervals -->
+  <string name="refresh_intervals_disabled">പ്രവർത്തനരഹിതമാക്കി</string>
+  <string name="refresh_intervals_1h">1 മണിക്കൂർ</string>
+  <string name="refresh_intervals_4h">4 മണിക്കൂർ</string>
+  <string name="refresh_intervals_1d">ഒരു ദിവസം</string>
+  <string name="refresh_intervals_2d">2 ദിവസം</string>
+  <string name="refresh_intervals_1w">1 ആഴ്ച</string>
   <!-- Touch actions -->
+  <string name="touch_actions_none">ആരിൽ നിന്നും വേണ്ട</string>
+  <string name="touch_actions_transition">പരിവര്‍ത്തനം ചെയ്യുക</string>
+  <string name="touch_actions_open">തുറക്കുക</string>
+  <string name="touch_actions_share">പങ്കിടുക</string>
+  <string name="touch_actions_none_summary">ഒന്നും ചെയ്യരുത്</string>
+  <string name="touch_actions_transition_summary">ചിത്രം പരിവര്‍ത്തനം ചെയ്യുക</string>
+  <string name="touch_actions_open_summary">ചിത്രം തുറക്കുക</string>
+  <string name="touch_actions_share_summary">ചിത്രം പങ്കിടുക</string>
   <!-- Transitions -->
+  <string name="transitions_cube">ക്യൂബ്</string>
+  <string name="transitions_fade">ഫെയ്ഡ്</string>
+  <string name="transitions_flip">ഫ്ലിപ്</string>
+  <string name="transitions_swap">സ്വാപ്പ്</string>
+  <string name="transitions_translation">പരിഭാഷ</string>
+  <string name="transitions_window">വിൻഡോ</string>
   <!-- Effects -->
+  <string name="effects_noeffect">സാധാരണ</string>
+  <string name="effects_autofix">ഓട്ടോഫിക്സ്</string>
+  <string name="effects_blur">ബ്ലര്‍</string>
+  <string name="effects_crossprocess">ക്രോസ് പ്രക്രിയ</string>
+  <string name="effects_documentary">ഡോക്യുമെന്ററി</string>
+  <string name="effects_duotone">ഡ്യൂടോൺ</string>
+  <string name="effects_emboss">എംബോസ്സ്</string>
+  <string name="effects_fisheye">ഫിഷ്ഐ</string>
+  <string name="effects_glow">ഗ്ലോ</string>
+  <string name="effects_grain">ഗ്രെയ്ന്‍</string>
+  <string name="effects_grayscale">ഗ്രേസ്കെയിൽ</string>
+  <string name="effects_halftone">ഹാഫ്ടോണ്‍</string>
+  <string name="effects_lomoish">ലോമോ-ഇഷ്</string>
+  <string name="effects_mirror">കണ്ണാടി</string>
+  <string name="effects_negative">നെഗറ്റീവ്</string>
+  <string name="effects_outline">ഔട്ട്ലൈൻ</string>
+  <string name="effects_pixelate">പിക്സലേറ്റ്</string>
+  <string name="effects_popart">പോപ്പ് ആർട്ട്</string>
+  <string name="effects_posterize">പോസ്റ്ററൈസ്</string>
+  <string name="effects_saturate">സാച്ചുറേറ്റ്</string>
+  <string name="effects_scanlines">സ്കാന്‍ലൈന്‍സ്</string>
+  <string name="effects_sepia">സിപിയ</string>
+  <string name="effects_temperature">താപനില</string>
+  <string name="effects_tint">ടിൻറ്</string>
+  <string name="effects_vignette">ഛായാചിത്രം</string>
   <!-- ColorPickerDialog -->
+  <string name="color_picker_alpha_slider_text">ആൽഫ</string>
+  <string name="color_picker_current_text">നിലവിൽ:</string>
+  <string name="color_picker_new_text">പുതിയത്:</string>
+  <string name="color_picker_color">വർണ്ണം:</string>
   <!-- Changelog dialog -->
+  <string name="changelog_title">ചേയ്ഞ്ച്ലോഗ്</string>
 </resources>

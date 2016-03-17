@@ -18,16 +18,133 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- The application name -->
   <!-- The app description -->
+  <string name="app_description">ଫଟୋଫେଜ୍‍ Live‍ ୱାଲ୍‍ପେପର୍‍</string>
   <!-- No images message -->
+  <string name="no_pictures_oops_msg">କୌଣସି ଚିତ୍ର ଖୋଲିଲା ନାହିଁ</string>
   <!-- runtime permission warning -->
+  <string name="runtime_permission_warning">ବାହ୍ୟ ଷ୍ଟୋରେଜ୍‍ ପଢିବା ପାଇଁ ଅନୁମତି ବିନା ଆପ୍ଲିକେସନ୍‍ ଚାଲିପାରିବ ନାହିଁ</string>
   <!-- Menus -->
+  <string name="mnu_restore">ପୁନରୁଦ୍ଧାର</string>
+  <string name="mnu_delete">ବିଲୋପ କରନ୍ତୁ</string>
+  <string name="mnu_settings">ସେଟିଂସ୍</string>
+  <string name="mnu_select_all">ସମସ୍ତ ଚୟନ କରନ୍ତୁ</string>
+  <string name="mnu_deselect_all">ସମସ୍ତ ଅଣଚୟନ କରନ୍ତୁ</string>
+  <string name="mnu_invert">ପରିବର୍ତ୍ତନ</string>
+  <string name="mnu_select_album">ଆଲବମ୍‌ ଚୟନ କରନ୍ତୁ</string>
+  <string name="mnu_deselect_album">ଆଲବମ୍‌ ଅଣଚୟନ କରନ୍ତୁ</string>
   <!-- Formats -->
+  <string name="format_disabled">ଅକ୍ଷମ ହୋଇଛି</string>
+  <string name="format_rotate_only">ଘୂର୍ଣ୍ଣନରେ ଅଛି</string>
+  <string name="format_seconds">%s ସେକେଣ୍ଡ।</string>
+  <string name="format_minutes">%s ମିନିଟ୍‍।</string>
+  <string name="format_hours">%s ଘଣ୍ଟା।</string>
+  <string name="format_days">%s ଦିନ।</string>
+  <string name="format_dim">%s%%</string>
   <!-- Preferences -->
+  <string name="pref_general">ସାଧାରଣ</string>
+  <string name="pref_general_summary">ସାଧାରଣ ସେଟିଂସମୂହ‍, ପ୍ରଭାବ ଓ ଟ୍ରାଞ୍ଜିସନ୍‍ଗୁଡିକ</string>
+  <string name="pref_general_settings">ସେଟିଂସ୍</string>
+  <string name="pref_general_settings_wallpaper_dim">ୱା୍ଲପେପର ଡିମ୍‍ ଅଛି</string>
+  <string name="pref_general_settings_background_color">ପୃଷ୍ଠପଟ ରଙ୍ଗ</string>
+  <string name="pref_general_settings_background_color_summary">ପୃ୍ଷଠଭୂମି ରଙ୍ଗ ସେଟ୍‍ କରନ୍ତୁ</string>
+  <string name="pref_general_touch_action">ଟର୍ଚ୍ଚ କ୍ରିୟା</string>
+  <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> ଫ୍ରେମ୍‍ ସ୍ପର୍ଶ କରିବା ସମଯରେ</string>
+  <string name="pref_general_aspect_ratio_correction">ଆସ୍‍ପେକ୍ଟ ରେସିଓ</string>
+  <string name="pref_general_aspect_ratio_correction_summary">ଲଷ୍ୟଥାନର ଫ୍ରେମ୍‍ରେ ଫିଟ୍‍ ହେବା ପାଇଁ ଏହାକୁ କ୍ରପ୍‍ କରି ଚିତ୍ର ଆସ୍‍ପେକ୍ଟ ରେସିଓ ଫିକ୍ସ କରିବା ପାଇଁ ଚେଷ୍ଟା କରନ୍ତୁ</string>
+  <string name="pref_general_transitions">ଟ୍ରାଞ୍ଜିସନ୍‍</string>
+  <string name="pref_general_transitions_types">ପ୍ରକାର</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> ର <xliff:g id="total">%2$d</xliff:g> ପ୍ରକାର ଚୟନ କରାଯାଇଛି</string>
+  <string name="pref_general_transitions_interval">ବ୍ୟବଧାନ</string>
+  <string name="pref_general_effects">ପ୍ରଭାବଗୁଡିକ</string>
+  <string name="pref_general_effects_types">ପ୍ରକାର</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> ର <xliff:g id="total">%2$d</xliff:g> iଚିତ୍ର ପ୍ରଭାବ ଚୟନ କରାଯାଇଛି</string>
+  <string name="pref_media">ମିଡିଆ</string>
+  <string name="pref_media_summary">ଆଲ୍‍ବମ୍‍ଗୁଡିକ ଦେଖାଯିବ, ଇଂଟରଭା‍ଲ୍‍ ଓ ଅନ୍ୟାନ୍ୟ ମିଡିଆ ସେଟିଂସ୍‍ ସତେଜ କରନ୍ତୁ</string>
+  <string name="pref_media_settings">ସେଟିଂସ୍</string>
+  <string name="pref_media_settings_refresh_interval">ଇଂଟରଭା‍ଲ୍‍୍‍ ସତେଜ କରନ୍ତୁ</string>
+  <string name="pref_media_settings_refresh_interval_disable">ନୂ୍ତନ ଛବିସମୂହ ପାଇଁ ସନ୍ଧାନ ଅଷମ କରାଯାଇଛି</string>
+  <string name="pref_media_settings_refresh_interval_summary">ପ୍ରତି <xliff:g id="interval">%1$s</xliff:g>ରେ ନୂତନ ଛବିସମୂହ ପାଇଁ ସନ୍ଧାନ କରନ୍ତୁ</string>
+  <string name="pref_media_settings_refresh_now">ବର୍ତ୍ତମାନ ସତେଜ କରନ୍ତୁ</string>
+  <string name="pref_media_settings_refresh_now_summary">ଚିତ୍ର ଡାଟାବେ‌କୁ ମାନୁଆଲ୍‍ ଅନୁସାରେ ସତେଜ କରନ୍ତୁ</string>
+  <string name="pref_media_pictures">ଫଟୋଗୁଡିକ</string>
+  <string name="pref_media_albums">ଆଲବମଗୁଡିକ</string>
+  <string name="pref_media_albums_summary">ଯେଉଁ ଆଲ୍‍ବମ‍ ଓ ଚିତ୍ରଗୁଡିକ ୱାଲ୍‍ପେପର୍‍ରେ ଦେଖା୍ଯିବ ତାହା ସେଟ୍‍ କରନ୍ତୁ</string>
+  <string name="pref_media_auto_select_new">ସ୍ୱତଃ ଆଲ୍‍ବମ୍‍ଗୁଡିକ ଚୟନ କର୍ତନ୍ତୁ</string>
+  <string name="pref_media_auto_select_new_summary">ମିଡିଆ ଡିସ୍‍କଭରି ହେବା ସମ୍ୟରେ ସ୍ୱତଃ ଭାବେ ନୂତନ ଆଲ୍‍ବମ୍‍ ଚୟନ କରନ୍ତୁ</string>
+  <string name="pref_layout">ଲେଆଉଟ୍</string>
+  <string name="pref_layout_summary">ସ୍କ୍ରିନ୍‍ରେ ଛବିସମୂହ ରଖିବା</string>
+  <string name="pref_layout_disposition">ବନ୍ଦୋବସ୍ତ</string>
+  <string name="pref_random_dispositions">ଅକ୍ରମିତ</string>
+  <string name="pref_random_dispositions_summary">ଚୟନ କରାଯାଇଥିବା ବ୍ୟବଧାନରେ ଅକ୍ରମିତ ବ୍ୟବଥା ସୃଷ୍ଟି କରନ୍ତୁ</string>
+  <string name="pref_random_dispositions_interval">ବ୍ୟବଧାନ</string>
+  <string name="pref_disposition_portrait">ପୋର୍ଟେଟ୍‍ ବ୍ୟବଥା</string>
+  <string name="pref_disposition_landscape">ଲାଣ୍ଡସ୍କେପ୍‍ ବ୍ୟବଥା</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="one"><xliff:g id="orientation">%2$Sରେ</xliff:g>ରେ 1 ଚିତ୍ର ଦେଖାଯିବ</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ଚିତ୍ରଗୁଡିକ <xliff:g id="orientation">%2$s</xliff:g>ରେ ଦେଖାଯିବ</item>
+  </plurals>
+  <string name="disposition_orientation_portrait">ପୋର୍ଟେଟ୍‍ ଆଭିମୁଖ୍ୟ</string>
+  <string name="disposition_orientation_landscape">ଲାଣ୍ଡସ୍କେପ୍‍ ଆଭିମୁଖ୍ୟ</string>
   <!-- [2 lines one for describe long tap and another for describe swipe] -->
+  <string name="pref_disposition_description">ଏକ ଫ୍ରେମ୍‍ରେ ଲମ୍ବା ଟ୍ୟାପ୍‍ କରନ୍ତୁ ଓ \u0026କୁ ଏହାର ସୀମାକୁ ଡ୍ରାଗ୍‍ କରନ୍ତୁ ନିଧାରିତ ହୋଇଥିବା ଟେମ୍ପ୍‍ଲେଟ୍‍ଗୁଡିକ ଦେଖାଇବା ପାଇଁ ବାମ ଓ ଡାହାଣକୁ ସ୍ୱାଇପ୍‍ କରନ୍ତୁ</string>
+  <string name="pref_disposition_template">ଟେମ୍ପଲେଟ୍‍ <xliff:g id="number_of_template">%1$s</xliff:g> ର <xliff:g id="total_of_templates">%2$s</xliff:g></string>
+  <string name="pref_disposition_unable_delete_advise">ଚୟନ କରାଯାଇଥିବା ଫ୍ରେମ୍‍ ବିଲୋପ କରିବାରେ ଅଷମ</string>
+  <string name="pref_about">ବିଷୟରେ</string>
+  <string name="pref_about_summary">ଫଟୋଫେଜ୍‍ ଭି<xliff:g id="version">%1$s</xliff:g>\nକପିରାଇଟ୍‍ \u00A9 2014 ସିଆନୋଜେନ୍ମୋଡ୍‍‍ ପ୍ରୋଜେକ୍ଟ</string>
   <!-- Refresh intervals -->
+  <string name="refresh_intervals_disabled">ଅକ୍ଷମ ହୋଇଛି</string>
+  <string name="refresh_intervals_1h">1 ଘଣ୍ଟା</string>
+  <string name="refresh_intervals_4h">4 ଘଣ୍ଟା</string>
+  <string name="refresh_intervals_1d">୧ ଦିନ</string>
+  <string name="refresh_intervals_2d">2 ଦିନ</string>
+  <string name="refresh_intervals_1w">1 ସପ୍ତାହ</string>
   <!-- Touch actions -->
+  <string name="touch_actions_none">କିଛି ନୁହେଁ</string>
+  <string name="touch_actions_transition">ଟ୍ରାଞ୍ଜିସନ୍‍ କରନ୍ତୁ</string>
+  <string name="touch_actions_open">ଖୋଲନ୍ତୁ</string>
+  <string name="touch_actions_share">ଅଂଶୀଦାର କରନ୍ତୁ</string>
+  <string name="touch_actions_none_summary">କିଛି କରନ୍ତୁ ନାହିଁ</string>
+  <string name="touch_actions_transition_summary">ଚିତ୍ର ଅନୁବାଦ କରନ୍ତୁ</string>
+  <string name="touch_actions_open_summary">ଚିତ୍ର ଖୋଲନ୍ତୁ</string>
+  <string name="touch_actions_share_summary">ଚିତ୍ର ଅଂଶୀଦାର କରନ୍ତୁ</string>
   <!-- Transitions -->
+  <string name="transitions_cube">ଘନକ୍ଷେତ୍ର</string>
+  <string name="transitions_fade">ମ୍ଳାନ ହେବା</string>
+  <string name="transitions_flip">ଫ୍ଲିପ୍‍ କରନ୍ତୁ</string>
+  <string name="transitions_swap">ସ୍ଵାପ୍</string>
+  <string name="transitions_translation">ଅନୁବାଦ</string>
+  <string name="transitions_window">ଓ୍ୱିଣ୍ଡୋ</string>
   <!-- Effects -->
+  <string name="effects_noeffect">ସାଧାରଣ</string>
+  <string name="effects_autofix">ଅଟୋଫିକ୍ସ</string>
+  <string name="effects_blur">ଅସ୍ପଷ୍ଟ</string>
+  <string name="effects_crossprocess">କ୍ରସ୍‍ ପ୍ରୋସେସ୍‍</string>
+  <string name="effects_documentary">ଡକ୍ୟୁମେଣ୍ଟାରି</string>
+  <string name="effects_duotone">ଡୁଓଟୋନ୍‍</string>
+  <string name="effects_emboss">ଏମ୍ବୋସ୍‍</string>
+  <string name="effects_fisheye">ଫିସ୍‍ଆଇ</string>
+  <string name="effects_glow">ଚମକ</string>
+  <string name="effects_grain">ଗ୍ରେନ୍‍</string>
+  <string name="effects_grayscale">ଧୂସର ସ୍କେଲ୍</string>
+  <string name="effects_halftone">ହାଫ୍‍ଟୋନ୍‍</string>
+  <string name="effects_lomoish">ଲୋମୋ-ଇସ୍‍</string>
+  <string name="effects_mirror">ମିରର୍</string>
+  <string name="effects_negative">ବିଯୁକ୍ତାତ୍ମକ</string>
+  <string name="effects_outline">ଆଉଟଲାଇନ୍</string>
+  <string name="effects_pixelate">ପିକ୍ସେଲେଟ୍‍</string>
+  <string name="effects_popart">ପପ୍‍ ଆର୍ଟ୍‍</string>
+  <string name="effects_posterize">ପୋଷ୍ଟରାଇଜ୍</string>
+  <string name="effects_saturate">ସାଚୁରେଟ୍‍</string>
+  <string name="effects_scanlines">ସ୍କାନ୍‍ଲାଇନ୍ସ</string>
+  <string name="effects_sepia">ସେପିଆ</string>
+  <string name="effects_temperature">ତାପମାତ୍ରା</string>
+  <string name="effects_tint">ଟିଣ୍ଟ</string>
+  <string name="effects_vignette">ଭିଗନେଟ୍ଟେ</string>
   <!-- ColorPickerDialog -->
+  <string name="color_picker_alpha_slider_text">ଆ‍ଲ୍ଫା</string>
+  <string name="color_picker_current_text">ସମ୍ପ୍ରତି:</string>
+  <string name="color_picker_new_text">ନୂତନ:</string>
+  <string name="color_picker_color">ରଙ୍ଗ:</string>
   <!-- Changelog dialog -->
+  <string name="changelog_title">ଚେଞ୍ଜ୍‍ଲଗ୍‍</string>
 </resources>

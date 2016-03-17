@@ -22,6 +22,7 @@
   <!-- No images message -->
   <string name="no_pictures_oops_msg">Không tìm thấy hình ảnh</string>
   <!-- runtime permission warning -->
+  <string name="runtime_permission_warning">Ứng dụng không thể chạy mà không có quyền đọc bộ nhớ ngoài.</string>
   <!-- Menus -->
   <string name="mnu_restore">Khôi phục</string>
   <string name="mnu_delete">Xóa</string>
@@ -78,6 +79,9 @@
   <string name="pref_random_dispositions_interval">Khoảng thời gian</string>
   <string name="pref_disposition_portrait">Sắp xếp dọc</string>
   <string name="pref_disposition_landscape">Sắp xếp ngang</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ảnh được hiện trong <xliff:g id="orientation">%2$s</xliff:g></item>
+  </plurals>
   <string name="disposition_orientation_portrait">định hướng dọc</string>
   <string name="disposition_orientation_landscape">định hướng xoay ngang</string>
   <!-- [2 lines one for describe long tap and another for describe swipe] -->

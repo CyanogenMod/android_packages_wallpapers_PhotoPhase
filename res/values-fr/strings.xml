@@ -22,6 +22,7 @@
   <!-- No images message -->
   <string name="no_pictures_oops_msg">Aucune image trouvée</string>
   <!-- runtime permission warning -->
+  <string name="runtime_permission_warning">Impossible d\'exécuter l\'application sans les droits de lecture sur le stockage externe.</string>
   <!-- Menus -->
   <string name="mnu_restore">Restaurer</string>
   <string name="mnu_delete">Supprimer</string>

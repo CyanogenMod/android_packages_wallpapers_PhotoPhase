@@ -18,16 +18,133 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- The application name -->
   <!-- The app description -->
+  <string name="app_description">PhotoPhase நேரலை வால்பேப்பர்</string>
   <!-- No images message -->
+  <string name="no_pictures_oops_msg">படங்கள் எதுவும் கண்டுபிடிக்கப்படவில்லை</string>
   <!-- runtime permission warning -->
+  <string name="runtime_permission_warning">பயன்பாடானது அனுமதியில்லாமல் வெளிப்புற சேமிப்பகத்தை படிக்க முடியாது</string>
   <!-- Menus -->
+  <string name="mnu_restore">மீட்டமை</string>
+  <string name="mnu_delete">நீக்கு</string>
+  <string name="mnu_settings">அமைப்புகள்</string>
+  <string name="mnu_select_all">எல்லாவற்றையும் தேர்ந்தெடு</string>
+  <string name="mnu_deselect_all">அனைத்தையும் தேர்வுநீக்கு</string>
+  <string name="mnu_invert">புரட்டு</string>
+  <string name="mnu_select_album">ஆல்பத்தைத் தேர்ந்தெடு</string>
+  <string name="mnu_deselect_album">ஆல்பத்தை தேர்வுநீக்கு</string>
   <!-- Formats -->
+  <string name="format_disabled">முடக்கப்பட்டது</string>
+  <string name="format_rotate_only">சுழற்சியில்</string>
+  <string name="format_seconds">%s வினாடி</string>
+  <string name="format_minutes">%s நிமிடம்.</string>
+  <string name="format_hours">%s மணி.</string>
+  <string name="format_days">%s d.</string>
+  <string name="format_dim">%s%%</string>
   <!-- Preferences -->
+  <string name="pref_general">பொது</string>
+  <string name="pref_general_summary">பொதுவான அமைப்புகள் விளைவுகள் மற்றும் நிலைமாற்றங்கள்</string>
+  <string name="pref_general_settings">அமைப்புகள்</string>
+  <string name="pref_general_settings_wallpaper_dim">வால்பேப்பர் டிம்</string>
+  <string name="pref_general_settings_background_color">பின்புல வண்ணம்</string>
+  <string name="pref_general_settings_background_color_summary">பின்னணி வண்னத்தை அமை</string>
+  <string name="pref_general_touch_action">தொடல் செயல்பாடு</string>
+  <string name="pref_general_touch_action_summary_format">ஒரு சட்டத்தை தொடும்போது <xliff:g id="action_summary">%1$s</xliff:g></string>
+  <string name="pref_general_aspect_ratio_correction">நோக்கு விகிதம்</string>
+  <string name="pref_general_aspect_ratio_correction_summary">படத்தின் நோக்கு விகிதத்தை அதை கத்தரித்து இலக்கு சட்டத்திற்கு பொருத்துவதன் மூலம் பொருத்தவும்</string>
+  <string name="pref_general_transitions">நிலைமாற்றங்கள்</string>
+  <string name="pref_general_transitions_types">வகைகள்</string>
+  <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%2$d</xliff:g>இல் <xliff:g id="total">%1$d</xliff:g>  வகைகள் தேர்வுசெய்யப்பட்டன</string>
+  <string name="pref_general_transitions_interval">இடைவெளி</string>
+  <string name="pref_general_effects">விளைவுகள்</string>
+  <string name="pref_general_effects_types">வகைகள்</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%2$d</xliff:g>இல் <xliff:g id="total">%1$d</xliff:g>   பட விளைவுகள் தேர்வுசெய்யப்பட்டன</string>
+  <string name="pref_media">மீடியா</string>
+  <string name="pref_media_summary">காட்டவேண்டிய ஆல்பங்கள், புத்துப்பித்தல் இடைவெளி மற்றும் பிற ஊடக அமைப்புகள்</string>
+  <string name="pref_media_settings">அமைப்புகள்</string>
+  <string name="pref_media_settings_refresh_interval">இடைவெளியை புதுப்பி</string>
+  <string name="pref_media_settings_refresh_interval_disable">புதிய படங்களுக்கான தேடல் முடக்கப்பட்டது</string>
+  <string name="pref_media_settings_refresh_interval_summary">ஒவ்வொரு <xliff:g id="interval">%1$s</xliff:g>க்கும் ஒரு புதிய படத்தை தேடு</string>
+  <string name="pref_media_settings_refresh_now">இப்போது புதுப்பி</string>
+  <string name="pref_media_settings_refresh_now_summary">பட தரவுதளத்தை கைமுறையாக புதுப்பி</string>
+  <string name="pref_media_pictures">படங்கள்</string>
+  <string name="pref_media_albums">ஆல்பங்கள்</string>
+  <string name="pref_media_albums_summary">வால்பேப்பரில் காட்டப்படும் ஆல்பங்கள் மற்றும் படங்களை அமை</string>
+  <string name="pref_media_auto_select_new">ஆல்பங்களை தானியக்கமாகதேர்ந்தெடு</string>
+  <string name="pref_media_auto_select_new_summary">ஊடக கண்டறிதல் நடைபெறும்போது தானியக்கமாக புதிய ஆல்பங்களை தேர்வுசெய்</string>
+  <string name="pref_layout">தளவமைப்பு</string>
+  <string name="pref_layout_summary">திரையிலே படங்களை நிலைப்படுத்தல்</string>
+  <string name="pref_layout_disposition">ஒழுங்கமை</string>
+  <string name="pref_random_dispositions">தற்செயல்</string>
+  <string name="pref_random_dispositions_summary">தேர்வுசெய்யப்பட்ட இடைவெளியில் தற்செயலான ஒழுங்கமைப்புகளை உருவாக்கு</string>
+  <string name="pref_random_dispositions_interval">இடைவெளி</string>
+  <string name="pref_disposition_portrait">நிலைபதிப்பு ஒழுங்கமைப்பு</string>
+  <string name="pref_disposition_landscape">நிலைபரப்பு ஒழுங்கமைப்பு</string>
+  <plurals name="pref_disposition_summary_format">
+    <item quantity="one">1 படிமம் <xliff:g id="orientation">%2$s</xliff:g> காட்டப்படுகிறது</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g>  படங்கள் <xliff:g id="orientation">%2$s</xliff:g> காட்டப்படுகின்றன</item>
+  </plurals>
+  <string name="disposition_orientation_portrait">நிலைபதிப்பு திசை</string>
+  <string name="disposition_orientation_landscape">நிலைபரப்பு திசை</string>
   <!-- [2 lines one for describe long tap and another for describe swipe] -->
+  <string name="pref_disposition_description">ஒரு சட்டத்தை நீண்ட தட்டல் செய்து இழுக்கவும்  \u0026  அதன் முனைகளை விடுகிறது விளக்கப்பட்ட வார்ப்புருக்களை காட்ட இடது மற்றும் வலதுபுறம் தேய்</string>
+  <string name="pref_disposition_template">வார்ப்புரு <xliff:g id="number_of_template">%2$s</xliff:g> இல் <xliff:g id="total_of_templates">%1$s</xliff:g></string>
+  <string name="pref_disposition_unable_delete_advise">தேர்வுசெய்யப்பட்ட சட்டத்தை நீக்க முடியவில்லை</string>
+  <string name="pref_about">இதுபற்றி</string>
+  <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nCopyright \u00A9 2014 The CyanogenMod Project</string>
   <!-- Refresh intervals -->
+  <string name="refresh_intervals_disabled">முடக்கப்பட்டது</string>
+  <string name="refresh_intervals_1h">1 மணிநேரம்</string>
+  <string name="refresh_intervals_4h">4 மணிநேரம்</string>
+  <string name="refresh_intervals_1d">1 நாள்</string>
+  <string name="refresh_intervals_2d">2 நாட்கள்</string>
+  <string name="refresh_intervals_1w">1 வாரம்</string>
   <!-- Touch actions -->
+  <string name="touch_actions_none">ஏதுமில்லை</string>
+  <string name="touch_actions_transition">நிலைமாற்றத்தை செய்</string>
+  <string name="touch_actions_open">திற</string>
+  <string name="touch_actions_share">பகிர்</string>
+  <string name="touch_actions_none_summary">எதுவும் செய்யாதே</string>
+  <string name="touch_actions_transition_summary">படிமம் நிலைமாற்றத்தை செய்</string>
+  <string name="touch_actions_open_summary">படிமத்தை திற</string>
+  <string name="touch_actions_share_summary">படிமத்தை பகிர்</string>
   <!-- Transitions -->
+  <string name="transitions_cube">கியூப்</string>
+  <string name="transitions_fade">மங்கு</string>
+  <string name="transitions_flip">திருப்பு</string>
+  <string name="transitions_swap">மாற்று</string>
+  <string name="transitions_translation">மொழிபெயர்ப்பு</string>
+  <string name="transitions_window">சாளரம்</string>
   <!-- Effects -->
+  <string name="effects_noeffect">இயல்பு</string>
+  <string name="effects_autofix">தானாகபொருத்து</string>
+  <string name="effects_blur">மங்கலாக்கு</string>
+  <string name="effects_crossprocess">குறுக்கு செயல்முறை</string>
+  <string name="effects_documentary">ஆவணப்படம்</string>
+  <string name="effects_duotone">டுவோடோன்</string>
+  <string name="effects_emboss">எம்போஸ்</string>
+  <string name="effects_fisheye">மீன்கண்</string>
+  <string name="effects_glow">ஒளிர்வ</string>
+  <string name="effects_grain">தானியம்</string>
+  <string name="effects_grayscale">கிரேஸ்கேல்</string>
+  <string name="effects_halftone">அரைடோன்</string>
+  <string name="effects_lomoish">லோமோ-இஷ்</string>
+  <string name="effects_mirror">கண்ணாடி</string>
+  <string name="effects_negative">எதிர்மறை</string>
+  <string name="effects_outline">வெளிவரை</string>
+  <string name="effects_pixelate">பிக்சலேட்</string>
+  <string name="effects_popart">பாப் கலை</string>
+  <string name="effects_posterize">போஸ்ச்சரைஸ்</string>
+  <string name="effects_saturate">சாச்சுரேட்</string>
+  <string name="effects_scanlines">ஸ்கேன்வரிகள்</string>
+  <string name="effects_sepia">சேஃபியா</string>
+  <string name="effects_temperature">தட்பவெப்பம்</string>
+  <string name="effects_tint">டின்ட்</string>
+  <string name="effects_vignette">சிற்றலங்காரம்</string>
   <!-- ColorPickerDialog -->
+  <string name="color_picker_alpha_slider_text">ஆல்ஃபா</string>
+  <string name="color_picker_current_text">நடப்பு:</string>
+  <string name="color_picker_new_text">புதிது:</string>
+  <string name="color_picker_color">வண்ணம்:</string>
   <!-- Changelog dialog -->
+  <string name="changelog_title">மாற்றபதிப்பு</string>
 </resources>

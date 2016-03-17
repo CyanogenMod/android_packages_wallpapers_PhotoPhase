@@ -31,13 +31,13 @@
   <string name="mnu_deselect_all">בטל את כל הבחירות</string>
   <string name="mnu_invert">הפוך</string>
   <string name="mnu_select_album">בחר אלבום</string>
-  <string name="mnu_deselect_album">הסר בחירת אלבום</string>
+  <string name="mnu_deselect_album">בטל בחירת אלבום</string>
   <!-- Formats -->
   <string name="format_disabled">מושבת</string>
   <string name="format_rotate_only">בסיבוב</string>
   <string name="format_seconds">%s שנ\'</string>
   <string name="format_minutes">%s דק\'</string>
-  <string name="format_hours">%s ש\'</string>
+  <string name="format_hours">%s שע\'</string>
   <string name="format_days">%s י\'</string>
   <string name="format_dim">%s%%</string>
   <!-- Preferences -->
@@ -50,22 +50,22 @@
   <string name="pref_general_touch_action">פעולה במגע</string>
   <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> כשנוגעים בתמונה</string>
   <string name="pref_general_aspect_ratio_correction">יחס גובה-רוחב</string>
-  <string name="pref_general_aspect_ratio_correction_summary">נסה לתקן את יחס הגובה-רוחב של התמונה על ידי חיתוכה על מנת להתאימה למסגרת היעד</string>
+  <string name="pref_general_aspect_ratio_correction_summary">נסה לתקן את יחס הגובה-רוחב של התמונה על ידי חיתוכה, כדי להתאימה למסגרת היעד</string>
   <string name="pref_general_transitions">מעברים</string>
   <string name="pref_general_transitions_types">סוגים</string>
   <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> מתוך <xliff:g id="total">%2$d</xliff:g> סוגים נבחרו</string>
   <string name="pref_general_transitions_interval">מרווח זמן</string>
   <string name="pref_general_effects">אפקטים</string>
   <string name="pref_general_effects_types">סוגים</string>
-  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> מ-<xliff:g id="total">%2$d</xliff:g> אפקטי תמונות נבחרו</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> מ-<xliff:g id="total">%2$d</xliff:g> אפקטים לתמונות נבחרו</string>
   <string name="pref_media">מדיה</string>
-  <string name="pref_media_summary">אלבומים שיוצגו, מרווחי עדכון והגדרות מדיה אחרות</string>
+  <string name="pref_media_summary">אלבומים שיוצגו, מרווחי רענון והגדרות מדיה אחרות</string>
   <string name="pref_media_settings">הגדרות</string>
   <string name="pref_media_settings_refresh_interval">מרווח זמן לרענון</string>
   <string name="pref_media_settings_refresh_interval_disable">חיפוש תמונות חדשות מושבת</string>
   <string name="pref_media_settings_refresh_interval_summary">חפש תמונות חדשות כל <xliff:g id="interval">%1$s</xliff:g></string>
   <string name="pref_media_settings_refresh_now">רענון עכשיו</string>
-  <string name="pref_media_settings_refresh_now_summary">רענן ידנית מסד נתונים של תמונות</string>
+  <string name="pref_media_settings_refresh_now_summary">רענון ידני למסד נתוני התמונות</string>
   <string name="pref_media_pictures">תמונות</string>
   <string name="pref_media_albums">אלבומים</string>
   <string name="pref_media_albums_summary">הגדר את האלבומים והתמונות שיוצגו על המסך</string>
@@ -77,30 +77,30 @@
   <string name="pref_random_dispositions">אקראי</string>
   <string name="pref_random_dispositions_summary">צור סדר אקראי במרווח הזמן הנבחר</string>
   <string name="pref_random_dispositions_interval">מרווח זמן</string>
-  <string name="pref_disposition_portrait">סידור במצב עומד</string>
-  <string name="pref_disposition_landscape">סידור במסך שוכב</string>
+  <string name="pref_disposition_portrait">סידור במצב אורך</string>
+  <string name="pref_disposition_landscape">סידור רוחב</string>
   <plurals name="pref_disposition_summary_format">
     <item quantity="one">תמונה אחת מופיעה ב-<xliff:g id="orientation">%2$s</xliff:g></item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> תמונות מופיעות ב-<xliff:g id="orientation">%2$s</xliff:g></item>
   </plurals>
-  <string name="disposition_orientation_portrait">כיוון עומד</string>
-  <string name="disposition_orientation_landscape">כיוון שוכב</string>
+  <string name="disposition_orientation_portrait">כיוון אורך</string>
+  <string name="disposition_orientation_landscape">כיוון רוחב</string>
   <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">לחיצה ארוכה ומשיכה \u0026 הסר את הגבולות.\nהחלק ימינה כדי להציג תבניות מוגדרות</string>
   <string name="pref_disposition_template">התבנית <xliff:g id="number_of_template">%1$s</xliff:g> מ-<xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">אין אפשרות למחוק את המסגרת שנבחרה</string>
   <string name="pref_about">אודות</string>
-  <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nזכויות  \u00A9 2014 פרויקט ה-CyanogenMod</string>
+  <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nזכויות \u00A9 2014 פרויקט CyanogenMod</string>
   <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">מושבת</string>
   <string name="refresh_intervals_1h">שעה אחת</string>
   <string name="refresh_intervals_4h">4 שעות</string>
   <string name="refresh_intervals_1d">יום אחד</string>
-  <string name="refresh_intervals_2d">2 ימים</string>
+  <string name="refresh_intervals_2d">יומיים</string>
   <string name="refresh_intervals_1w">שבוע אחד</string>
   <!-- Touch actions -->
   <string name="touch_actions_none">ללא</string>
-  <string name="touch_actions_transition">ביצוע המעבר</string>
+  <string name="touch_actions_transition">בצע מעבר</string>
   <string name="touch_actions_open">פתח</string>
   <string name="touch_actions_share">שתף</string>
   <string name="touch_actions_none_summary">אל תעשה דבר</string>
@@ -126,14 +126,14 @@
   <string name="effects_glow">זוהר</string>
   <string name="effects_grain">מגורען</string>
   <string name="effects_grayscale">גווני אפור</string>
-  <string name="effects_halftone">רשת הדפסה</string>
+  <string name="effects_halftone">רישות</string>
   <string name="effects_lomoish">אפקטים מוגזמים</string>
   <string name="effects_mirror">מראה</string>
   <string name="effects_negative">נגטיב</string>
   <string name="effects_outline">קווי מתאר</string>
-  <string name="effects_pixelate">פיקסליזציה</string>
+  <string name="effects_pixelate">תצוגת פיקסלים</string>
   <string name="effects_popart">פופ ארט</string>
-  <string name="effects_posterize">פוסטריזציה</string>
+  <string name="effects_posterize">איחוד גוונים</string>
   <string name="effects_saturate">רוויה</string>
   <string name="effects_scanlines">קווי סריקה</string>
   <string name="effects_sepia">ספיה</string>
