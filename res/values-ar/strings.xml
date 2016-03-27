@@ -22,6 +22,7 @@
   <!-- No images message -->
   <string name="no_pictures_oops_msg">عدم العثور على صور</string>
   <!-- runtime permission warning -->
+  <string name="runtime_permission_warning">التطبيق لا يتسطيع العمل بدون الحصول على إذن قراءة الذاكرة الخارجية.</string>
   <!-- Menus -->
   <string name="mnu_restore">استعادة</string>
   <string name="mnu_delete">حذف</string>
