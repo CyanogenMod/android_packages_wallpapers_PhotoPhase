@@ -22,6 +22,7 @@
   <!-- No images message -->
   <string name="no_pictures_oops_msg">Resim bulunamadı</string>
   <!-- runtime permission warning -->
+  <string name="runtime_permission_warning">Uygulama harici depolama yazma izni olmadan çalıştırılamıyor.</string>
   <!-- Menus -->
   <string name="mnu_restore">Geri yükle</string>
   <string name="mnu_delete">Sil</string>
