@@ -68,7 +68,7 @@
   <string name="pref_media_settings_refresh_now_summary">רענון ידני למסד נתוני התמונות</string>
   <string name="pref_media_pictures">תמונות</string>
   <string name="pref_media_albums">אלבומים</string>
-  <string name="pref_media_albums_summary">הגדר את האלבומים והתמונות שיוצגו על המסך</string>
+  <string name="pref_media_albums_summary">הגדר את האלבומים והתמונות שיוצגו על הטפט</string>
   <string name="pref_media_auto_select_new">בחירת אלבומים אוטומטית</string>
   <string name="pref_media_auto_select_new_summary">בחר אלבומים חדשים אוטומטית כאשר מתגלה מדיה חדשה</string>
   <string name="pref_layout">פריסה</string>
