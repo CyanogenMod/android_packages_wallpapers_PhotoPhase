@@ -16,8 +16,12 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">Rekta ekranfono PhotoPhase</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Neniu bildo trovita</string>
+  <!-- Menus -->
   <string name="mnu_restore">Restaŭri</string>
   <string name="mnu_delete">Forigi</string>
   <string name="mnu_settings">Agordoj</string>
@@ -26,6 +30,7 @@
   <string name="mnu_invert">Inversigi</string>
   <string name="mnu_select_album">Elekti albumon</string>
   <string name="mnu_deselect_album">Malelekti albumon</string>
+  <!-- Formats -->
   <string name="format_disabled">Malŝaltita</string>
   <string name="format_rotate_only">Laŭ turnado</string>
   <string name="format_seconds">%s sek.</string>
@@ -33,6 +38,7 @@
   <string name="format_hours">%s h.</string>
   <string name="format_days">%s t.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">Ĝenerala</string>
   <string name="pref_general_summary">Ĝeneralaj agpodoj, efektoj kaj transpasoj</string>
   <string name="pref_general_settings">Agordoj</string>
@@ -77,17 +83,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">Vertikale</string>
   <string name="disposition_orientation_landscape">Horizontale</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Longe premu kadron kaj ŝovu-\u0026-demetu ties randojn. Movu maldekstren kaj dekstren por vidi la difinitajn ŝablonojn</string>
   <string name="pref_disposition_template">Ŝablono <xliff:g id="number_of_template">%1$s</xliff:g> el <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Neeblas forigi la elektitan kadron</string>
   <string name="pref_about">Pri</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nCopyright \u00A9 2014 The CyanogenMod Project</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Malŝaltita</string>
   <string name="refresh_intervals_1h">1 horo</string>
   <string name="refresh_intervals_4h">4 horoj</string>
   <string name="refresh_intervals_1d">1 tago</string>
   <string name="refresh_intervals_2d">2 tagoj</string>
   <string name="refresh_intervals_1w">1 semajno</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Nenio</string>
   <string name="touch_actions_transition">Fari transpason</string>
   <string name="touch_actions_open">Malfermi</string>
@@ -96,12 +105,14 @@
   <string name="touch_actions_transition_summary">Fari bildan transpason</string>
   <string name="touch_actions_open_summary">Malfermi bildon</string>
   <string name="touch_actions_share_summary">Komunikigi la bildon</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Kubo</string>
   <string name="transitions_fade">Dissolvo</string>
   <string name="transitions_flip">Renversi</string>
   <string name="transitions_swap">Inversigi</string>
   <string name="transitions_translation">Translacio</string>
   <string name="transitions_window">Fenestro</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Normala</string>
   <string name="effects_autofix">Aŭtomata korektado</string>
   <string name="effects_blur">Malfokusi</string>
@@ -127,9 +138,11 @@
   <string name="effects_temperature">Temperaturo</string>
   <string name="effects_tint">Nuanco</string>
   <string name="effects_vignette">Bildeto</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Alfao</string>
   <string name="color_picker_current_text">Nuna:</string>
   <string name="color_picker_new_text">Nova:</string>
   <string name="color_picker_color">Koloro:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Ŝanĝprotokolo</string>
 </resources>

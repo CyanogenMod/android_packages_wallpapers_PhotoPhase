@@ -16,8 +16,12 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">PhotoPhase live bakrunnsbilde</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Ingen bilder funnet</string>
+  <!-- Menus -->
   <string name="mnu_restore">Gjenopprett</string>
   <string name="mnu_delete">Slett</string>
   <string name="mnu_settings">Innstillinger</string>
@@ -26,6 +30,7 @@
   <string name="mnu_invert">Inverter</string>
   <string name="mnu_select_album">Velg album</string>
   <string name="mnu_deselect_album">Fjern album</string>
+  <!-- Formats -->
   <string name="format_disabled">Deaktivert</string>
   <string name="format_rotate_only">På rotasjon</string>
   <string name="format_seconds">%s sek.</string>
@@ -33,6 +38,7 @@
   <string name="format_hours">%s t.</string>
   <string name="format_days">%s d.</string>
   <string name="format_dim">%s %%</string>
+  <!-- Preferences -->
   <string name="pref_general">Generelt</string>
   <string name="pref_general_summary">Generelle innstillinger, effekter og overganger</string>
   <string name="pref_general_settings">Innstillinger</string>
@@ -77,17 +83,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">stående retning</string>
   <string name="disposition_orientation_landscape">Liggende retning</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Lang trykk på en ramme å dra \u0026 mister sine kantlinjer. \nSveip venstre og høyre for å vise definerte maler</string>
   <string name="pref_disposition_template">Mal <xliff:g id="number_of_template"> %1$s </xliff:g> av <xliff:g id="total_of_templates"> %2$s</xliff:g> s</string>
   <string name="pref_disposition_unable_delete_advise">Kan ikke slette den merkede rammen</string>
   <string name="pref_about">Om</string>
   <string name="pref_about_summary">PhotoPhase v <xliff:g id="version"> %1$s </xliff:g> \nCopyright \u00A9 2014 CyanogenMod prosjekt</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Deaktivert</string>
   <string name="refresh_intervals_1h">1 time</string>
   <string name="refresh_intervals_4h">4 timer</string>
   <string name="refresh_intervals_1d">1 dag</string>
   <string name="refresh_intervals_2d">2 dager</string>
   <string name="refresh_intervals_1w">1 uke</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Ingen</string>
   <string name="touch_actions_transition">Utfør overgang</string>
   <string name="touch_actions_open">Åpne</string>
@@ -96,12 +105,14 @@
   <string name="touch_actions_transition_summary">Utfør bildeovergang</string>
   <string name="touch_actions_open_summary">Åpne bildet</string>
   <string name="touch_actions_share_summary">Del bildet</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Kube</string>
   <string name="transitions_fade">Fade</string>
   <string name="transitions_flip">Vend</string>
   <string name="transitions_swap">Bytte</string>
   <string name="transitions_translation">Oversettelse</string>
   <string name="transitions_window">Vindu</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Normal</string>
   <string name="effects_autofix">Autofix</string>
   <string name="effects_blur">Blur</string>
@@ -127,9 +138,11 @@
   <string name="effects_temperature">Temperatur</string>
   <string name="effects_tint">Fargetone</string>
   <string name="effects_vignette">Vignett</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Gjennomsiktighet</string>
   <string name="color_picker_current_text">Nåværende:</string>
   <string name="color_picker_new_text">Ny:</string>
   <string name="color_picker_color">Farge:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Endringslogg</string>
 </resources>

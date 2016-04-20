@@ -16,8 +16,12 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">PhotoPhase dzīvā tapete</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Attēli netika atrasti</string>
+  <!-- Menus -->
   <string name="mnu_restore">Atjaunot</string>
   <string name="mnu_delete">Izdzēst</string>
   <string name="mnu_settings">Iestatījumi</string>
@@ -26,6 +30,7 @@
   <string name="mnu_invert">Invertēt</string>
   <string name="mnu_select_album">Izvēlieties albumu</string>
   <string name="mnu_deselect_album">Noņemt albuma atlasi</string>
+  <!-- Formats -->
   <string name="format_disabled">Atslēgts</string>
   <string name="format_rotate_only">Pagriežot</string>
   <string name="format_seconds">%s sek.</string>
@@ -33,6 +38,7 @@
   <string name="format_hours">%s h.</string>
   <string name="format_days">%s d.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">Pamata</string>
   <string name="pref_general_summary">Pamata iestatījumi, efekti un pārejas</string>
   <string name="pref_general_settings">Iestatījumi</string>
@@ -78,17 +84,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">portreta orientācija</string>
   <string name="disposition_orientation_landscape">ainavas orientācija</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Ilgi pieskarieties rāmim, lai vilktu un noliktu rāmja robežas. Velciet pa kreisi un pa labi, lai apskatītu definētās veidnes</string>
   <string name="pref_disposition_template">Veidne <xliff:g id="number_of_template">%1$s</xliff:g> no <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Neizdevās izdzēst atlasīto kadru</string>
   <string name="pref_about">Par</string>
   <string name="pref_about_summary">PhotoPhase versija <xliff:g id="version">%1$s</xliff:g>\nAutortiesības \u00A9 2014 CyanogenMod Project</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Izslēgts</string>
   <string name="refresh_intervals_1h">1 stunda</string>
   <string name="refresh_intervals_4h">4 stundas</string>
   <string name="refresh_intervals_1d">1 diena</string>
   <string name="refresh_intervals_2d">2 dienas</string>
   <string name="refresh_intervals_1w">1 nedēļa</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Neviena</string>
   <string name="touch_actions_transition">Veikt pāreju</string>
   <string name="touch_actions_open">Atvērt</string>
@@ -97,12 +106,14 @@
   <string name="touch_actions_transition_summary">Veikt attēla pāreju</string>
   <string name="touch_actions_open_summary">Atvērt attēlu</string>
   <string name="touch_actions_share_summary">Kopīgot attēlu</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Kubs</string>
   <string name="transitions_fade">Izgaist</string>
   <string name="transitions_flip">Apmest</string>
   <string name="transitions_swap">Apmainīt</string>
   <string name="transitions_translation">Pārbīde</string>
   <string name="transitions_window">Logs</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Normāls</string>
   <string name="effects_autofix">Autofix</string>
   <string name="effects_blur">Aizmiglot</string>
@@ -128,9 +139,11 @@
   <string name="effects_temperature">Temperatūra</string>
   <string name="effects_tint">Tonis</string>
   <string name="effects_vignette">Vinjete</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Alfa</string>
   <string name="color_picker_current_text">Tekošais:</string>
   <string name="color_picker_new_text">Jaunais:</string>
   <string name="color_picker_color">Krāsa:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Izmaiņu žurnāls</string>
 </resources>

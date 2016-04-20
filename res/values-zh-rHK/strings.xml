@@ -16,7 +16,11 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">PhotoPhase 動態牆紙</string>
+  <!-- No images message -->
+  <!-- Menus -->
   <string name="mnu_restore">還原</string>
   <string name="mnu_delete">刪除</string>
   <string name="mnu_settings">設定</string>
@@ -25,6 +29,7 @@
   <string name="mnu_invert">反轉</string>
   <string name="mnu_select_album">選擇專輯</string>
   <string name="mnu_deselect_album">取消選擇專輯</string>
+  <!-- Formats -->
   <string name="format_disabled">已停用</string>
   <string name="format_rotate_only">旋轉模式中</string>
   <string name="format_seconds">%s 秒。</string>
@@ -32,6 +37,7 @@
   <string name="format_hours">%s 小時。</string>
   <string name="format_days">%s 天。</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">一般</string>
   <string name="pref_general_summary">一般設定、效果和過渡</string>
   <string name="pref_general_settings">設定</string>
@@ -76,17 +82,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">縱向</string>
   <string name="disposition_orientation_landscape">橫向</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">長按框架並拖\u0026放其邊界。左右滑動可顯示已定義的範本</string>
   <string name="pref_disposition_template">範本 <xliff:g id="number_of_template">%1$s</xliff:g>，共 <xliff:g id="total_of_templates">%2$s</xliff:g> 個</string>
   <string name="pref_disposition_unable_delete_advise">無法刪除所選框架</string>
   <string name="pref_about">關於</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\n版權所有 \u00A9 2014 CyanogenMod 專案團隊</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">已停用</string>
   <string name="refresh_intervals_1h">1 小時</string>
   <string name="refresh_intervals_4h">4 小時</string>
   <string name="refresh_intervals_1d">1 天</string>
   <string name="refresh_intervals_2d">2 天</string>
   <string name="refresh_intervals_1w">1 星期</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">無</string>
   <string name="touch_actions_transition">執行轉換</string>
   <string name="touch_actions_open">開啟</string>
@@ -95,12 +104,14 @@
   <string name="touch_actions_transition_summary">執行圖像轉換</string>
   <string name="touch_actions_open_summary">打開圖像</string>
   <string name="touch_actions_share_summary">分享圖像</string>
+  <!-- Transitions -->
   <string name="transitions_cube">立方體</string>
   <string name="transitions_fade">淡入淡出</string>
   <string name="transitions_flip">翻轉</string>
   <string name="transitions_swap">交換</string>
   <string name="transitions_translation">翻譯</string>
   <string name="transitions_window">視窗</string>
+  <!-- Effects -->
   <string name="effects_noeffect">適中</string>
   <string name="effects_autofix">自動修復</string>
   <string name="effects_blur">模糊</string>
@@ -126,9 +137,11 @@
   <string name="effects_temperature">色溫</string>
   <string name="effects_tint">染色</string>
   <string name="effects_vignette">暈映</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Alpha</string>
   <string name="color_picker_current_text">目前：</string>
   <string name="color_picker_new_text">新的：</string>
   <string name="color_picker_color">顏色：</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">更新日誌</string>
 </resources>

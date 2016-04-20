@@ -16,6 +16,7 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Number of pictures found in an album -->
   <plurals name="album_number_of_pictures">
     <item quantity="zero"><xliff:g id="pictures" example="7">%d</xliff:g> صورة</item>
     <item quantity="one">1 صورة</item>
@@ -24,6 +25,7 @@
     <item quantity="many"><xliff:g id="pictures" example="7">%d</xliff:g> صور</item>
     <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> صور</item>
   </plurals>
+  <!-- Total of pictures found after a media reload -->
   <plurals name="msg_media_reload_complete">
     <item quantity="zero">تحميل الوسائط إكتمل. <xliff:g id="pictures" example="7">%d</xliff:g> تم العثور على صورة.</item>
     <item quantity="one">تحميل الوسائط إكتمل. تم العثور على <xliff:g id="pictures" example="7">%d</xliff:g> صور.</item>

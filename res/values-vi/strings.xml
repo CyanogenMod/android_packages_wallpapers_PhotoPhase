@@ -16,8 +16,12 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">Hình nền động PhotoPhase</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Không tìm thấy hình ảnh</string>
+  <!-- Menus -->
   <string name="mnu_restore">Khôi phục</string>
   <string name="mnu_delete">Xóa</string>
   <string name="mnu_settings">Cài đặt</string>
@@ -26,6 +30,7 @@
   <string name="mnu_invert">Đảo ngược</string>
   <string name="mnu_select_album">Chọn album</string>
   <string name="mnu_deselect_album">Bỏ chọn album</string>
+  <!-- Formats -->
   <string name="format_disabled">Tắt</string>
   <string name="format_rotate_only">Khi xoay màn hình</string>
   <string name="format_seconds">%s giây.</string>
@@ -33,6 +38,7 @@
   <string name="format_hours">%s giờ.</string>
   <string name="format_days">%s ngày.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">Chung</string>
   <string name="pref_general_summary">Cài đặt chung, hiệu ứng và chuyển cảnh</string>
   <string name="pref_general_settings">Cài đặt</string>
@@ -76,17 +82,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">định hướng dọc</string>
   <string name="disposition_orientation_landscape">định hướng xoay ngang</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Chạm lâu vào khung và kéo thả \u0026 đường viền. Vuốt trái và phải để hiển thị mẫu đã định</string>
   <string name="pref_disposition_template">Mẫu <xliff:g id="number_of_template">%1$s</xliff:g> / <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Không thể xoá bỏ khung đã chọn</string>
   <string name="pref_about">Giới thiệu</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nBản quyền \u00A9 2014 Dự án CyanogenMod</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Đã tắt</string>
   <string name="refresh_intervals_1h">1 giờ</string>
   <string name="refresh_intervals_4h">4 giờ</string>
   <string name="refresh_intervals_1d">1 ngày</string>
   <string name="refresh_intervals_2d">2 ngày</string>
   <string name="refresh_intervals_1w">1 tuần</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Không</string>
   <string name="touch_actions_transition">Thực hiện chuyển đổi</string>
   <string name="touch_actions_open">Mở</string>
@@ -95,12 +104,14 @@
   <string name="touch_actions_transition_summary">Thực hiện chuyển đổi hình ảnh</string>
   <string name="touch_actions_open_summary">Mở hình ảnh</string>
   <string name="touch_actions_share_summary">Chia sẻ hình ảnh</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Lập phương</string>
   <string name="transitions_fade">Mờ dần</string>
   <string name="transitions_flip">Lật</string>
   <string name="transitions_swap">Hoán đổi</string>
   <string name="transitions_translation">Biên dịch</string>
   <string name="transitions_window">Cửa sổ</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Bình thường</string>
   <string name="effects_autofix">Tự động sửa</string>
   <string name="effects_blur">Mờ</string>
@@ -126,9 +137,11 @@
   <string name="effects_temperature">Nhiệt độ</string>
   <string name="effects_tint">Màu nhẹ</string>
   <string name="effects_vignette">Họa tiết</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Giá trị Alpha</string>
   <string name="color_picker_current_text">Hiện tại:</string>
   <string name="color_picker_new_text">Mới:</string>
   <string name="color_picker_color">Màu sắc:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Nhật ký thay đổi</string>
 </resources>

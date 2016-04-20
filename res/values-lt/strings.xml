@@ -16,8 +16,12 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">„PhotoPhase“ judantys darbalaukio fonai</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Paveikslėlių nerasta</string>
+  <!-- Menus -->
   <string name="mnu_restore">Atkurti</string>
   <string name="mnu_delete">Ištrinti</string>
   <string name="mnu_settings">Nustatymai</string>
@@ -26,6 +30,7 @@
   <string name="mnu_invert">Apversti</string>
   <string name="mnu_select_album">Pasirinkti albumą</string>
   <string name="mnu_deselect_album">Atžymėti albumą</string>
+  <!-- Formats -->
   <string name="format_disabled">Neleidžiama</string>
   <string name="format_rotate_only">Rotacijos metu</string>
   <string name="format_seconds">%s sek.</string>
@@ -33,6 +38,7 @@
   <string name="format_hours">%s val.</string>
   <string name="format_days">%s d.</string>
   <string name="format_dim">%s %%</string>
+  <!-- Preferences -->
   <string name="pref_general">Bendra</string>
   <string name="pref_general_summary">Bendrieji nustatymai, efektai ir perėjimai</string>
   <string name="pref_general_settings">Nustatymai</string>
@@ -78,17 +84,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">stačia orientacija</string>
   <string name="disposition_orientation_landscape">gulsčia orientacija</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Ilgai bakstelėkite kadrą ir vilkite, paleiskite kraštus.\nBraukite kairėn ir dešinėn, kad praodytumėte apibrėžtus šablonus</string>
   <string name="pref_disposition_template">Šablonas <xliff:g id="number_of_template">%1$s</xliff:g> iš <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Nepavyko ištrinti pasirinkto rėmelio</string>
   <string name="pref_about">Apie</string>
   <string name="pref_about_summary">„PhotoPhase“ v<xliff:g id="version">%1$s</xliff:g>\nAutorinės teisės \u00A9 2014 „CyanogenMod“ projektas</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Neleidžiamas</string>
   <string name="refresh_intervals_1h">1 val.</string>
   <string name="refresh_intervals_4h">4 val.</string>
   <string name="refresh_intervals_1d">1 d.</string>
   <string name="refresh_intervals_2d">2 d.</string>
   <string name="refresh_intervals_1w">1 sav.</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Joks</string>
   <string name="touch_actions_transition">Atlikti perėjimą</string>
   <string name="touch_actions_open">Atidaryti</string>
@@ -97,12 +106,14 @@
   <string name="touch_actions_transition_summary">Atlikti vaizdo perėjimą</string>
   <string name="touch_actions_open_summary">Atidaryti paveikslėlį</string>
   <string name="touch_actions_share_summary">Bendrinti paveikslėlį</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Kubas</string>
   <string name="transitions_fade">Išnikti</string>
   <string name="transitions_flip">Apversti</string>
   <string name="transitions_swap">Apkeisti</string>
   <string name="transitions_translation">Vertimas</string>
   <string name="transitions_window">Langas</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Normalus</string>
   <string name="effects_autofix">Automatinis taisymas</string>
   <string name="effects_blur">Sulieti</string>
@@ -128,9 +139,11 @@
   <string name="effects_temperature">Temperatūra</string>
   <string name="effects_tint">Atspalvis</string>
   <string name="effects_vignette">Vinjetė</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Alfa</string>
   <string name="color_picker_current_text">Dabartinė:</string>
   <string name="color_picker_new_text">Nauja:</string>
   <string name="color_picker_color">Spalva:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Pakeitimų sąrašas</string>
 </resources>
