@@ -22,6 +22,7 @@
   <!-- No images message -->
   <string name="no_pictures_oops_msg">Nun s\'alcontran semeyes</string>
   <!-- runtime permission warning -->
+  <string name="runtime_permission_warning">L\'aplicación nun pue executase ensin el permisu d\'escritura nel almacenamientu internu.</string>
   <!-- Menus -->
   <string name="mnu_restore">Restaurar</string>
   <string name="mnu_delete">Desaniciar</string>

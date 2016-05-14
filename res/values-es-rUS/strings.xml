@@ -80,7 +80,7 @@
   <string name="pref_disposition_portrait">Disposición vertical</string>
   <string name="pref_disposition_landscape">Disposición horizontal</string>
   <plurals name="pref_disposition_summary_format">
-    <item quantity="one">Una imagen se muestra en <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="one">1 imagen se muestra en <xliff:g id="orientation">%2$s</xliff:g></item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> imágenes se muestran en <xliff:g id="orientation">%2$s</xliff:g></item>
   </plurals>
   <string name="disposition_orientation_portrait">orientación vertical</string>
