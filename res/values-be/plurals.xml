@@ -19,13 +19,15 @@
   <!-- Number of pictures found in an album -->
   <plurals name="album_number_of_pictures">
     <item quantity="one">1 выява</item>
-    <item quantity="few"><xliff:g id="pictures" example="3">%d</xliff:g> выявы</item>
+    <item quantity="few">1 выява
+
+<xliff:g id="pictures" example="7">%d</xliff:g> выяў</item>
     <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> выяў</item>
   </plurals>
   <!-- Total of pictures found after a media reload -->
   <plurals name="msg_media_reload_complete">
     <item quantity="one">База мультымедыя абноўлена. Знойдзена 1 выява.</item>
-    <item quantity="few">База мультымедыя абноўлена. Знойдзена <xliff:g id="pictures" example="3">%d</xliff:g> выявы.</item>
+    <item quantity="few">Абнаўленне медыя завершана. Знойдзена <xliff:g id="pictures" example="7">%d</xliff:g> малюнкаў.</item>
     <item quantity="other">База мультымедыя абноўлена. <xliff:g id="pictures" example="7">%d</xliff:g> знойдзена выяў.</item>
   </plurals>
 </resources>

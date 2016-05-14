@@ -22,7 +22,7 @@
   <!-- No images message -->
   <string name="no_pictures_oops_msg">Nenhuma imagem encontrada</string>
   <!-- runtime permission warning -->
-  <string name="runtime_permission_warning">O app não funciona sem permissão para ler o armazenamento externo.</string>
+  <string name="runtime_permission_warning">O aplicativo não funciona sem permissão para ler o armazenamento externo.</string>
   <!-- Menus -->
   <string name="mnu_restore">Restaurar</string>
   <string name="mnu_delete">Apagar</string>
@@ -44,13 +44,13 @@
   <string name="pref_general">Geral</string>
   <string name="pref_general_summary">Transições, efeitos e configurações gerais</string>
   <string name="pref_general_settings">Configurações</string>
-  <string name="pref_general_settings_wallpaper_dim">Brilho do papel de parede</string>
+  <string name="pref_general_settings_wallpaper_dim">Opacidade do papel de parede</string>
   <string name="pref_general_settings_background_color">Cor de fundo</string>
   <string name="pref_general_settings_background_color_summary">Definir a cor de fundo</string>
   <string name="pref_general_touch_action">Ação de toque</string>
   <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> ao tocar em um frame</string>
-  <string name="pref_general_aspect_ratio_correction">Taxa de proporção</string>
-  <string name="pref_general_aspect_ratio_correction_summary">Tentar ajustar a relação de aspeto da imagem cortando-a para caber no quadro de destino</string>
+  <string name="pref_general_aspect_ratio_correction">Proporção</string>
+  <string name="pref_general_aspect_ratio_correction_summary">Tente ajustar a proporção da imagem cortando-a para caber no quadro de destino</string>
   <string name="pref_general_transitions">Transições</string>
   <string name="pref_general_transitions_types">Tipos</string>
   <string name="pref_general_transitions_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> de <xliff:g id="total">%2$d</xliff:g> tipos selecionados</string>
@@ -59,10 +59,10 @@
   <string name="pref_general_effects_types">Tipos</string>
   <string name="pref_general_effects_types_summary_format"><xliff:g id="selected">%1$d</xliff:g> de <xliff:g id="total">%2$d</xliff:g> efeitos de imagem selecionados</string>
   <string name="pref_media">Mídia</string>
-  <string name="pref_media_summary">Álbuns para serem exibidos, intervalo de atualização, e outras configurações de mídia</string>
+  <string name="pref_media_summary">Álbuns para serem exibidos, intervalo de atualização e outras configurações de mídia</string>
   <string name="pref_media_settings">Configurações</string>
   <string name="pref_media_settings_refresh_interval">Intervalo de atualização</string>
-  <string name="pref_media_settings_refresh_interval_disable">Busca por novas imagens está desativada</string>
+  <string name="pref_media_settings_refresh_interval_disable">A busca por novas imagens está desativada</string>
   <string name="pref_media_settings_refresh_interval_summary">Procurar por novas imagens a cada <xliff:g id="interval">%1$s</xliff:g></string>
   <string name="pref_media_settings_refresh_now">Atualizar agora</string>
   <string name="pref_media_settings_refresh_now_summary">Atualizar manualmente o banco de dados de imagens</string>
@@ -80,11 +80,11 @@
   <string name="pref_disposition_portrait">Combinação em modo retrato</string>
   <string name="pref_disposition_landscape">Combinação em modo paisagem</string>
   <plurals name="pref_disposition_summary_format">
-    <item quantity="one">1 imagem é exibida na <xliff:g id="orientation">%2$s</xliff:g></item>
-    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> imagens é exibidas na <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="one">1 imagem é exibida em modo <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> imagens exibidas em modo <xliff:g id="orientation">%2$s</xliff:g></item>
   </plurals>
-  <string name="disposition_orientation_portrait">orientação retrato</string>
-  <string name="disposition_orientation_landscape">orientação paisagem</string>
+  <string name="disposition_orientation_portrait">retrato</string>
+  <string name="disposition_orientation_landscape">paisagem</string>
   <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Toque longo em um quadro e arraste e solte suas bordas. Deslize para esquerda ou direita para mostrar os modelos definidos</string>
   <string name="pref_disposition_template">Modelo <xliff:g id="number_of_template">%1$s</xliff:g> de <xliff:g id="total_of_templates">%2$s</xliff:g></string>
@@ -116,7 +116,7 @@
   <string name="transitions_window">Janela</string>
   <!-- Effects -->
   <string name="effects_noeffect">Normal</string>
-  <string name="effects_autofix">Auto ajuste</string>
+  <string name="effects_autofix">Autoajuste</string>
   <string name="effects_blur">Borrar</string>
   <string name="effects_crossprocess">Processamento cruzado</string>
   <string name="effects_documentary">Documentário</string>
@@ -132,8 +132,8 @@
   <string name="effects_negative">Negativo</string>
   <string name="effects_outline">Contorno</string>
   <string name="effects_pixelate">Píxeis visíveis</string>
-  <string name="effects_popart">Arte pop</string>
-  <string name="effects_posterize">Posterizar</string>
+  <string name="effects_popart">Pop art</string>
+  <string name="effects_posterize">Pôster</string>
   <string name="effects_saturate">Saturar</string>
   <string name="effects_scanlines">Linhas de varredura</string>
   <string name="effects_sepia">Sépia</string>

@@ -80,7 +80,7 @@
   <string name="pref_disposition_portrait">Sắp xếp dọc</string>
   <string name="pref_disposition_landscape">Sắp xếp ngang</string>
   <plurals name="pref_disposition_summary_format">
-    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ảnh được hiện trong <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> hình ảnh được hiển thị trong <xliff:g id="orientation">%2$s</xliff:g></item>
   </plurals>
   <string name="disposition_orientation_portrait">định hướng dọc</string>
   <string name="disposition_orientation_landscape">định hướng xoay ngang</string>

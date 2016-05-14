@@ -22,6 +22,7 @@
   <!-- No images message -->
   <string name="no_pictures_oops_msg">Ingen bilder funnet</string>
   <!-- runtime permission warning -->
+  <string name="runtime_permission_warning">Denne appen kan ikke kjøre uten tillatelse til å lese ekstern lagring.</string>
   <!-- Menus -->
   <string name="mnu_restore">Gjenopprett</string>
   <string name="mnu_delete">Slett</string>
