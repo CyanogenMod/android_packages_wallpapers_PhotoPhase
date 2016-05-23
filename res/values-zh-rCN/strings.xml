@@ -16,8 +16,12 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">PhotoPhase 动态壁纸</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">未找到图片</string>
+  <!-- Menus -->
   <string name="mnu_restore">还原</string>
   <string name="mnu_delete">删除</string>
   <string name="mnu_settings">设置</string>
@@ -26,6 +30,7 @@
   <string name="mnu_invert">反转</string>
   <string name="mnu_select_album">选择相册</string>
   <string name="mnu_deselect_album">取消选择相册</string>
+  <!-- Formats -->
   <string name="format_disabled">已禁用</string>
   <string name="format_rotate_only">旋转</string>
   <string name="format_seconds">%s 秒</string>
@@ -33,6 +38,7 @@
   <string name="format_hours">%s 小时</string>
   <string name="format_days">%s 天</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">常规</string>
   <string name="pref_general_summary">常规设置、 效果和过渡</string>
   <string name="pref_general_settings">设置</string>
@@ -76,17 +82,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">纵向</string>
   <string name="disposition_orientation_landscape">横向</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">长按一个画框并拖放其边界。左右滑动以显示已定义的模板</string>
   <string name="pref_disposition_template">模板 <xliff:g id="number_of_template">%1$s</xliff:g> 的 <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">无法删除选定的画框</string>
   <string name="pref_about">关于</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g> \n版权所有 \u00A9 2014 CyanogenMod 项目</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">已禁用</string>
   <string name="refresh_intervals_1h">1 小时</string>
   <string name="refresh_intervals_4h">4 小时</string>
   <string name="refresh_intervals_1d">1 天</string>
   <string name="refresh_intervals_2d">2 天</string>
   <string name="refresh_intervals_1w">1 周</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">无</string>
   <string name="touch_actions_transition">执行过渡</string>
   <string name="touch_actions_open">打开</string>
@@ -95,12 +104,14 @@
   <string name="touch_actions_transition_summary">执行图像过渡</string>
   <string name="touch_actions_open_summary">打开此图片</string>
   <string name="touch_actions_share_summary">共享此图片</string>
+  <!-- Transitions -->
   <string name="transitions_cube">立方体</string>
   <string name="transitions_fade">淡入淡出</string>
   <string name="transitions_flip">翻转</string>
   <string name="transitions_swap">交换</string>
   <string name="transitions_translation">转换</string>
   <string name="transitions_window">窗户</string>
+  <!-- Effects -->
   <string name="effects_noeffect">正常</string>
   <string name="effects_autofix">自动修复</string>
   <string name="effects_blur">模糊</string>
@@ -126,9 +137,11 @@
   <string name="effects_temperature">温度</string>
   <string name="effects_tint">染色</string>
   <string name="effects_vignette">晕映</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Alpha</string>
   <string name="color_picker_current_text">当前:</string>
   <string name="color_picker_new_text">新:</string>
   <string name="color_picker_color">颜色:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">更改记录</string>
 </resources>

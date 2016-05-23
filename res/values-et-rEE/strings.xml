@@ -16,8 +16,12 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">PhotoPhase liikuv taustapilt</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Ei leitud ühtegi pilti</string>
+  <!-- Menus -->
   <string name="mnu_restore">Taasta</string>
   <string name="mnu_delete">Kustuta</string>
   <string name="mnu_settings">Seaded</string>
@@ -26,6 +30,7 @@
   <string name="mnu_invert">Teistpidi</string>
   <string name="mnu_select_album">Vali album</string>
   <string name="mnu_deselect_album">Tühista valitud album</string>
+  <!-- Formats -->
   <string name="format_disabled">Keelatud</string>
   <string name="format_rotate_only">Pöördel</string>
   <string name="format_seconds">%s sek.</string>
@@ -33,6 +38,7 @@
   <string name="format_hours">%s t.</string>
   <string name="format_days">%s p.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">Üldine</string>
   <string name="pref_general_summary">Üldseaded, efektid ja üleminekud</string>
   <string name="pref_general_settings">Seaded</string>
@@ -77,17 +83,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">vertikaalpaigutus</string>
   <string name="disposition_orientation_landscape">horisontaalpaigutus</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Pika vajutusega raamil saad ääri nihutada. Pühi paremale ja vasakule mallide nägemiseks</string>
   <string name="pref_disposition_template">Mall <xliff:g id="number_of_template">%1$s</xliff:g> <xliff:g id="total_of_templates">%2$s</xliff:g>-st</string>
   <string name="pref_disposition_unable_delete_advise">Ei saanud kustutada valitud paneeli</string>
   <string name="pref_about">Üldist</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nCopyright \u00A9 2014 The CyanogenMod Project</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Keelatud</string>
   <string name="refresh_intervals_1h">1 tund</string>
   <string name="refresh_intervals_4h">4 tundi</string>
   <string name="refresh_intervals_1d">1 päev</string>
   <string name="refresh_intervals_2d">2 päeva</string>
   <string name="refresh_intervals_1w">1 nädal</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Puudub</string>
   <string name="touch_actions_transition">Soorita üleminek</string>
   <string name="touch_actions_open">Ava</string>
@@ -96,12 +105,14 @@
   <string name="touch_actions_transition_summary">Sooritada pildi üleminek</string>
   <string name="touch_actions_open_summary">Ava pilt</string>
   <string name="touch_actions_share_summary">Jaga pilt</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Kuup</string>
   <string name="transitions_fade">Tuhmuv</string>
   <string name="transitions_flip">Pööra ümber</string>
   <string name="transitions_swap">Vaheta</string>
   <string name="transitions_translation">Üleminek</string>
   <string name="transitions_window">Aken</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Tavaline</string>
   <string name="effects_autofix">Automaatne parandus</string>
   <string name="effects_blur">Udu</string>
@@ -127,9 +138,11 @@
   <string name="effects_temperature">Temperatuur</string>
   <string name="effects_tint">Varjund</string>
   <string name="effects_vignette">Kleebis</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Alfa</string>
   <string name="color_picker_current_text">Praegune:</string>
   <string name="color_picker_new_text">Uus:</string>
   <string name="color_picker_color">Värv:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Muudatuste logi</string>
 </resources>

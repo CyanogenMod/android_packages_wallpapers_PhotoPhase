@@ -16,8 +16,12 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">PhotoPhase Canlı Duvar Kağıdı</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Resim bulunamadı</string>
+  <!-- Menus -->
   <string name="mnu_restore">Geri yükle</string>
   <string name="mnu_delete">Sil</string>
   <string name="mnu_settings">Ayarlar</string>
@@ -26,6 +30,7 @@
   <string name="mnu_invert">Ters çevir</string>
   <string name="mnu_select_album">Albüm seç</string>
   <string name="mnu_deselect_album">Albüm seçimini kaldır</string>
+  <!-- Formats -->
   <string name="format_disabled">Devre dışı</string>
   <string name="format_rotate_only">Ekran döndüğünde</string>
   <string name="format_seconds">%s sn.</string>
@@ -33,6 +38,7 @@
   <string name="format_hours">%s sa.</string>
   <string name="format_days">%s gün</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">Genel</string>
   <string name="pref_general_summary">Genel ayarlar, efektler ve geçişler</string>
   <string name="pref_general_settings">Ayarlar</string>
@@ -77,17 +83,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">dikey yerleşim</string>
   <string name="disposition_orientation_landscape">yatay yerleşim</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Çerçeveye uzun dokunun ve kenarlarını çekip \u0026 bırakın. Tanımlı şablonları göstermek için sola veya sağa sürükleyin</string>
   <string name="pref_disposition_template">Şablon <xliff:g id="number_of_template">%1$s</xliff:g> / <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Seçilen çerçeve silinemedi</string>
   <string name="pref_about">Hakkında</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nTelif Hakkı \u00A9 2014 CyanogenMod Projesi</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Devre dışı</string>
   <string name="refresh_intervals_1h">1 saat</string>
   <string name="refresh_intervals_4h">4 saat</string>
   <string name="refresh_intervals_1d">1 gün</string>
   <string name="refresh_intervals_2d">2 gün</string>
   <string name="refresh_intervals_1w">1 hafta</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Hiçbiri</string>
   <string name="touch_actions_transition">Geçişi uygula</string>
   <string name="touch_actions_open">Aç</string>
@@ -96,12 +105,14 @@
   <string name="touch_actions_transition_summary">Resim geçişi uygulanır</string>
   <string name="touch_actions_open_summary">Resmi aç</string>
   <string name="touch_actions_share_summary">Resmi paylaş</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Küp</string>
   <string name="transitions_fade">Soldur</string>
   <string name="transitions_flip">Çevir</string>
   <string name="transitions_swap">Karşılıklı değiştir</string>
   <string name="transitions_translation">Çeviri</string>
   <string name="transitions_window">Pencere</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Normal</string>
   <string name="effects_autofix">Otomatik ayarla</string>
   <string name="effects_blur">Bulanık</string>
@@ -127,9 +138,11 @@
   <string name="effects_temperature">Sıcaklık</string>
   <string name="effects_tint">Renk tonu</string>
   <string name="effects_vignette">Skeç</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Alfa</string>
   <string name="color_picker_current_text">Şimdiki:</string>
   <string name="color_picker_new_text">Yeni:</string>
   <string name="color_picker_color">Renk:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Değişiklik kaydı</string>
 </resources>
