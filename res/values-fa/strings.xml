@@ -79,6 +79,7 @@
   <string name="pref_disposition_portrait">آرایش پرتره</string>
   <string name="pref_disposition_landscape">آرایش چشم‌انداز</string>
   <plurals name="pref_disposition_summary_format">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> تصویر در <xliff:g id="orientation">%2$s</xliff:g> نمایش داده می‌شود</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> تصویر در <xliff:g id="orientation">%2$s</xliff:g> نمایش داده می‌شود</item>
   </plurals>
   <string name="disposition_orientation_portrait">جهت عمودی</string>
