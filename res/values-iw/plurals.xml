@@ -19,11 +19,15 @@
   <!-- Number of pictures found in an album -->
   <plurals name="album_number_of_pictures">
     <item quantity="one">תמונה אחת</item>
+    <item quantity="two"><xliff:g id="pictures" example="7">%d</xliff:g> תמונות</item>
+    <item quantity="many"><xliff:g id="pictures" example="7">%d</xliff:g> תמונות</item>
     <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> תמונות</item>
   </plurals>
   <!-- Total of pictures found after a media reload -->
   <plurals name="msg_media_reload_complete">
     <item quantity="one">טעינת מדיה הושלמה. תמונה אחת נמצאה.</item>
+    <item quantity="two">טעינת מדיה הושלמה. <xliff:g id="pictures" example="7">%d</xliff:g> תמונות נמצאו.</item>
+    <item quantity="many">טעינת מדיה הושלמה. <xliff:g id="pictures" example="7">%d</xliff:g> תמונות נמצאו.</item>
     <item quantity="other">טעינת מדיה הושלמה. <xliff:g id="pictures" example="7">%d</xliff:g> תמונות נמצאו.</item>
   </plurals>
 </resources>
