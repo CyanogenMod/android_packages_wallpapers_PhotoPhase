@@ -16,8 +16,12 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">ಫೋಟೋಫೇಸ್ ಲೈವ್ ವಾಲ್‍ಪೇಪರ್</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">ಯಾವುದೇ ಚಿತ್ರಗಳು ಪತ್ತೆಯಾಗಲಿಲ್ಲ</string>
+  <!-- Menus -->
   <string name="mnu_restore">ಪುನಃಸ್ಥಾಪಿಸು</string>
   <string name="mnu_delete">ಅಳಿಸಿ</string>
   <string name="mnu_settings">ಸೆಟ್ಟಿಂಗ್ಸ್</string>
@@ -26,6 +30,7 @@
   <string name="mnu_invert">ಇನ್ವರ್ಟ್</string>
   <string name="mnu_select_album">ಆಲ್ಬಂ ಆಯ್ಕೆಮಾಡಿ</string>
   <string name="mnu_deselect_album">ಆಲ್ಬಂ ಆಯ್ಕೆ ರದ್ದುಗೊಳಿಸಿ</string>
+  <!-- Formats -->
   <string name="format_disabled">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
   <string name="format_rotate_only">ತಿರುಗಿದಾಗ</string>
   <string name="format_seconds">%s ಸೆಕೆ.</string>
@@ -33,6 +38,7 @@
   <string name="format_hours">%s ಗಂ.</string>
   <string name="format_days">%s ದಿ.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">ಸಾಮಾನ್ಯ</string>
   <string name="pref_general_summary">ಸಾಮಾನ್ಯ ಸೆಟ್ಟಿಂಗ್ಸ್, ಪರಿಣಾಮಗಳು ಮತ್ತು ಪರಿವರ್ತನೆಗಳು</string>
   <string name="pref_general_settings">ಸೆಟ್ಟಿಂಗ್ಸ್</string>
@@ -77,17 +83,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">ಪೋಟ್ರೇಟ್ ದೃಷ್ಟಿಕೋನ</string>
   <string name="disposition_orientation_landscape">ಲ್ಯಾಂಡ್‍ಸ್ಕೇಪ್ ದೃಷ್ಟಿಕೋನ</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">ಫ್ರೇಮನ್ನು ಧೀರ್ಘ ಸ್ಪರ್ಶಿಸಿ ಮತ್ತು ಅದರ ಬಾರ್ಡರ್‍ಗಳನ್ನು ಎಳೆದು \u0026 ಕೈಬಿಡಿ. ವ್ಯಾಖ್ಯಾನಿಸಿದ ಟೆಂಪ್ಲೇಟ್‍ಗಳನ್ನು ಪ್ರದರ್ಶಿಸಲು ಎಡ ಮತ್ತು ಬಲ ಸ್ವೈಪ್ ಮಾಡಿ</string>
   <string name="pref_disposition_template">ಟೆಂಪ್ಲೇಟ್ <xliff:g id="total_of_templates">%2$s</xliff:g> ರಲ್ಲಿ <xliff:g id="number_of_template">%1$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">ಆಯ್ಕೆಮಾಡಿದ ಫ್ರೇಮನ್ನು ಅಳಿಸಲು ಆಗುತ್ತಿಲ್ಲ</string>
   <string name="pref_about">ಕುರಿತು</string>
   <string name="pref_about_summary">ಫೋಟೋಫೇಸ್ ಆ<xliff:g id="version">%1$s</xliff:g>\nಹಕ್ಕುಸ್ವಾಮ್ಯ \u00A9 2014 The CyanogenMod ಪ್ರಾಜೆಕ್ಟ್</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
   <string name="refresh_intervals_1h">1 ಗಂಟೆ</string>
   <string name="refresh_intervals_4h">4 ಗಂಟೆ</string>
   <string name="refresh_intervals_1d">1 ದಿನ</string>
   <string name="refresh_intervals_2d">2 ದಿನಗಳು</string>
   <string name="refresh_intervals_1w">1 ವಾರ</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">ಶೂನ್ಯ</string>
   <string name="touch_actions_transition">ಪರಿವರ್ತನೆ ಕಾರ್ಯಗತಗೊಳಿಸು</string>
   <string name="touch_actions_open">ತೆರೆ</string>
@@ -96,12 +105,14 @@
   <string name="touch_actions_transition_summary">ಚಿತ್ರ ಪರಿವರ್ತನೆ ಕಾರ್ಯಗತಗೊಳಿಸು</string>
   <string name="touch_actions_open_summary">ಚಿತ್ರವನ್ನು ತೆರೆ</string>
   <string name="touch_actions_share_summary">ಚಿತ್ರವನ್ನು ಹಂಚಿ</string>
+  <!-- Transitions -->
   <string name="transitions_cube">ಕ್ಯೂಬ್</string>
   <string name="transitions_fade">ಫೇಡ್</string>
   <string name="transitions_flip">ಫ್ಲಿಪ್</string>
   <string name="transitions_swap">ಅದಲು-ಬದಲು</string>
   <string name="transitions_translation">ಅನುವಾದ</string>
   <string name="transitions_window">ಕಿಟಕಿ</string>
+  <!-- Effects -->
   <string name="effects_noeffect">ಸಹಜ</string>
   <string name="effects_autofix">ಸ್ವಯಂ‍ಫಿಕ್ಸ್</string>
   <string name="effects_blur">ಮುಸುಕು</string>
@@ -127,9 +138,11 @@
   <string name="effects_temperature">ಉಷ್ಣಾಂಶ</string>
   <string name="effects_tint">ಟಿಂಟ್</string>
   <string name="effects_vignette">ವಿನ್ಯೆಟ್</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">ಆಲ್ಫಾ</string>
   <string name="color_picker_current_text">ಪ್ರಸ್ತುತ:</string>
   <string name="color_picker_new_text">ಹೊಸ:</string>
   <string name="color_picker_color">ಬಣ್ಣ:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">ಬದಲಾವಣೆಲಾಗ್</string>
 </resources>

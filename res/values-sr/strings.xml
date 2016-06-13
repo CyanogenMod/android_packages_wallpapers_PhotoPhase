@@ -16,8 +16,12 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">PhotoPhase Жива позадина</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Нема пронађених слика</string>
+  <!-- Menus -->
   <string name="mnu_restore">Врати</string>
   <string name="mnu_delete">Избриши</string>
   <string name="mnu_settings">Подешавања</string>
@@ -26,6 +30,7 @@
   <string name="mnu_invert">Обрнуто</string>
   <string name="mnu_select_album">Изабери албум</string>
   <string name="mnu_deselect_album">Поништи избор албума</string>
+  <!-- Formats -->
   <string name="format_disabled">Онемогућено</string>
   <string name="format_rotate_only">На ротацији</string>
   <string name="format_seconds">%s сек.</string>
@@ -33,6 +38,7 @@
   <string name="format_hours">%s с.</string>
   <string name="format_days">%s д.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">Опште</string>
   <string name="pref_general_summary">Општа подешавања, ефекти и прелази</string>
   <string name="pref_general_settings">Подешавања</string>
@@ -74,22 +80,24 @@
   <plurals name="pref_disposition_summary_format">
     <item quantity="one">1 слика је приказана у <xliff:g id="orientation">%2$s</xliff:g></item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> слике су приказане у <xliff:g id="orientation">%2$s</xliff:g></item>
-    <item quantity="many"><xliff:g id="count">%1$d</xliff:g> слика је приказано у <xliff:g id="orientation">%2$s</xliff:g></item>
-    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> слике су приказане у <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> слика је приказано у <xliff:g id="orientation">%2$s</xliff:g></item>
   </plurals>
   <string name="disposition_orientation_portrait">Портрет оријентација</string>
   <string name="disposition_orientation_landscape">Пејзаж оријентација</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Дуго додирни оквир и превуци \u0026 отпусти границе.\nПревуци лево и десно за приказ дефинисаних шаблона</string>
   <string name="pref_disposition_template">Шаблон <xliff:g id="number_of_template">%1$s</xliff:g> од <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Не може да се избрише изабрани оквир</string>
   <string name="pref_about">О програму</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nАуторско право \u00A9 2014 CyanogenMod Пројекат</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Онемогућено</string>
   <string name="refresh_intervals_1h">1 сат</string>
   <string name="refresh_intervals_4h">4 сата</string>
   <string name="refresh_intervals_1d">1 дан</string>
   <string name="refresh_intervals_2d">2 дана</string>
   <string name="refresh_intervals_1w">1 недеља</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Ниједан</string>
   <string name="touch_actions_transition">Изврши прелаз</string>
   <string name="touch_actions_open">Отвори</string>
@@ -98,12 +106,14 @@
   <string name="touch_actions_transition_summary">Изврши прелаз слике</string>
   <string name="touch_actions_open_summary">Отвори слику</string>
   <string name="touch_actions_share_summary">Подели слику</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Коцка</string>
   <string name="transitions_fade">Бледо</string>
   <string name="transitions_flip">Окрет</string>
   <string name="transitions_swap">Размена</string>
   <string name="transitions_translation">Превод</string>
   <string name="transitions_window">Прозор</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Нормално</string>
   <string name="effects_autofix">Ауто-исправка</string>
   <string name="effects_blur">Замагљење</string>
@@ -129,9 +139,11 @@
   <string name="effects_temperature">Температура</string>
   <string name="effects_tint">Нијанса</string>
   <string name="effects_vignette">Вињета</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Алфа</string>
   <string name="color_picker_current_text">Тренутно:</string>
   <string name="color_picker_new_text">Ново:</string>
   <string name="color_picker_color">Боја:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Евиденција измена</string>
 </resources>

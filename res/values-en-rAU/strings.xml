@@ -16,8 +16,12 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">PhotoPhase Live Wallpaper</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">No pictures found</string>
+  <!-- Menus -->
   <string name="mnu_restore">Restore</string>
   <string name="mnu_delete">Delete</string>
   <string name="mnu_settings">Settings</string>
@@ -26,6 +30,7 @@
   <string name="mnu_invert">Invert</string>
   <string name="mnu_select_album">Select album</string>
   <string name="mnu_deselect_album">Deselect album</string>
+  <!-- Formats -->
   <string name="format_disabled">Disabled</string>
   <string name="format_rotate_only">On rotation</string>
   <string name="format_seconds">%s sec.</string>
@@ -33,6 +38,7 @@
   <string name="format_hours">%s h.</string>
   <string name="format_days">%s d.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">General</string>
   <string name="pref_general_summary">General settings, effects and transitions</string>
   <string name="pref_general_settings">Settings</string>
@@ -77,17 +83,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">portrait orientation</string>
   <string name="disposition_orientation_landscape">landscape orientation</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Long tap a frame and drag \u0026 drop its borders. Swipe left and right to show defined templates</string>
   <string name="pref_disposition_template">Template <xliff:g id="number_of_template">%1$s</xliff:g> of <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Unable to delete the selected frame</string>
   <string name="pref_about">About</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nCopyright \u00A9 2014 The CyanogenMod Project</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Disabled</string>
   <string name="refresh_intervals_1h">1 hour</string>
   <string name="refresh_intervals_4h">4 hours</string>
   <string name="refresh_intervals_1d">1 day</string>
   <string name="refresh_intervals_2d">2 days</string>
   <string name="refresh_intervals_1w">1 week</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">None</string>
   <string name="touch_actions_transition">Perform transition</string>
   <string name="touch_actions_open">Open</string>
@@ -96,12 +105,14 @@
   <string name="touch_actions_transition_summary">Perform image transition</string>
   <string name="touch_actions_open_summary">Open the image</string>
   <string name="touch_actions_share_summary">Share the image</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Cube</string>
   <string name="transitions_fade">Fade</string>
   <string name="transitions_flip">Flip</string>
   <string name="transitions_swap">Swap</string>
   <string name="transitions_translation">Translation</string>
   <string name="transitions_window">Window</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Normal</string>
   <string name="effects_autofix">Autofix</string>
   <string name="effects_blur">Blur</string>
@@ -127,9 +138,11 @@
   <string name="effects_temperature">Temperature</string>
   <string name="effects_tint">Tint</string>
   <string name="effects_vignette">Vignette</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Alpha</string>
   <string name="color_picker_current_text">Current:</string>
   <string name="color_picker_new_text">New:</string>
   <string name="color_picker_color">Colour:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Changelog</string>
 </resources>

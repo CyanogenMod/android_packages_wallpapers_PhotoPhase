@@ -16,12 +16,14 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Number of pictures found in an album -->
   <plurals name="album_number_of_pictures">
     <item quantity="one">1 imagen</item>
     <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> imágenes</item>
   </plurals>
+  <!-- Total of pictures found after a media reload -->
   <plurals name="msg_media_reload_complete">
-    <item quantity="one">Refresco de los medios completado. 1 imagen encontrada.</item>
-    <item quantity="other">Refresco de los medios completado. <xliff:g id="pictures" example="7">%d</xliff:g> imágenes encontradas.</item>
+    <item quantity="one">Actualización de medios completada. 1 imagen encontrada.</item>
+    <item quantity="other">Actualización de medios completada. <xliff:g id="pictures" example="7">%d</xliff:g> imágenes encontradas.</item>
   </plurals>
 </resources>

@@ -16,8 +16,12 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">PhotoPhase Live-taustakuva</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Kuvia ei löytynyt</string>
+  <!-- Menus -->
   <string name="mnu_restore">Palauta</string>
   <string name="mnu_delete">Poista</string>
   <string name="mnu_settings">Asetukset</string>
@@ -26,6 +30,7 @@
   <string name="mnu_invert">Käännä</string>
   <string name="mnu_select_album">Valitse albumi</string>
   <string name="mnu_deselect_album">Poista albumin valinta</string>
+  <!-- Formats -->
   <string name="format_disabled">Pois käytöstä</string>
   <string name="format_rotate_only">Laitetta kääntäessä</string>
   <string name="format_seconds">%s s.</string>
@@ -33,6 +38,7 @@
   <string name="format_hours">%s h.</string>
   <string name="format_days">%s pv.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">Yleiset</string>
   <string name="pref_general_summary">Yleiset asetukset, tehosteet ja siirtymät</string>
   <string name="pref_general_settings">Asetukset</string>
@@ -77,17 +83,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">pystysuunnassa</string>
   <string name="disposition_orientation_landscape">vaakasuunnassa</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Paina kehystä pitkään ja vedä \u0026 irroita sen rajoista. Pyyhkäise vasemmalle ja oikealle näyttääksesi määritetyt mallit</string>
   <string name="pref_disposition_template">Malli <xliff:g id="number_of_template">%1$s</xliff:g>/<xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Ei voida poistaa valittua kehystä</string>
   <string name="pref_about">Tietoja</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nCopyright \u00A9 2014 The CyanogenMod Project</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Pois käytöstä</string>
   <string name="refresh_intervals_1h">1 tunti</string>
   <string name="refresh_intervals_4h">4 tuntia</string>
   <string name="refresh_intervals_1d">1 päivä</string>
   <string name="refresh_intervals_2d">2 päivää</string>
   <string name="refresh_intervals_1w">1 viikko</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Ei mitään</string>
   <string name="touch_actions_transition">Vaihda kuvaa</string>
   <string name="touch_actions_open">Avaa</string>
@@ -96,12 +105,14 @@
   <string name="touch_actions_transition_summary">Suorita kuvan siirtyminen</string>
   <string name="touch_actions_open_summary">Avaa kuva</string>
   <string name="touch_actions_share_summary">Jaa kuva</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Kuutio</string>
   <string name="transitions_fade">Häivytys</string>
   <string name="transitions_flip">Kääntö</string>
   <string name="transitions_swap">Vaihto</string>
   <string name="transitions_translation">Käännös</string>
   <string name="transitions_window">Ikkuna</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Normaali</string>
   <string name="effects_autofix">Autom. korjaus</string>
   <string name="effects_blur">Sumennus</string>
@@ -127,9 +138,11 @@
   <string name="effects_temperature">Lämpötila</string>
   <string name="effects_tint">Sävy</string>
   <string name="effects_vignette">Vinjetti</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Alpha</string>
   <string name="color_picker_current_text">Nykyinen:</string>
   <string name="color_picker_new_text">Uusi:</string>
   <string name="color_picker_color">Väri:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Muutosloki</string>
 </resources>

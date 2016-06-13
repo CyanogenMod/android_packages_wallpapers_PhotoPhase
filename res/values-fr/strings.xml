@@ -16,8 +16,12 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The application name -->
+  <!-- The app description -->
   <string name="app_description">Fond d\'écran animé PhotoPhase</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">Aucune image trouvée</string>
+  <!-- Menus -->
   <string name="mnu_restore">Restaurer</string>
   <string name="mnu_delete">Supprimer</string>
   <string name="mnu_settings">Paramètres</string>
@@ -26,6 +30,7 @@
   <string name="mnu_invert">Inverser</string>
   <string name="mnu_select_album">Sélectionner un album</string>
   <string name="mnu_deselect_album">Désélectionner un album</string>
+  <!-- Formats -->
   <string name="format_disabled">Désactivé</string>
   <string name="format_rotate_only">Sur rotation</string>
   <string name="format_seconds">%s s.</string>
@@ -33,13 +38,14 @@
   <string name="format_hours">%s h.</string>
   <string name="format_days">%s j.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">Général</string>
   <string name="pref_general_summary">Paramètres généraux, effets et transitions</string>
   <string name="pref_general_settings">Paramètres</string>
   <string name="pref_general_settings_wallpaper_dim">Transparence du fond d\'écran</string>
   <string name="pref_general_settings_background_color">Couleur d\'arrière-plan</string>
   <string name="pref_general_settings_background_color_summary">Régler la couleur d\'arrière-plan</string>
-  <string name="pref_general_touch_action">Action à l\'appui</string>
+  <string name="pref_general_touch_action">Action appuyer</string>
   <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> en touchant une image</string>
   <string name="pref_general_aspect_ratio_correction">Format de l\'image</string>
   <string name="pref_general_aspect_ratio_correction_summary">Essayer de corriger la proportion de l\'image en la recadrant pour l\'adapter au cadre de destination</string>
@@ -57,7 +63,7 @@
   <string name="pref_media_settings_refresh_interval_disable">La recherche de nouvelles images est désactivée</string>
   <string name="pref_media_settings_refresh_interval_summary">Rechercher de nouvelles images chaque <xliff:g id="interval">%1$s</xliff:g></string>
   <string name="pref_media_settings_refresh_now">Actualiser maintenant</string>
-  <string name="pref_media_settings_refresh_now_summary">Actualiser manuellement la base de donnée d\'image</string>
+  <string name="pref_media_settings_refresh_now_summary">Actualiser manuellement la base de donnée d\'images</string>
   <string name="pref_media_pictures">Images</string>
   <string name="pref_media_albums">Albums</string>
   <string name="pref_media_albums_summary">Choisir les albums et les images qui s\'afficheront en fond d\'écran</string>
@@ -67,7 +73,7 @@
   <string name="pref_layout_summary">Positionnement des images sur l\'écran</string>
   <string name="pref_layout_disposition">Disposition</string>
   <string name="pref_random_dispositions">Aléatoire</string>
-  <string name="pref_random_dispositions_summary">Générer des dispositions aléatoires à un intervalle choisis</string>
+  <string name="pref_random_dispositions_summary">Générer des dispositions aléatoires à un intervalle choisi</string>
   <string name="pref_random_dispositions_interval">Intervalle</string>
   <string name="pref_disposition_portrait">Disposition en portrait</string>
   <string name="pref_disposition_landscape">Disposition en paysage</string>
@@ -77,17 +83,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">orientation portrait</string>
   <string name="disposition_orientation_landscape">orientation paysage</string>
-  <string name="pref_disposition_description">Faites un appui long sur le cadre puis glissé-déposé les bords.\nBalayez vers la gauche et la droite pour afficher les modèles pré-définis</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
+  <string name="pref_disposition_description">Faites un appui long sur le cadre puis un glissé-déposé sur les bords.\nBalayez vers la gauche et la droite pour afficher les modèles pré-définis</string>
   <string name="pref_disposition_template">Modèle <xliff:g id="number_of_template">%1$s</xliff:g> sur <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">Impossible de supprimer l\'image sélectionnée</string>
   <string name="pref_about">À propos</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nCopyright \u00A9 2014 The CyanogenMod Project</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Désactivé</string>
   <string name="refresh_intervals_1h">1 heure</string>
   <string name="refresh_intervals_4h">4 heures</string>
   <string name="refresh_intervals_1d">1 jour</string>
   <string name="refresh_intervals_2d">2 jours</string>
   <string name="refresh_intervals_1w">1 semaine</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Aucun</string>
   <string name="touch_actions_transition">Effectuer la transition</string>
   <string name="touch_actions_open">Ouvrir</string>
@@ -96,12 +105,14 @@
   <string name="touch_actions_transition_summary">Effectuer la transition de l\'image</string>
   <string name="touch_actions_open_summary">Ouvrir l\'image</string>
   <string name="touch_actions_share_summary">Partager l\'image</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Cube</string>
   <string name="transitions_fade">Fondu</string>
   <string name="transitions_flip">Retourner</string>
   <string name="transitions_swap">Permuter</string>
-  <string name="transitions_translation">Translation</string>
+  <string name="transitions_translation">Traduction</string>
   <string name="transitions_window">Fenêtre</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Normal</string>
   <string name="effects_autofix">Réglage automatique</string>
   <string name="effects_blur">Flou</string>
@@ -110,7 +121,7 @@
   <string name="effects_duotone">Bichrome</string>
   <string name="effects_emboss">Relief</string>
   <string name="effects_fisheye">Fisheye</string>
-  <string name="effects_glow">Lueur</string>
+  <string name="effects_glow">Lueur diffuse</string>
   <string name="effects_grain">Grain</string>
   <string name="effects_grayscale">Niveaux de gris</string>
   <string name="effects_halftone">Demi-teinte</string>
@@ -127,9 +138,11 @@
   <string name="effects_temperature">Température</string>
   <string name="effects_tint">Teinte</string>
   <string name="effects_vignette">Vignette</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Alpha</string>
   <string name="color_picker_current_text">Actuelle :</string>
   <string name="color_picker_new_text">Nouvelle :</string>
   <string name="color_picker_color">Couleur :</string>
-  <string name="changelog_title">Note de version</string>
+  <!-- Changelog dialog -->
+  <string name="changelog_title">Journal des modifications</string>
 </resources>

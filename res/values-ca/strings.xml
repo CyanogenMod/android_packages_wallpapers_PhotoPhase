@@ -16,8 +16,12 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_description">Fons de pantalla animats PhotoPhase</string>
+  <!-- The application name -->
+  <!-- The app description -->
+  <string name="app_description">Fons de pantalla animat PhotoPhase</string>
+  <!-- No images message -->
   <string name="no_pictures_oops_msg">No s\'han trobat imatges</string>
+  <!-- Menus -->
   <string name="mnu_restore">Restaura</string>
   <string name="mnu_delete">Elimina</string>
   <string name="mnu_settings">Configuració</string>
@@ -26,6 +30,7 @@
   <string name="mnu_invert">Inverteix</string>
   <string name="mnu_select_album">Selecciona àlbum</string>
   <string name="mnu_deselect_album">Desselecciona àlbum</string>
+  <!-- Formats -->
   <string name="format_disabled">Deshabilitat</string>
   <string name="format_rotate_only">En la rotació</string>
   <string name="format_seconds">%s seg.</string>
@@ -33,6 +38,7 @@
   <string name="format_hours">%s h.</string>
   <string name="format_days">%s d.</string>
   <string name="format_dim">%s%%</string>
+  <!-- Preferences -->
   <string name="pref_general">General</string>
   <string name="pref_general_summary">Configuració general, efectes i transicions</string>
   <string name="pref_general_settings">Configuració</string>
@@ -77,17 +83,20 @@
   </plurals>
   <string name="disposition_orientation_portrait">orientació vertical</string>
   <string name="disposition_orientation_landscape">orientació horitzontal</string>
+  <!-- [2 lines one for describe long tap and another for describe swipe] -->
   <string name="pref_disposition_description">Apretada llarga a un marc i arrossega i deixa les seves vores. Llisca a esquerra i dreta per mostrar plantilles definides</string>
   <string name="pref_disposition_template">Plantilla <xliff:g id="number_of_template">%1$s</xliff:g> de <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">No es pot eliminar el marc seleccionat</string>
   <string name="pref_about">Quant a</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\nCopyright \u00A9 2014 The CyanogenMod Project</string>
+  <!-- Refresh intervals -->
   <string name="refresh_intervals_disabled">Desactivat</string>
   <string name="refresh_intervals_1h">1 hora</string>
   <string name="refresh_intervals_4h">4 hores</string>
   <string name="refresh_intervals_1d">1 dia</string>
   <string name="refresh_intervals_2d">2 dies</string>
   <string name="refresh_intervals_1w">1 setmana</string>
+  <!-- Touch actions -->
   <string name="touch_actions_none">Cap</string>
   <string name="touch_actions_transition">Realitza una transició</string>
   <string name="touch_actions_open">Obre</string>
@@ -96,12 +105,14 @@
   <string name="touch_actions_transition_summary">Fes una transició d\'imatge</string>
   <string name="touch_actions_open_summary">Obre la imatge</string>
   <string name="touch_actions_share_summary">Comparteix la imatge</string>
+  <!-- Transitions -->
   <string name="transitions_cube">Cub</string>
   <string name="transitions_fade">Esvaeix</string>
   <string name="transitions_flip">Regira</string>
   <string name="transitions_swap">Intercanvi</string>
   <string name="transitions_translation">Translació</string>
   <string name="transitions_window">Finestra</string>
+  <!-- Effects -->
   <string name="effects_noeffect">Normal</string>
   <string name="effects_autofix">Correcció automàtica</string>
   <string name="effects_blur">Difumina</string>
@@ -127,9 +138,11 @@
   <string name="effects_temperature">Temperatura</string>
   <string name="effects_tint">Tint</string>
   <string name="effects_vignette">Vinyeta</string>
+  <!-- ColorPickerDialog -->
   <string name="color_picker_alpha_slider_text">Alfa</string>
   <string name="color_picker_current_text">Actual:</string>
   <string name="color_picker_new_text">Nou:</string>
   <string name="color_picker_color">Color:</string>
+  <!-- Changelog dialog -->
   <string name="changelog_title">Registre de canvis</string>
 </resources>
