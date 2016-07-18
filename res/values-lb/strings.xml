@@ -22,6 +22,7 @@
   <!-- No images message -->
   <string name="no_pictures_oops_msg">Keng Biller fonnt</string>
   <!-- runtime permission warning -->
+  <string name="runtime_permission_warning">Dës App kann net ouni Berechtegung fir d\'Liese vum externe Späicher ausgeféiert ginn.</string>
   <!-- Menus -->
   <string name="mnu_restore">Erëmhierstellen</string>
   <string name="mnu_delete">Läschen</string>
