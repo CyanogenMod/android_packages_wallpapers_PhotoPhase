@@ -80,8 +80,8 @@
   <string name="pref_disposition_portrait">പോർട്രെയിറ്റ് ക്രമീകരണം</string>
   <string name="pref_disposition_landscape">ലാൻഡ്സ്കേപ്പ് ക്രമീകരണം</string>
   <plurals name="pref_disposition_summary_format">
-    <item quantity="one">കാണിച്ചിരിക്കുന്ന 1 ചിത്രം<xliff:g id="orientation">%2$s</xliff:g></item>
-    <item quantity="other"><xliff:g id="count">%1$d</xliff:g>ചിത്രങ്ങൾ കാണിച്ചിരിക്കുന്നു<xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="one"><xliff:g id="orientation">%2$s</xliff:g> ല്‍ 1 ചിത്രം കാണിച്ചിരിക്കുന്നു</item>
+    <item quantity="other"><xliff:g id="count">%2$s</xliff:g> ല്‍ <xliff:g id="orientation">%1$d</xliff:g> ചിത്രങ്ങള്‍ കാണിച്ചിരിക്കുന്നു</item>
   </plurals>
   <string name="disposition_orientation_portrait">പോർട്രെയ്റ്റ് വിന്യാസം</string>
   <string name="disposition_orientation_landscape">ലാൻഡ്സ്കേപ്പ് വിന്യാസം</string>
