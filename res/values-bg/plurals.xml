@@ -18,12 +18,12 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Number of pictures found in an album -->
   <plurals name="album_number_of_pictures">
-    <item quantity="one">1 изображение</item>
-    <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> изображения</item>
+    <item quantity="one">1 снимка</item>
+    <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> снимки</item>
   </plurals>
   <!-- Total of pictures found after a media reload -->
   <plurals name="msg_media_reload_complete">
-    <item quantity="one">Сканирането завърши. 1 изображение беше открито.</item>
-    <item quantity="other">Сканирането завърши. <xliff:g id="pictures" example="7">%d</xliff:g> изображения бяха открити.</item>
+    <item quantity="one">Мултимедийната база е презаредена. Намеренa е 1 снимка.</item>
+    <item quantity="other">Мултимедийната база е презаредена. Намерени са<xliff:g id="pictures" example="7">%d </xliff:g> снимки.</item>
   </plurals>
 </resources>
