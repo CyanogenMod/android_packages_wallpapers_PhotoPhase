@@ -23,7 +23,7 @@
   </plurals>
   <!-- Total of pictures found after a media reload -->
   <plurals name="msg_media_reload_complete">
-    <item quantity="one">Carregamento de mídia foi completado. Foi encontrado 1 imagem.</item>
-    <item quantity="other">Carregamento de mídia foi completado. Foi encontrado <xliff:g id="pictures" example="7">%d</xliff:g> imagens.</item>
+    <item quantity="one">Carregamento de mídia foi completado. Foi encontrada 1 imagem.</item>
+    <item quantity="other">Carregamento de mídia foi completado. Foram encontradas <xliff:g id="pictures" example="7">%d</xliff:g> imagens.</item>
   </plurals>
 </resources>

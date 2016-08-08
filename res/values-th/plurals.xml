@@ -22,6 +22,6 @@
   </plurals>
   <!-- Total of pictures found after a media reload -->
   <plurals name="msg_media_reload_complete">
-    <item quantity="other">โหลดสื่อใหม่เสร็จสมบูรณ์ พบ <xliff:g id="pictures" example="7">%d</xliff:g> รูปภาพ</item>
+    <item quantity="other">โหลดสื่อใหม่เสร็จแล้ว พบ <xliff:g id="pictures" example="7">%d</xliff:g> รูป</item>
   </plurals>
 </resources>

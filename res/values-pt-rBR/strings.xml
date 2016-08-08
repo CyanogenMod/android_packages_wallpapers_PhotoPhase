@@ -80,8 +80,8 @@
   <string name="pref_disposition_portrait">Combinação em modo retrato</string>
   <string name="pref_disposition_landscape">Combinação em modo paisagem</string>
   <plurals name="pref_disposition_summary_format">
-    <item quantity="one">1 imagem é exibida na <xliff:g id="orientation">%2$s</xliff:g></item>
-    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> imagens é exibidas na <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="one">1 imagem é exibida em modo <xliff:g id="orientation">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> imagens exibidas em modo <xliff:g id="orientation">%2$s</xliff:g></item>
   </plurals>
   <string name="disposition_orientation_portrait">retrato</string>
   <string name="disposition_orientation_landscape">paisagem</string>

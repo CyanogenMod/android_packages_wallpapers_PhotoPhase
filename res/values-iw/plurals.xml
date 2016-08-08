@@ -25,7 +25,7 @@
   </plurals>
   <!-- Total of pictures found after a media reload -->
   <plurals name="msg_media_reload_complete">
-    <item quantity="one">טעינת מדיה הושלמה. תמונה אחת נמצאה.</item>
+    <item quantity="one">טעינת מדיה הושלמה. תמונה 1 נמצאה.</item>
     <item quantity="two">טעינת מדיה הושלמה. <xliff:g id="pictures" example="7">%d</xliff:g> תמונות נמצאו.</item>
     <item quantity="many">טעינת מדיה הושלמה. <xliff:g id="pictures" example="7">%d</xliff:g> תמונות נמצאו.</item>
     <item quantity="other">טעינת מדיה הושלמה. <xliff:g id="pictures" example="7">%d</xliff:g> תמונות נמצאו.</item>
