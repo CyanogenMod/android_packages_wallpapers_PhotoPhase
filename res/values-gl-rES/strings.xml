@@ -22,6 +22,7 @@
   <!-- No images message -->
   <string name="no_pictures_oops_msg">Non se atoparon imaxes</string>
   <!-- runtime permission warning -->
+  <string name="runtime_permission_warning">A aplicación non se pode executar sen permisos para ler do almacenamento externo.</string>
   <!-- Menus -->
   <string name="mnu_restore">Restaurar</string>
   <string name="mnu_delete">Eliminar</string>
