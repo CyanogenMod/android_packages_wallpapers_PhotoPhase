@@ -44,7 +44,6 @@
   <string name="pref_general_summary">Ĝeneralaj agpodoj, efektoj kaj transpasoj</string>
   <string name="pref_general_settings">Agordoj</string>
   <string name="pref_general_settings_wallpaper_dim">Ekranfona travidebleco</string>
-  <string name="pref_general_settings_background_color">Fonkoloro</string>
   <string name="pref_general_settings_background_color_summary">Agordi la fonkoloron</string>
   <string name="pref_general_touch_action">Ago kiam tuŝado</string>
   <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> tuŝante kadron</string>
