@@ -42,7 +42,7 @@
   <string name="format_dim">%s%%</string>
   <!-- Preferences -->
   <string name="pref_general">全般</string>
-  <string name="pref_general_summary">全般設定、効果、トランジション</string>
+  <string name="pref_general_summary">全般設定、エフェクト、トランジション</string>
   <string name="pref_general_settings">設定</string>
   <string name="pref_general_settings_wallpaper_dim">壁紙の調光</string>
   <string name="pref_general_settings_background_color">背景色</string>
@@ -55,9 +55,9 @@
   <string name="pref_general_transitions_types">種類</string>
   <string name="pref_general_transitions_types_summary_format"><xliff:g id="total">%2$d</xliff:g>種類のうちの<xliff:g id="selected">%1$d</xliff:g>種類を選択しています</string>
   <string name="pref_general_transitions_interval">間隔</string>
-  <string name="pref_general_effects">効果</string>
+  <string name="pref_general_effects">エフェクト</string>
   <string name="pref_general_effects_types">種類</string>
-  <string name="pref_general_effects_types_summary_format"><xliff:g id="total">%2$d</xliff:g>個のうち<xliff:g id="selected">%1$d</xliff:g>個の画像効果を選択しています</string>
+  <string name="pref_general_effects_types_summary_format"><xliff:g id="total">%2$d</xliff:g>個のうち<xliff:g id="selected">%1$d</xliff:g>個の画像エフェクトを選択しています</string>
   <string name="pref_media">メディア</string>
   <string name="pref_media_summary">表示するアルバム、更新間隔、その他のメディアの設定</string>
   <string name="pref_media_settings">設定</string>
