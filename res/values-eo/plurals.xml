@@ -22,8 +22,4 @@
     <item quantity="other"><xliff:g id="pictures" example="7">%d</xliff:g> bildoj</item>
   </plurals>
   <!-- Total of pictures found after a media reload -->
-  <plurals name="msg_media_reload_complete">
-    <item quantity="one">Reŝargado de bildoj finita. 1 bildo trovita.</item>
-    <item quantity="other">Reŝargado de bildoj finita. <xliff:g id="pictures" example="7">%d</xliff:g> bildoj trovitaj.</item>
-  </plurals>
 </resources>
