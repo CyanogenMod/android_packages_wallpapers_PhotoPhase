@@ -45,8 +45,8 @@
   <string name="pref_general_summary">Агульныя налады, эфекты і пераходы</string>
   <string name="pref_general_settings">Налады</string>
   <string name="pref_general_settings_wallpaper_dim">Зацямненне шпалер</string>
-  <string name="pref_general_settings_background_color">Колер фону</string>
-  <string name="pref_general_settings_background_color_summary">Устанавіць колер фону</string>
+  <string name="pref_general_settings_background_color">Колер тла</string>
+  <string name="pref_general_settings_background_color_summary">Задзейнічаць колер тла</string>
   <string name="pref_general_touch_action">Дзеянне пры дотыку</string>
   <string name="pref_general_touch_action_summary_format"><xliff:g id="action_summary">%1$s</xliff:g> падчас дотыку рамкі</string>
   <string name="pref_general_aspect_ratio_correction">Суадносіны старон</string>
