@@ -22,6 +22,7 @@
   <!-- No images message -->
   <string name="no_pictures_oops_msg">Nenašli sa žiadne obrázky</string>
   <!-- runtime permission warning -->
+  <string name="runtime_permission_warning">Aplikáciu nie je možné spustiť bez povolenia na čítanie externého úložiska.</string>
   <!-- Menus -->
   <string name="mnu_restore">Obnoviť</string>
   <string name="mnu_delete">Vymazať</string>
