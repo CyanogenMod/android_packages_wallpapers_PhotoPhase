@@ -22,7 +22,7 @@
   <!-- No images message -->
   <string name="no_pictures_oops_msg">未能找到圖片</string>
   <!-- runtime permission warning -->
-  <string name="runtime_permission_warning">應用程式無法在沒有讀取外置儲存空間權限的情況下運行。</string>
+  <string name="runtime_permission_warning">應用程式無法在沒有讀取外部儲存空間權限的情況下執行。</string>
   <!-- Menus -->
   <string name="mnu_restore">還原</string>
   <string name="mnu_delete">刪除</string>
