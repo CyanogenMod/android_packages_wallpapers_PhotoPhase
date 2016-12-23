@@ -45,8 +45,8 @@
   <string name="pref_general_settings_wallpaper_dim">模糊桌布</string>
   <string name="pref_general_settings_background_color">背景顏色</string>
   <string name="pref_general_settings_background_color_summary">設定背景顏色</string>
-  <string name="pref_general_touch_action">觸碰行為</string>
-  <string name="pref_general_touch_action_summary_format">當您觸摸畫框時 <xliff:g id="action_summary">%1$s</xliff:g></string>
+  <string name="pref_general_touch_action">觸控動作</string>
+  <string name="pref_general_touch_action_summary_format">當您觸控畫框時 <xliff:g id="action_summary">%1$s</xliff:g></string>
   <string name="pref_general_aspect_ratio_correction">縱橫比</string>
   <string name="pref_general_aspect_ratio_correction_summary">嘗試固定相片的長寬比例以符合目標畫框</string>
   <string name="pref_general_transitions">轉場特效</string>
@@ -83,8 +83,8 @@
   <string name="disposition_orientation_portrait">縱向</string>
   <string name="disposition_orientation_landscape">橫向</string>
   <!-- [2 lines one for describe long tap and another for describe swipe] -->
-  <string name="pref_disposition_description">按住畫框並且拖曳\u0026 至其邊界。左右滑動以顯示已定義的模板</string>
-  <string name="pref_disposition_template">模板 <xliff:g id="number_of_template">%1$s</xliff:g> 中的 <xliff:g id="total_of_templates">%2$s</xliff:g></string>
+  <string name="pref_disposition_description">長按畫框並且拖曳\u0026 至其邊界。左右滑動即可顯示已定義的範本</string>
+  <string name="pref_disposition_template">範本 <xliff:g id="number_of_template">%1$s</xliff:g> 中的 <xliff:g id="total_of_templates">%2$s</xliff:g></string>
   <string name="pref_disposition_unable_delete_advise">無法刪除所選的畫框</string>
   <string name="pref_about">關於</string>
   <string name="pref_about_summary">PhotoPhase v<xliff:g id="version">%1$s</xliff:g>\n版權所有 \u00A9 2014 CyanogenMod 計畫</string>
